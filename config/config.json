@@ -1,0 +1,12 @@
+{
+  "theme": {
+    "slug": "crosswinds-framework",
+    "name": "Crosswinds Framework",
+    "author": "Jacob Martella Web Development",
+    "PHPNamespace": "JM_Web_Development\\Crosswinds_Framework",
+	"underscoreCase": "crosswinds_framework",
+	"constant": "CROSSWINDS_FRAMEWORK",
+	"camelCase": "CrosswindsFramework",
+	"camelCaseVar": "crosswindsFramework"
+  }
+}
