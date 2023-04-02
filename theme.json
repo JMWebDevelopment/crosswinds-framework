@@ -466,7 +466,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--max-60)",
+					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontWeight": "var(--wp--custom--font-weight--bold)",
 					"lineHeight": "var(--wp--custom--line-height--one)"
 				}
@@ -480,7 +480,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--max-36)",
+					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontWeight": "var(--wp--custom--font-weight--medium)",
 					"lineHeight": "var(--wp--custom--line-height--one)"
 				}
