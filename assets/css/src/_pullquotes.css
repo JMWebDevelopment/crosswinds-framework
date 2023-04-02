@@ -1,0 +1,6 @@
+.wp-block-pullquote {
+
+	& a {
+		color: var(--wp--preset--color--tertiary);
+	}
+}

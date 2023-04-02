@@ -1,0 +1,61 @@
+/* Inputs
+--------------------------------------------- */
+
+input,
+select,
+textarea,
+.wp-block-search .wp-block-search__input {
+	background-color: var(--wp--preset--color--base);
+	border: 1px solid var(--wp--preset--color--primary);
+	border-radius: 0;
+	color: var(--wp--preset--color--contrast);
+	font-family: var(--wp--preset--font-family--primary);
+	font-size: var(--wp--preset--font-size--regular);
+	font-weight: var(--wp--custom--font-weight--regular);
+	line-height: var(--wp--custom--line-height--heading);
+	padding: 10px 20px;
+	width: 100%;
+	transition: border-color 500ms linear;
+	margin-bottom: 1rem;
+}
+
+legend {
+	margin-bottom: 1rem;
+}
+
+textarea {
+	line-height: var(--wp--custom--line-height--body);
+}
+
+label {
+	font-size: var(--wp--preset--font-size--small);
+	color: var(--wp--preset--color--contrast);
+	font-weight: var(--wp--custom--font-weight--semi-bold);
+}
+
+input:focus,
+textarea:focus {
+	background-color: var(--wp--preset--color--base);
+	border-color: var(--wp--preset--color--contrast);
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+input[type="button"],
+input[type="email"],
+input[type="search"],
+input[type="submit"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+}
+
+::placeholder {
+	color: var(--wp--preset--color--contrast);
+	font-size: var(--wp--preset--font-size--regular);
+	opacity: 0.6;
+}

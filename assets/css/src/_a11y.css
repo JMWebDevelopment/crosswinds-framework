@@ -1,0 +1,7 @@
+/* Accessability
+---------------------------------------------------------------------------- */
+
+:focus {
+	color: var(--wp--preset--color--primary);
+	text-decoration-style: dashed;
+}

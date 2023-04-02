@@ -1,0 +1,86 @@
+/* Table
+--------------------------------------------- */
+.wp-block-table {
+	overflow-x: visible;
+}
+
+.wp-block-table table,
+table {
+	border-collapse: collapse;
+	border: 1px solid var(--wp--preset--color--contrast);
+}
+
+.wp-block-table thead,
+table thead {
+	background-color: var(--wp--preset--color--contrast);
+}
+
+.wp-block-table thead th,
+.wp-block-table tfoot th,
+.wp-block-table tfoot td,
+table thead th,
+table tfoot th,
+table tfoot td {
+	color: var(--wp--preset--color--base);
+	font-weight: var(--wp--custom--font-weight--bold);
+	font-family: var(--wp--preset--font-family--primary);
+	background-color: var(--wp--preset--color--contrast);
+	text-align: center;
+}
+
+.wp-block-table tfoot,
+table tfoot {
+	background-color: var(--wp--preset--color--contrast);
+}
+
+.wp-block-table thead td,
+.wp-block-table thead th,
+.wp-block-table thead tr
+table thead td,
+table thead th,
+table thead tr {
+	border: 0;
+	padding: 5px 8px;
+}
+
+.wp-block-table tbody td,
+.wp-block-table tbody th,
+.wp-block-table tbody tr
+table tbody td,
+table tbody th,
+table tbody tr {
+	border: 1px solid var(--wp--preset--color--contrast);
+	padding: 5px 8px;
+}
+
+.wp-block-table tbody tr,
+table tbody tr {
+	background-color: var(--wp--preset--color--base);
+}
+
+.wp-block-table tfoot td,
+.wp-block-table tfoot th,
+.wp-block-table tfoot tr,
+table tfoot td,
+table tfoot th,
+table tfoot tr {
+	border: 0;
+	padding: 5px 8px;
+}
+
+.wp-block-table th,
+table th {
+	font-weight: var(--wp--custom--font-weight--semi-bold);
+}
+
+.wp-block-table td,
+.wp-block-table th,
+table td,
+table th {
+	padding: 5px 8px;
+}
+
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd),
+table.is-style-stripes tbody tr:nth-child(odd) {
+	background-color: var(--wp--preset--color--tertiary);
+}

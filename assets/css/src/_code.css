@@ -1,0 +1,21 @@
+/* Code
+--------------------------------------------- */
+.wp-block-code code {
+	overflow-wrap: normal;
+	overflow-x: scroll;
+	white-space: pre;
+}
+
+*:not(.wp-block-code) > code {
+	background-color: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--base);
+	font-size: var(--wp--preset--font-size--regular);
+	padding: 3px 5px;
+	position: relative;
+	top: -1px;
+}
+
+.wp-block-code {
+	background-color: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--base);
+}
