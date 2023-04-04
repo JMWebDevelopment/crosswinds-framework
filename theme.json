@@ -626,6 +626,23 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		},
+		{
+			"area": "sidebar",
+			"name": "sidebar",
+			"title": "Sidebar"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "page-right-sidebar",
+			"title": "Page with Right Sidebar",
+			"postTypes": [ "page" ]
+		},
+		{
+			"name": "page-left-sidebar",
+			"title": "Page with Left Sidebar",
+			"postTypes": [ "page" ]
 		}
 	]
 }
