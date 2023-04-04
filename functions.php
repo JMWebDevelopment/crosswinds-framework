@@ -188,3 +188,11 @@ function jm_web_dev_fse_starter_theme_register_required_plugins() {
 	tgmpa( $plugins, $config );
 }
 add_action( 'tgmpa_register', 'jm_web_dev_fse_starter_theme_register_required_plugins' );
+
+//* Enable all blocks that are required to run the theme.
+add_filter( 'crosswinds_blocks_enable_breadcrumbs_block', function(){
+	return true;
+} );
+add_filter( 'crosswinds_blocks_enable_copyright_block', function(){
+	return true;
+} );
