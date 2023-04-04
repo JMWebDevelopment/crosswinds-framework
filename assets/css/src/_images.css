@@ -1,0 +1,6 @@
+.wp-block-image {
+
+    & figcaption {
+        color: var(--wp--preset--color--primary);
+    }
+}

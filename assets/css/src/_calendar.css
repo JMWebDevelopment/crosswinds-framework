@@ -9,17 +9,21 @@
 	border: 0;
 }
 
-.wp-block-calendar table caption,
+.wp-block-calendar table caption {
+	color: var(--wp--preset--color--base);
+}
+
 .wp-block-calendar table tbody {
 	color: var(--wp--preset--color--contrast);
 }
 
 .wp-block-calendar table caption {
-	background-color: var(--wp--preset--color--base)
+	background-color: var(--wp--preset--color--contrast)
 }
 
 .wp-block-calendar table th {
 	background-color: var(--wp--preset--color--contrast);
+	border: 0;
 }
 
 .wp-block-calendar table thead {
@@ -37,7 +41,7 @@
 
 .wp-block-calendar tbody td,
 .wp-block-calendar th {
-	border: 0;
+	border: 1px solid var(--wp--preset--color--contrast);;
 	padding: 0.5rem;
 }
 
@@ -63,6 +67,12 @@
 	color: var(--wp--preset--color--base);
 	line-height: 1;
 	padding: 5px;
+	display: flex;
+
+	& span {
+		display: inline-block;
+		flex: 1;
+	}
 
 	& a {
 		color: var(--wp--preset--color--base);

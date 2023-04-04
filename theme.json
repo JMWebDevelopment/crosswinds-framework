@@ -367,6 +367,9 @@
 						"right": "0",
 						"top": "30px"
 					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
 				}
 			},
 			"core/navigation": {
