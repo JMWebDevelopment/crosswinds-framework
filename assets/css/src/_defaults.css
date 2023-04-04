@@ -59,7 +59,7 @@ textarea:focus,
 	transition: all 0.2s ease-in-out;
 }
 
-.site-content .is-layout-constrained > .alignwide {
+.site-content .is-layout-constrained:not(.alignfull) > .alignwide {
 	margin-left: calc(25% - 25vw) !important;
 	margin-right: calc(25% - 25vw) !important;
 	max-width: 1000%;
