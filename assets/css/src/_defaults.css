@@ -59,11 +59,17 @@ textarea:focus,
 	transition: all 0.2s ease-in-out;
 }
 
-.site-content .is-layout-constrained:not(.alignfull) > .alignwide {
+.site-content .alignwide {
 	margin-left: calc(25% - 25vw) !important;
 	margin-right: calc(25% - 25vw) !important;
 	max-width: 1000%;
 	width: auto;
+}
+
+.site-content .post-content-right-sidebar > .alignwide,
+.site-content .post-content-left-sidebar > .alignwide {
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 .alignfull {

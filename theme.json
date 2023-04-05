@@ -634,6 +634,11 @@
 			"area": "sidebar",
 			"name": "sidebar",
 			"title": "Sidebar"
+		},
+		{
+			"area": "uncategorized",
+			"name": "comments",
+			"title": "Comments"
 		}
 	],
 	"customTemplates": [
@@ -646,6 +651,16 @@
 			"name": "page-left-sidebar",
 			"title": "Page with Left Sidebar",
 			"postTypes": [ "page" ]
+		},
+		{
+			"name": "post-right-sidebar",
+			"title": "Post with Right Sidebar",
+			"postTypes": [ "post" ]
+		},
+		{
+			"name": "post-left-sidebar",
+			"title": "Post with Left Sidebar",
+			"postTypes": [ "post" ]
 		}
 	]
 }

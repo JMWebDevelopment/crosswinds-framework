@@ -147,6 +147,10 @@ function jm_web_dev_fse_starter_theme_register_block_patterns() {
 			'label'         => __( 'Page', 'jm-web-dev-fse-starter-theme' ),
 			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
 		),
+		'jm-web-dev-fse-starter-theme-post-content'  => array(
+			'label'         => __( 'Post Content', 'jm-web-dev-fse-starter-theme' ),
+			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
+		),
 		'jm-web-dev-fse-starter-theme-pricing-tables'  => array(
 			'label'         => __( 'Pricing Tables', 'jm-web-dev-fse-starter-theme' ),
 			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
