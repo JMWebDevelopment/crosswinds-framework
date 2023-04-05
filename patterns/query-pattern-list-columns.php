@@ -8,7 +8,7 @@
  */
 ?>
 
-<!-- wp:query {"queryId":1,"query":{"perPage":"10","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"className":"query-pattern query-pattern-list-columns","layout":{"type":"default"}} -->
+<!-- wp:query {"queryId":1,"query":{"perPage":"10","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"className":"query-pattern query-pattern-list-columns","layout":{"type":"default"}} -->
 <div class="wp-block-query query-pattern query-pattern-list-columns"><!-- wp:post-template -->
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:columns -->
