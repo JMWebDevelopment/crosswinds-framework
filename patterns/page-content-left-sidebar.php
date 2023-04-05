@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page Content with No Sidebar
- * Slug: jm-web-dev-fse-starter-theme/page-content-no-sidebar
+ * Slug: jm-web-dev-fse-starter-theme/page-content-left-sidebar
  * Categories: jm-web-dev-fse-starter-theme-page
  * Viewport Width: 1280
  */
