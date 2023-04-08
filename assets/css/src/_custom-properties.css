@@ -11,7 +11,7 @@
 	font-family: 'Figtree';
 	font-style: normal;
 	font-weight: 400;
-	src: url('../webfonts/figtree-variable.woff2');
+	src: url('../webfonts/figtree/figtree-variable.woff2');
 }
 
 /* figtree-700 - latin */
@@ -19,5 +19,5 @@
 	font-family: 'Figtree';
 	font-style: normal;
 	font-weight: 700;
-	src: url('../webfonts/figtree-variable.woff2');
+	src: url('../webfonts/figtree/figtree-variable.woff2');
 }

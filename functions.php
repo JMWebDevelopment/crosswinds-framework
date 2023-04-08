@@ -256,14 +256,16 @@ function jm_web_dev_fse_starter_theme_add_admin_pages() {
 		60
 	);
 
-	add_submenu_page(
-		'crosswinds-framework-block-options',
-		esc_html__( 'Crosswinds Framework Options', 'jm-web-dev-fse-starter-theme' ),
-		esc_html__( 'Theme', 'jm-web-dev-fse-starter-theme' ),
-		'manage_options',
-		'crosswinds-framework-theme',
-		'jm_web_dev_fse_starter_theme_create_framework_theme_page'
-	);
+	if ( ! jm_web_dev_fse_starter_theme_if_child_theme_active() ) {
+		add_submenu_page(
+			'crosswinds-framework-block-options',
+			esc_html__( 'Crosswinds Framework Options', 'jm-web-dev-fse-starter-theme' ),
+			esc_html__( 'Theme', 'jm-web-dev-fse-starter-theme' ),
+			'manage_options',
+			'crosswinds-framework-theme',
+			'jm_web_dev_fse_starter_theme_create_framework_theme_page'
+		);
+	}
 }
 add_action( 'admin_menu', 'jm_web_dev_fse_starter_theme_add_admin_pages' );
 
@@ -295,6 +297,19 @@ function jm_web_dev_fse_starter_theme_is_admin_page( $page = null ) {
 
 	if ( ( 'admin.php' === $pagenow ) && ( $page === $_GET['page'] ) ) {
 		return true;
+	}
+
+	return false;
+}
+
+function jm_web_dev_fse_starter_theme_if_child_theme_active() {
+	$current_theme = wp_get_theme();
+	if ( $current_theme->exists() && $current_theme->parent() ) {
+		$parent_theme = $current_theme->parent();
+	
+		if ( $parent_theme->exists() && 'Crosswinds Framework' === $parent_theme->get( 'Name' ) ) {
+			return true;
+		}
 	}
 
 	return false;
