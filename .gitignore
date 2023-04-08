@@ -23,6 +23,7 @@
 !/template-parts/
 !/config/
 /config/config.local.json
+!/admin/
 !/tests/
 !/optional/
 !/templates/
