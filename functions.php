@@ -131,12 +131,20 @@ function jm_web_dev_fse_starter_theme_register_block_patterns() {
 			'label'         => __( 'Featured Content', 'jm-web-dev-fse-starter-theme' ),
 			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
 		),
+		'jm-web-dev-fse-starter-theme-feature-blocks'  => array(
+			'label'         => __( 'Feature Blocks', 'jm-web-dev-fse-starter-theme' ),
+			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
+		),
 		'jm-web-dev-fse-starter-theme-footer'  => array(
 			'label'         => __( 'Footer', 'jm-web-dev-fse-starter-theme' ),
 			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
 		),
 		'jm-web-dev-fse-starter-theme-header'  => array(
 			'label'         => __( 'Header', 'jm-web-dev-fse-starter-theme' ),
+			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
+		),
+		'jm-web-dev-fse-starter-theme-hero-sections'  => array(
+			'label'         => __( 'Hero Sections', 'jm-web-dev-fse-starter-theme' ),
 			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
 		),
 		'jm-web-dev-fse-starter-theme-links'  => array(
@@ -226,6 +234,9 @@ function jm_web_dev_fse_starter_theme_register_required_plugins() {
 add_action( 'tgmpa_register', 'jm_web_dev_fse_starter_theme_register_required_plugins' );
 
 //* Enable all blocks that are required to run the theme.
+add_filter( 'crosswinds_blocks_enable_basic-grid_block', function(){
+	return true;
+} );
 add_filter( 'crosswinds_blocks_enable_breadcrumbs_block', function(){
 	return true;
 } );
