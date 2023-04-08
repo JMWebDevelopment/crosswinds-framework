@@ -14,7 +14,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.66%"} -->
-<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:post-content /--></div>
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:post-content {"layout":{"inherit":true}} /--></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
