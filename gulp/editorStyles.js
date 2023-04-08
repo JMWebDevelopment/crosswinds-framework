@@ -86,7 +86,6 @@ export function editorStylesAfterReplacementStream() {
 		calc( {
 			preserve: false,
 		} ),
-		cssnano(),
 	];
 
 	// Skip minifying files if we aren't building for

@@ -25,3 +25,8 @@ img {
 	max-width: 100%;
 	vertical-align: top;
 }
+
+.is-style-full-height {
+	min-height: 100vh;
+	display: flex;
+}

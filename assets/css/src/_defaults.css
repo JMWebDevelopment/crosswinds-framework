@@ -61,6 +61,12 @@ textarea:focus,
 
 @media (--large-up) {
 
+	.site-content *:not(.alignfull) > .alignwide {
+		margin-left: calc(25% - 25vw) !important;
+		margin-right: calc(25% - 25vw) !important;
+		width: auto;
+	}
+
 	.site-content .is-layout-constrained:not(.alignfull) > .alignwide {
 		margin-left: calc(calc(var(--wp--style--global--wide-size) - 102vw) / 2) !important;
 		margin-right: calc(calc(var(--wp--style--global--wide-size) - 102vw) / 2) !important;
@@ -85,4 +91,9 @@ textarea:focus,
 
 .site-content {
 	margin-block-start: 0 !important;
+}
+
+.is-style-full-height {
+	min-height: 100vh;
+	display: flex;
 }
