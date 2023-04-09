@@ -1,8 +1,8 @@
 <?php
 /**
- * This file adds functions to the JM Web Development FSE Starter Theme for WordPress.
+ * This file adds functions to the Crosswinds Framework for WordPress.
  *
- * @package JM Web Development FSE Starter Theme
+ * @package Crosswinds Framework
  * @author  Jacob Martella Web Development
  * @license GNU General Public License v2 or later
  * @link    https://jacobmartella.com/
@@ -48,37 +48,18 @@ if ( ! function_exists( 'jm_web_dev_fse_starter_theme_setup' ) ) {
 add_action( 'after_setup_theme', 'jm_web_dev_fse_starter_theme_setup' );
 
 // Enqueue style sheet.
-add_action( 'wp_enqueue_scripts', 'jm_web_dev_fse_starter_theme_enqueue_style_sheet' );
 function jm_web_dev_fse_starter_theme_enqueue_style_sheet() {
-
 	wp_enqueue_style( 'jm-web-dev-fse-starter-theme', get_template_directory_uri() . '/assets/css/global.min.css', array(), wp_get_theme()->get( 'Version' ) );
-
 }
+add_action( 'wp_enqueue_scripts', 'jm_web_dev_fse_starter_theme_enqueue_style_sheet' );
 
-// Enqueue fonts.
-add_action( 'wp_enqueue_scripts', 'jm_web_dev_fse_starter_theme_enqueue_fonts' );
-function jm_web_dev_fse_starter_theme_enqueue_fonts() {
-
-	wp_enqueue_style( 'jm-web-dev-fse-starter-theme-fonts', jm_web_dev_fse_starter_theme_fonts_url(), array(), null );
-
-}
-
-// Define fonts.
-function jm_web_dev_fse_starter_theme_fonts_url() {
-
-	// Allow child themes to disable to the default JM Web Development FSE Starter Theme fonts.
-	$dequeue_fonts = apply_filters( 'jm_web_dev_fse_starter_theme_dequeue_fonts', false );
-
-	if ( $dequeue_fonts ) {
-		return '';
-	}
-
-	$fonts = [];
-
-	// Make a single request for all Google Fonts.
-	return esc_url_raw( 'https://fonts.googleapis.com/css2?' . implode( '&', array_unique( $fonts ) ) . '&display=swap' );
-}
-
+/**
+ * Creates a title that can be shown on the search page template.
+ * 
+ * @since 1.0
+ *
+ * @return string|void      The search title, if it's set, or nothing.
+ */
 function jm_web_dev_fse_starter_theme_search_title() {
 	if ( isset( $_GET['s'] ) ) {
 		$search_term = sanitize_text_field( wp_unslash( $_GET['s'] ) );
@@ -96,8 +77,6 @@ register_block_style(
 	)
 );
 
-
-// Include block patterns.
 /**
  * Registers block patterns, categories, and type.
  *
@@ -203,6 +182,13 @@ add_action( 'init', 'jm_web_dev_fse_starter_theme_register_block_patterns', 9 );
 // Load the functionality to require certain plugins.
 include get_template_directory() . '/inc/tgmpa/class-tgm-plugin-activation.php';
 
+/**
+ * Sets up the TGMPA integration to require and suggest certain plugins.
+ * 
+ * @since 1.0
+ *
+ * @return void
+ */
 function jm_web_dev_fse_starter_theme_register_required_plugins() {
 	$plugins = array(
 		array(
@@ -244,7 +230,11 @@ add_filter( 'crosswinds_blocks_enable_copyright_block', function(){
 	return true;
 } );
 
-//* Add in the admin pages
+/**
+ * Adds in the admin pages for the theme.
+ *
+ * @since 1.0
+ */
 function jm_web_dev_fse_starter_theme_add_admin_pages() {
 	add_menu_page(
 		esc_html__( 'Crosswinds Framework & Block Settings', 'jm-web-dev-fse-starter-theme' ),
@@ -269,14 +259,29 @@ function jm_web_dev_fse_starter_theme_add_admin_pages() {
 }
 add_action( 'admin_menu', 'jm_web_dev_fse_starter_theme_add_admin_pages' );
 
+/**
+ * Loads the main admin page.
+ *
+ * @since 1.0
+ */
 function jm_web_dev_fse_starter_theme_create_main_admin_page() {
 	include get_template_directory() . '/admin/crosswinds-framework-admin-page.php';
 }
 
+/**
+ * Loads the theme admin page.
+ *
+ * @since 1.0
+ */
 function jm_web_dev_fse_starter_theme_create_framework_theme_page() {
 	include get_template_directory() . '/admin/theme-admin-page.php';
 }
 
+/**
+ * Loads the styles for the admin pages.
+ *
+ * @since 1.0
+ */
 function jm_web_dev_fse_starter_theme_load_admin_styles() {
 	if ( jm_web_dev_fse_starter_theme_is_admin_page() ) {
 		wp_enqueue_style( 'crosswinds-framework-admin-page', get_template_directory_uri() . '/assets/css/admin.min.css', [], '1.0', 'all' );
@@ -284,6 +289,14 @@ function jm_web_dev_fse_starter_theme_load_admin_styles() {
 }
 add_action( 'admin_enqueue_scripts', 'jm_web_dev_fse_starter_theme_load_admin_styles' );
 
+/**
+ * Checks to see if the current admin page is for the Crosswinds Framework theme/child theme.
+ * 
+ * @since 1.0
+ *
+ * @param string|null $page      The page to check to see if it's the current admin page.
+ * @return boolean               Whether or not this is the desired page or a Crosswinds Framework admin page.
+ */
 function jm_web_dev_fse_starter_theme_is_admin_page( $page = null ) {
 	global $pagenow;
 
@@ -302,6 +315,13 @@ function jm_web_dev_fse_starter_theme_is_admin_page( $page = null ) {
 	return false;
 }
 
+/**
+ * Checks to see if a Crosswinds Framework child theme is the active theme.
+ * 
+ * @since 1.0
+ *
+ * @return boolean      Whether the active theme is a Crosswinds Framework child theme.
+ */
 function jm_web_dev_fse_starter_theme_if_child_theme_active() {
 	$current_theme = wp_get_theme();
 	if ( $current_theme->exists() && $current_theme->parent() ) {

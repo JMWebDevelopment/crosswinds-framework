@@ -1,4 +1,12 @@
 <?php
+/**
+ * This file creates the theme admin page.
+ *
+ * @package Crosswinds Framework
+ * @author  Jacob Martella Web Development
+ * @license GNU General Public License v2 or later
+ * @link    https://jacobmartella.com/
+ */
 ?>
 
 <div class="options-wrap">
