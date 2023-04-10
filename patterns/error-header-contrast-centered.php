@@ -1,0 +1,16 @@
+<?php
+/**
+ * Title: Error Header with Contrast Centered Title
+ * Slug: jm-web-dev-fse-starter-theme/error-header-contrast-centered
+ * Categories: jm-web-dev-fse-starter-theme-404
+ * Viewport Width: 1280
+ */
+?>
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-large","left":"var:preset|spacing|x-small"}}},"className":"alignfull error-header-base-centered has-base-color has-contrast-background-color has-text-color has-background has-link-color"} -->
+<div class="wp-block-group alignfull error-header-base-centered has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"textAlign":"center","level":1,"fontSize":"max-60"} -->
+<h1 class="wp-block-heading has-text-align-center has-max-60-font-size">Error 404 — Page Not Found</h1>
+<!-- /wp:heading -->
+
+<!-- wp:crosswinds-blocks/breadcrumbs {"align":"center","separatorIcon":"chevron-right","fontSize":"medium"} /--></div>
+<!-- /wp:group -->

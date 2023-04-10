@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Error Content
+ * Title: Error 404 Content with No Sidebar
  * Slug: jm-web-dev-fse-starter-theme/error-content
  * Categories: jm-web-dev-fse-starter-theme-404
  * Viewport Width: 800
