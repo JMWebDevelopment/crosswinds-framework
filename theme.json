@@ -351,7 +351,7 @@
 					}
 				},
 				"typography": {
-					"fontWeight": "var(--wp--custom--font-weight--medium)"
+					"fontWeight": "var(--wp--custom--font-weight--semi-bold)"
 				}
 			},
 			"core/heading": {
@@ -642,6 +642,11 @@
 		}
 	],
 	"customTemplates": [
+		{
+			"name": "page-no-page-header",
+			"title": "Page with RNo Page Header",
+			"postTypes": [ "page" ]
+		},
 		{
 			"name": "page-right-sidebar",
 			"title": "Page with Right Sidebar",

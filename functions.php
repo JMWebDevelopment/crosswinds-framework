@@ -34,7 +34,6 @@ if ( ! function_exists( 'jm_web_dev_fse_starter_theme_setup' ) ) {
 		add_editor_style(
 			array(
 				'./assets/css/editor-styles.min.css',
-				jm_web_dev_fse_starter_theme_fonts_url(),
 			)
 		);
 
