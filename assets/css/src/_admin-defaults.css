@@ -54,12 +54,12 @@
 	& .button,
 	&.wp-core-ui .button-primary {
 		border: 1px solid var(--color-cb-primary);
-		border-radius: 0;
+		margin-right: 10px;
 		background-color: var(--color-cb-primary);
 		color: #efefef;
 		cursor: pointer;
 		font-size: 18px;
-		font-weight: 600;
+		font-weight: 500;
 		padding: 10px 25px;
 		text-decoration: none;
 		white-space: normal;
@@ -75,6 +75,10 @@
 			border: 1px solid var(--color-cb-primary);
 			color: var(--color-cb-primary);
 			text-decoration: none;
+		}
+
+		&:last-child {
+			margin-right: 0;
 		}
 	}
 
@@ -144,9 +148,9 @@
 
 			& .support-section {
 				padding: 1rem;
-					border-radius: 12px;
-					background-color: #efefef;
-					border: 1px solid var(--color-cb-primary);
+				border-radius: 12px;
+				background-color: #efefef;
+				border: 1px solid var(--color-cb-primary);
 			}
 
 			& .options-grid {

@@ -319,10 +319,20 @@ function jm_web_dev_fse_starter_theme_is_admin_page( $page = null ) {
  * 
  * @since 1.0
  *
- * @return boolean      Whether the active theme is a Crosswinds Framework child theme.
+ * @param string | null $theme      The name of the theme to check for. Leave null to see if any Crosswinds Framework child theme is active.
+ * @return boolean                  Whether the active theme is a Crosswinds Framework child theme.
  */
-function jm_web_dev_fse_starter_theme_if_child_theme_active() {
+function jm_web_dev_fse_starter_theme_if_child_theme_active( $theme = null ) {
 	$current_theme = wp_get_theme();
+
+	if ( null !== $theme ) {
+		if ( $theme === $current_theme->get( 'Name' ) ) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 	if ( $current_theme->exists() && $current_theme->parent() ) {
 		$parent_theme = $current_theme->parent();
 	
