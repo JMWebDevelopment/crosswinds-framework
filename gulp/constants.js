@@ -156,7 +156,7 @@ const paths = {
 		dest: `${ rootPath }/inc/blocks/`,
 	},
 	webfonts: {
-		src: `${ assetsDir }/webfonts/*.{eot,svg,ttf,woff,woff2}`,
+		src: `${ assetsDir }/webfonts/**/*.{eot,svg,ttf,woff,woff2}`,
 		dest: `${ assetsDir }/webfonts/`,
 	},
 };
