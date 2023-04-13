@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Base Header with Menu and Social Icons
- * Slug: jm-web-dev-fse-starter-theme/header-base-social-menu
- * Categories: jm-web-dev-fse-starter-theme-header
+ * Slug: crosswinds-framework/header-base-social-menu
+ * Categories: crosswinds-framework-header
  * Viewport Width: 1440
  */
 ?>

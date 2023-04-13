@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Search Header with Contrast Centered Title
- * Slug: jm-web-dev-fse-starter-theme/search-header-contrast-centered
- * Categories: jm-web-dev-fse-starter-theme-search
+ * Slug: crosswinds-framework/search-header-contrast-centered
+ * Categories: crosswinds-framework-search
  * Viewport Width: 1280
  */
 ?>

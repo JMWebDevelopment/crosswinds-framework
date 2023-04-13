@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Base Footer with One Line
- * Slug: jm-web-dev-fse-starter-theme/footer-base-one-line
- * Categories: jm-web-dev-fse-starter-theme-footer
+ * Slug: crosswinds-framework/footer-base-one-line
+ * Categories: crosswinds-framework-footer
  * Viewport Width: 1440
  */
 ?>

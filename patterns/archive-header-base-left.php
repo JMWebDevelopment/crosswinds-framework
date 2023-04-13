@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Archive Header with Base Left Aligned Title
- * Slug: jm-web-dev-fse-starter-theme/archive-header-base-left
- * Categories: jm-web-dev-fse-starter-theme-archive
+ * Slug: crosswinds-framework/archive-header-base-left
+ * Categories: crosswinds-framework-archive
  * Viewport Width: 1280
  */
 ?>

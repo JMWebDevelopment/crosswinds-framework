@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Feature Blocks - Base
- * Slug: jm-web-dev-fse-starter-theme/feature-blocks-base
- * Categories: jm-web-dev-fse-starter-theme-feature-blocks
+ * Slug: crosswinds-framework/feature-blocks-base
+ * Categories: crosswinds-framework-feature-blocks
  * Viewport Width: 1200
  */
 ?>

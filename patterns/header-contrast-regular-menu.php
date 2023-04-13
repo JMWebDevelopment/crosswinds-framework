@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Contrast Header with Regular Menu
- * Slug: jm-web-dev-fse-starter-theme/header-contrast-regular-menu
- * Categories: jm-web-dev-fse-starter-theme-header
+ * Slug: crosswinds-framework/header-contrast-regular-menu
+ * Categories: crosswinds-framework-header
  * Viewport Width: 1440
  */
 ?>

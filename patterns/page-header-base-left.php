@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Page Header with Base Left Aligned Title
- * Slug: jm-web-dev-fse-starter-theme/page-header-base-left
- * Categories: jm-web-dev-fse-starter-theme-page
+ * Slug: crosswinds-framework/page-header-base-left
+ * Categories: crosswinds-framework-page
  * Viewport Width: 1280
  */
 ?>

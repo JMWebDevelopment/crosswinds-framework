@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Feature Blocks - Contrast
- * Slug: jm-web-dev-fse-starter-theme/feature-blocks-contrast
- * Categories: jm-web-dev-fse-starter-theme-feature-blocks
+ * Slug: crosswinds-framework/feature-blocks-contrast
+ * Categories: crosswinds-framework-feature-blocks
  * Viewport Width: 1200
  */
 ?>

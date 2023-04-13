@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Featured Content - Contrast with Left Photo
- * Slug: jm-web-dev-fse-starter-theme/featured-content-contrast-photo-left
- * Categories: jm-web-dev-fse-starter-theme-featured-content
+ * Slug: crosswinds-framework/featured-content-contrast-photo-left
+ * Categories: crosswinds-framework-featured-content
  * Viewport Width: 1280
  */
 ?>
@@ -17,7 +17,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php _e( 'This is a Heading', 'jm-web-dev-fse-starter-theme' ); ?></h2>
+<h2 class="wp-block-heading"><?php _e( 'This is a Heading', 'crosswinds-framework' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -26,7 +26,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"contrast","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background wp-element-button"><?php _e( 'Add a Button Here', 'jm-web-dev-fse-starter-theme' ); ?></a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background wp-element-button"><?php _e( 'Add a Button Here', 'crosswinds-framework' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

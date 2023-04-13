@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Featured Content - Base with Right Photo
- * Slug: jm-web-dev-fse-starter-theme/featured-content-base-photo-right
- * Categories: jm-web-dev-fse-starter-theme-featured-content
+ * Slug: crosswinds-framework/featured-content-base-photo-right
+ * Categories: crosswinds-framework-featured-content
  * Viewport Width: 1280
  */
 ?>
@@ -11,7 +11,7 @@
 <div class="wp-block-group alignfull featured-content featured-content-base-photo-right" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php _e( 'This is a Heading', 'jm-web-dev-fse-starter-theme' ); ?></h2>
+<h2 class="wp-block-heading"><?php _e( 'This is a Heading', 'crosswinds-framework' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -20,7 +20,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button"><?php _e( 'Add a Button Here', 'jm-web-dev-fse-starter-theme' ); ?></a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button"><?php _e( 'Add a Button Here', 'crosswinds-framework' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->

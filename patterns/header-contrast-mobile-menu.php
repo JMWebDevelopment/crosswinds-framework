@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Contrast Header with Mobile Always Menu
- * Slug: jm-web-dev-fse-starter-theme/header-contrast-mobile-menu
- * Categories: jm-web-dev-fse-starter-theme-header
+ * Slug: crosswinds-framework/header-contrast-mobile-menu
+ * Categories: crosswinds-framework-header
  * Viewport Width: 1440
  */
 ?>

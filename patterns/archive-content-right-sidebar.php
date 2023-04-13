@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Archive Content with Right Sidebar
- * Slug: jm-web-dev-fse-starter-theme/archive-content-right-sidebar
- * Categories: jm-web-dev-fse-starter-theme-archive
+ * Slug: crosswinds-framework/archive-content-right-sidebar
+ * Categories: crosswinds-framework-archive
  * Viewport Width: 1280
  */
 ?>

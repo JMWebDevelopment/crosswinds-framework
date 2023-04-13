@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Hero Section - Base with Photo Left
- * Slug: jm-web-dev-fse-starter-theme/hero-section-base-photo-left
- * Categories: jm-web-dev-fse-starter-theme-hero-sections
+ * Slug: crosswinds-framework/hero-section-base-photo-left
+ * Categories: crosswinds-framework-hero-sections
  * Viewport Width: 1200
  */
 ?>

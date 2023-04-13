@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Archive Header with Contrast Left Aligned Title
- * Slug: jm-web-dev-fse-starter-theme/archive-header-contrast-left
- * Categories: jm-web-dev-fse-starter-theme-archive
+ * Slug: crosswinds-framework/archive-header-contrast-left
+ * Categories: crosswinds-framework-archive
  * Viewport Width: 1280
  */
 ?>

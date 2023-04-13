@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Base Footer with Three Columns
- * Slug: jm-web-dev-fse-starter-theme/footer-base-three-columns
- * Categories: jm-web-dev-fse-starter-theme-footer
+ * Slug: crosswinds-framework/footer-base-three-columns
+ * Categories: crosswinds-framework-footer
  * Viewport Width: 1440
  */
 ?>

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Error Header with Contrast Centered Title
- * Slug: jm-web-dev-fse-starter-theme/error-header-contrast-centered
- * Categories: jm-web-dev-fse-starter-theme-404
+ * Slug: crosswinds-framework/error-header-contrast-centered
+ * Categories: crosswinds-framework-404
  * Viewport Width: 1280
  */
 ?>

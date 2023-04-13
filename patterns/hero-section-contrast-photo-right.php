@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Hero Section - Contrast with Photo Right
- * Slug: jm-web-dev-fse-starter-theme/hero-section-contrast-photo-right
- * Categories: jm-web-dev-fse-starter-theme-hero-sections
+ * Slug: crosswinds-framework/hero-section-contrast-photo-right
+ * Categories: crosswinds-framework-hero-sections
  * Viewport Width: 1200
  */
 ?>

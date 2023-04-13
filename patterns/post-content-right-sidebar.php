@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Post Content with Right Sidebar
- * Slug: jm-web-dev-fse-starter-theme/post-content-right-sidebar
- * Categories: jm-web-dev-fse-starter-theme-post-content
+ * Slug: crosswinds-framework/post-content-right-sidebar
+ * Categories: crosswinds-framework-post-content
  * Viewport Width: 1280
  */
 ?>
@@ -32,7 +32,7 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600"><?php _e( 'Tags:', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p style="font-style:normal;font-weight:600"><?php _e( 'Tags:', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-terms {"term":"post_tag"} /--></div>

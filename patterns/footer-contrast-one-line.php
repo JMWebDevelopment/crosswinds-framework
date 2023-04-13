@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Contrast Footer with One Line
- * Slug: jm-web-dev-fse-starter-theme/footer-contrast-one-line
- * Categories: jm-web-dev-fse-starter-theme-footer
+ * Slug: crosswinds-framework/footer-contrast-one-line
+ * Categories: crosswinds-framework-footer
  * Viewport Width: 1440
  */
 ?>

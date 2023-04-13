@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Base Header with Regular Menu
- * Slug: jm-web-dev-fse-starter-theme/header-base-regular-menu
- * Categories: jm-web-dev-fse-starter-theme-header
+ * Slug: crosswinds-framework/header-base-regular-menu
+ * Categories: crosswinds-framework-header
  * Viewport Width: 1440
  */
 ?>

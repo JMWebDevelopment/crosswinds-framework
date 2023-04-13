@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Widget - Default
- * Slug: jm-web-dev-fse-starter-theme/widget-default
- * Categories: jm-web-dev-fse-starter-theme-widgets
+ * Slug: crosswinds-framework/widget-default
+ * Categories: crosswinds-framework-widgets
  * Viewport Width: 370
  */
 ?>

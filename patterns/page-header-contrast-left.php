@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Page Header with Contrast Left Aligned Title
- * Slug: jm-web-dev-fse-starter-theme/page-header-contrast-left
- * Categories: jm-web-dev-fse-starter-theme-page
+ * Slug: crosswinds-framework/page-header-contrast-left
+ * Categories: crosswinds-framework-page
  * Viewport Width: 1280
  */
 ?>

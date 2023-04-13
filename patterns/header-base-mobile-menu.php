@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Base Header with Mobile Always Menu
- * Slug: jm-web-dev-fse-starter-theme/header-base-mobile-menu
- * Categories: jm-web-dev-fse-starter-theme-header
+ * Slug: crosswinds-framework/header-base-mobile-menu
+ * Categories: crosswinds-framework-header
  * Viewport Width: 1440
  */
 ?>

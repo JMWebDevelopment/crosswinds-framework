@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Page Content with No Sidebar
- * Slug: jm-web-dev-fse-starter-theme/page-content-no-sidebar
- * Categories: jm-web-dev-fse-starter-theme-page
+ * Slug: crosswinds-framework/page-content-no-sidebar
+ * Categories: crosswinds-framework-page
  * Viewport Width: 1280
  */
 ?>

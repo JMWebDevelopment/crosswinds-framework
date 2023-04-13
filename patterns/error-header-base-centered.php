@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Error Header with Base Centered Title
- * Slug: jm-web-dev-fse-starter-theme/error-header-base-centered
- * Categories: jm-web-dev-fse-starter-theme-404
+ * Slug: crosswinds-framework/error-header-base-centered
+ * Categories: crosswinds-framework-404
  * Viewport Width: 1280
  */
 ?>

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Archive Header with Base Centered Title
- * Slug: jm-web-dev-fse-starter-theme/archive-header-base-centered
- * Categories: jm-web-dev-fse-starter-theme-archive
+ * Slug: crosswinds-framework/archive-header-base-centered
+ * Categories: crosswinds-framework-archive
  * Viewport Width: 1280
  */
 ?>

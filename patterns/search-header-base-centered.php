@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Search Header with Base Centered Title
- * Slug: jm-web-dev-fse-starter-theme/search-header-base-centered
- * Categories: jm-web-dev-fse-starter-theme-search
+ * Slug: crosswinds-framework/search-header-base-centered
+ * Categories: crosswinds-framework-search
  * Viewport Width: 1280
  */
 ?>

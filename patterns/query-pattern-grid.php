@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Query - Grid View
- * Slug: jm-web-dev-fse-starter-theme/query-pattern-grid
- * Categories: jm-web-dev-fse-starter-theme-queries
+ * Slug: crosswinds-framework/query-pattern-grid
+ * Categories: crosswinds-framework-queries
  * Block Types: core/query
  * Viewport Width: 1200
  */
@@ -27,7 +27,7 @@
 
 <!-- wp:post-excerpt /-->
 
-<!-- wp:read-more {"content":"<?php _e( 'Read This Post', 'jm-web-dev-fse-starter-theme' ); ?>","style":{"spacing":{"padding":{"top":"10px","right":"var:preset|spacing|x-small","bottom":"10px","left":"var:preset|spacing|x-small"}},"border":{"width":"1px"}},"borderColor":"contrast","backgroundColor":"contrast","textColor":"base"} /--></div>
+<!-- wp:read-more {"content":"<?php _e( 'Read This Post', 'crosswinds-framework' ); ?>","style":{"spacing":{"padding":{"top":"10px","right":"var:preset|spacing|x-small","bottom":"10px","left":"var:preset|spacing|x-small"}},"border":{"width":"1px"}},"borderColor":"contrast","backgroundColor":"contrast","textColor":"base"} /--></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
 

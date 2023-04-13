@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Page Header with Base Centered Title
- * Slug: jm-web-dev-fse-starter-theme/page-header-base-centered
- * Categories: jm-web-dev-fse-starter-theme-page
+ * Slug: crosswinds-framework/page-header-base-centered
+ * Categories: crosswinds-framework-page
  * Viewport Width: 1280
  */
 ?>

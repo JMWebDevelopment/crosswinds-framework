@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Contrast Footer with Three Columns
- * Slug: jm-web-dev-fse-starter-theme/footer-contrast-three-columns
- * Categories: jm-web-dev-fse-starter-theme-footer
+ * Slug: crosswinds-framework/footer-contrast-three-columns
+ * Categories: crosswinds-framework-footer
  * Viewport Width: 1440
  */
 ?>

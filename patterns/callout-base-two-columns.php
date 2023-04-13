@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Callout - Base with Two Columns
- * Slug: jm-web-dev-fse-starter-theme/callout-base-two-columns
- * Categories: jm-web-dev-fse-starter-theme-callouts
+ * Slug: crosswinds-framework/callout-base-two-columns
+ * Categories: crosswinds-framework-callouts
  * Viewport Width: 1280
  */
 ?>
@@ -11,7 +11,7 @@
 <div class="wp-block-group alignfull callout callout-base-two-columns" style="padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:heading {"textAlign":"left"} -->
-<h2 class="wp-block-heading has-text-align-left"><?php _e( 'Callout Title', 'jm-web-dev-fse-starter-theme' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-left"><?php _e( 'Callout Title', 'crosswinds-framework' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -22,7 +22,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-fill"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link wp-element-button"><?php _e( 'Call to Action Button', 'jm-web-dev-fse-starter-theme' ); ?></a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link wp-element-button"><?php _e( 'Call to Action Button', 'crosswinds-framework' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Base Footer with One Column
- * Slug: jm-web-dev-fse-starter-theme/footer-contrast-one-column
- * Categories: jm-web-dev-fse-starter-theme-footer
+ * Slug: crosswinds-framework/footer-contrast-one-column
+ * Categories: crosswinds-framework-footer
  * Viewport Width: 1440
  */
 ?>

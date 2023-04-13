@@ -1,15 +1,15 @@
 <?php
 /**
  * Title: Pricing Table - Base with Two Columns
- * Slug: jm-web-dev-fse-starter-theme/pricing-table-base-two-columns
- * Categories: jm-web-dev-fse-starter-theme-pricing-tables
+ * Slug: crosswinds-framework/pricing-table-base-two-columns
+ * Categories: crosswinds-framework-pricing-tables
  * Viewport Width: 1280
  */
 ?>
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-large","left":"var:preset|spacing|x-small"}}},"className":"pricing-table-section pricing-table-base-two-columns","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull pricing-table-section pricing-table-base-two-columns" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php _e( 'Pricing Table', 'jm-web-dev-fse-starter-theme' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php _e( 'Pricing Table', 'crosswinds-framework' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -21,43 +21,43 @@
 <div class="wp-block-column cb-flex-layout"><!-- wp:group {"style":{"border":{"width":"1px"},"spacing":{"blockGap":"0px"}},"borderColor":"contrast","className":"pricing-table","layout":{"type":"constrained"},"cbUseFlex":true,"cbInnerLayout":"last-bottom","cbFillHeight":true} -->
 <div class="wp-block-group pricing-table has-border-color has-contrast-border-color last-bottom-layout cb-fill-height-parent" style="border-width:1px"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}},"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"},"blockGap":"10px"}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"},"cbUseFlex":false} -->
 <div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size" style="font-style:normal;font-weight:600"><?php _e( 'Plan Title', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center has-large-font-size" style="font-style:normal;font-weight:600"><?php _e( 'Plan Title', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"background","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-background-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"tertiary","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-tertiary-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"background","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-background-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"tertiary","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-tertiary-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"background","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-background-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"tertiary","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-tertiary-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -68,14 +68,14 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p class="has-text-align-center" style="font-style:normal;font-weight:600"><?php _e( 'per month', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center" style="font-style:normal;font-weight:600"><?php _e( 'per month', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}},"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"contrast","width":100,"className":"is-style-fill"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background wp-element-button"><?php _e( 'Select This Plan', 'jm-web-dev-fse-starter-theme' ); ?></a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background wp-element-button"><?php _e( 'Select This Plan', 'crosswinds-framework' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -87,43 +87,43 @@
 <div class="wp-block-column cb-flex-layout"><!-- wp:group {"style":{"border":{"width":"1px"},"spacing":{"blockGap":"0px"}},"borderColor":"contrast","className":"pricing-table","layout":{"type":"constrained"},"cbUseFlex":true,"cbInnerLayout":"last-bottom","cbFillHeight":true} -->
 <div class="wp-block-group pricing-table has-border-color has-contrast-border-color last-bottom-layout cb-fill-height-parent" style="border-width:1px"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}},"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"},"blockGap":"10px"}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"},"cbUseFlex":false} -->
 <div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size" style="font-style:normal;font-weight:600"><?php _e( 'Plan Title', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center has-large-font-size" style="font-style:normal;font-weight:600"><?php _e( 'Plan Title', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"background","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-background-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"tertiary","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-tertiary-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"background","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-background-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"tertiary","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-tertiary-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"background","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-background-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"backgroundColor":"tertiary","textColor":"primary","className":"pricing-table-group-feature","layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-table-group-feature has-primary-color has-tertiary-background-color has-text-color has-background" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e( 'Feature Listing', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'Feature Listing', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -134,14 +134,14 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p class="has-text-align-center" style="font-style:normal;font-weight:600"><?php _e( 'per month', 'jm-web-dev-fse-starter-theme' ); ?></p>
+<p class="has-text-align-center" style="font-style:normal;font-weight:600"><?php _e( 'per month', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|tertiary"}}},"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"contrast","width":100,"className":"is-style-fill"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background wp-element-button"><?php _e( 'Select This Plan', 'jm-web-dev-fse-starter-theme' ); ?></a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background wp-element-button"><?php _e( 'Select This Plan', 'crosswinds-framework' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

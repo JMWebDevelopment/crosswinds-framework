@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Error Header with Base Left Aligned Title
- * Slug: jm-web-dev-fse-starter-theme/error-header-base-left
- * Categories: jm-web-dev-fse-starter-theme-404
+ * Slug: crosswinds-framework/error-header-base-left
+ * Categories: crosswinds-framework-404
  * Viewport Width: 1280
  */
 ?>

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Contrast Header with Menu and Social Icons
- * Slug: jm-web-dev-fse-starter-theme/header-contrast-social-menu
- * Categories: jm-web-dev-fse-starter-theme-header
+ * Slug: crosswinds-framework/header-contrast-social-menu
+ * Categories: crosswinds-framework-header
  * Viewport Width: 1440
  */
 ?>
