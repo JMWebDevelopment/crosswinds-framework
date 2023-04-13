@@ -48,6 +48,9 @@ You can use the site editor in the dashboard to customize the theme and the way 
 ### Creating a Child Theme
 If you really want to customize the Crosswinds Framework on your website (with your own custom block patterns and templates or maybe you’re using the theme to create a website for a client), you can create a child theme. You can use the starter child theme here in GitHub that comes with build tools already set up or create your own child theme. It gives you 100 percent control over how things look on your website.
 
+## Demo Site
+Check out what the Crosswinds Framework might look like on your website by giving the [demo site](https://demo.jacobmartella.com/crosswinds-framework/) a test drive today!
+
 ## Documentation
 Want to learn how to get started using the Crosswinds Framework today? [Check out the wiki](https://github.com/JMWebDevelopment/crosswinds-framework/wiki) to see all of the documentation for the theme.
 
