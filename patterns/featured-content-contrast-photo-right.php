@@ -26,8 +26,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":1891,"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-large is-style-default"><img src="http://wordpress-dev.local/crosswinds-framework/wp-content/uploads/sites/4/2023/04/IMG_9583-1024x683.jpg" alt="A mountain valley with a blue sky and some white clouds" class="wp-image-1891"/></figure>
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
+<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/welcome-to-mansfield.jpg" alt="<?php _e( 'A photo of the welcome to Historic Downtown Mansfield sign', 'crosswinds-framework' ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

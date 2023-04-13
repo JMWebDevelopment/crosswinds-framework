@@ -22,14 +22,14 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"contrast","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background wp-element-button">View All Themes', 'crosswinds-framework' ); ?></a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background wp-element-button"><?php _e( 'View All Themes', 'crosswinds-framework' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"id":147,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="https://demo.jacobmartella.com/crosswinds-framework/wp-content/uploads/sites/14/2023/04/portafoglio-updated-hero.png" alt="Three screenshots from the Portafoglio WordPress theme', 'crosswinds-framework' ); ?>" class="wp-image-147"/></figure>
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
+<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mansfield-flying-squirrel.jpg" alt="<?php _e( 'A photo of The Flying Squirrel in downtown Mansfield', 'crosswinds-framework' ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -38,8 +38,8 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-large","left":"var:preset|spacing|x-small"}}},"className":"featured-content featured-content-base-photo-left","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull featured-content featured-content-base-photo-left" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":148,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="https://demo.jacobmartella.com/crosswinds-framework/wp-content/uploads/sites/14/2023/04/portafoglio-starting-guide.png" alt="Screenshot of page templates for the Portafoglio WordPress', 'crosswinds-framework' ); ?>" class="wp-image-148"/></figure>
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
+<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/welcome-to-mansfield.jpg" alt="<?php _e( 'A photo of the welcome to Historic Downtown Mansfield sign', 'crosswinds-framework' ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
