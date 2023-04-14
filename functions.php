@@ -232,6 +232,18 @@ add_filter( 'crosswinds_blocks_enable_breadcrumbs_block', function(){
 add_filter( 'crosswinds_blocks_enable_copyright_block', function(){
 	return true;
 } );
+add_filter( 'crosswinds_blocks_enable_social-share-content_block', function(){
+	return true;
+} );
+add_filter( 'crosswinds_blocks_enable_next-post_block', function(){
+	return true;
+} );
+add_filter( 'crosswinds_blocks_enable_previous-post_block', function(){
+	return true;
+} );
+add_filter( 'crosswinds_blocks_enable_related-posts_block', function(){
+	return true;
+} );
 
 /**
  * Adds in the admin pages for the theme.
