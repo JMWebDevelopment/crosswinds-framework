@@ -436,9 +436,8 @@
 							}
 
 							& .plugin-link {
-								width: 40px;
-								text-align: center;
-								display: flex;
+								width: 71px;
+								text-align: right;
 							}
 						}
 					}

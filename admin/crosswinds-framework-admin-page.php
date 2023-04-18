@@ -113,19 +113,23 @@ $suggested_plugins = crosswinds_framework_get_suggested_plugins();
 					<?php
 					foreach ( $required_plugins as $required_plugin ) {
 						if ( ! file_exists( WP_PLUGIN_DIR . '/' . $required_plugin['slug'] . '/' . $required_plugin['slug'] . '.php' ) ) {
-							$nonce_url = wp_nonce_url(
-								add_query_arg(
-									array(
-										'page'          => 'tgmpa-install-plugins',
-										'plugin'        => urlencode( $required_plugin['slug'] ),
-										'tgmpa-install' => 'install-plugin',
+							if ( 'external' === $required_plugin['location'] ) {
+								$link_text = '<p><a href="' . esc_url( $required_plugin['link'] ) . '" target="_blank">' . esc_html__( 'Learn More', 'crosswinds-framework' ) . '</a></p>';
+							} else {
+								$nonce_url = wp_nonce_url(
+									add_query_arg(
+										array(
+											'page'          => 'tgmpa-install-plugins',
+											'plugin'        => urlencode( $required_plugin['slug'] ),
+											'tgmpa-install' => 'install-plugin',
+										),
+										get_admin_url( null, '/themes.php' )
 									),
-									get_admin_url( null, '/themes.php' )
-								),
-								'tgmpa-install',
-								'tgmpa-nonce'
-							);
-							$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Install', 'crosswinds-framework' ) . '</a></p>';
+									'tgmpa-install',
+									'tgmpa-nonce'
+								);
+								$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Install', 'crosswinds-framework' ) . '</a></p>';
+							}
 						} elseif ( ! is_plugin_active( $required_plugin['slug'] . '/' . $required_plugin['slug'] . '.php' ) ) {
 							$nonce_url = wp_nonce_url(
 								add_query_arg(
@@ -172,6 +176,41 @@ $suggested_plugins = crosswinds_framework_get_suggested_plugins();
 					<div class="plugins-section">
 					<?php
 					foreach ( $suggested_plugins as $suggested_plugin ) {
+						if ( ! file_exists( WP_PLUGIN_DIR . '/' . $suggested_plugin['slug'] . '/' . $suggested_plugin['slug'] . '.php' ) ) {
+							if ( 'external' === $suggested_plugin['location'] ) {
+								$link_text = '<p><a href="' . esc_url( $suggested_plugin['link'] ) . '" target="_blank">' . esc_html__( 'Learn More', 'crosswinds-framework' ) . '</a></p>';
+							} else {
+								$nonce_url = wp_nonce_url(
+									add_query_arg(
+										array(
+											'page'          => 'tgmpa-install-plugins',
+											'plugin'        => urlencode( $suggested_plugin['slug'] ),
+											'tgmpa-install' => 'install-plugin',
+										),
+										get_admin_url( null, '/themes.php' )
+									),
+									'tgmpa-install',
+									'tgmpa-nonce'
+								);
+								$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Install', 'crosswinds-framework' ) . '</a></p>';
+							}
+						} elseif ( ! is_plugin_active( $suggested_plugin['slug'] . '/' . $suggested_plugin['slug'] . '.php' ) ) {
+							$nonce_url = wp_nonce_url(
+								add_query_arg(
+									array(
+										'page'           => 'tgmpa-install-plugins',
+										'plugin'         => urlencode( $suggested_plugin['slug'] ),
+										'tgmpa-activate' => 'activate-plugin',
+									),
+									get_admin_url( null, '/themes.php' )
+								),
+								'tgmpa-activate',
+								'tgmpa-nonce'
+							);
+							$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Activate', 'crosswinds-framework' ) . '</a></p>';
+						} else {
+							$link_text = '<p>' . esc_html__( 'Installed', 'crosswinds-framework' ) . '</p>';
+						}
 						?>
 						<div class="plugin-section">
 							<div class="logo">
@@ -183,7 +222,7 @@ $suggested_plugins = crosswinds_framework_get_suggested_plugins();
 							</div>
 
 							<div class="plugin-link">
-								<p><a href="<?php echo esc_url( get_admin_url( null, '/plugin-install.php?tab=plugin-information&plugin=' . $suggested_plugin['slug'] . '&TB_iframe=true&width=640&height=500' ) ); ?>"><?php esc_html_e( 'Install', 'crosswinds-framework' ); ?></a></p>
+								<?php echo wp_kses_post( $link_text ); ?>
 							</div>
 						</div>
 						<?php

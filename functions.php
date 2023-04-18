@@ -199,22 +199,40 @@ function crosswinds_framework_register_required_plugins() {
 
 	if ( $required_plugins ) {
 		foreach ( $required_plugins as $required_plugin ) {
-			$plugin = array(
-				'name'      => $required_plugin['name'],
-				'slug'      => $required_plugin['slug'],
-				'required'  => true,
-			);
+			if ( 'external' === $required_plugin['location'] ) {
+				$plugin = array(
+					'name'         => $required_plugin['name'],
+					'slug'         => $required_plugin['slug'],
+					'required'     => true,
+					'external_url' => $required_plugin['link']
+				);
+			} else {
+				$plugin = array(
+					'name'      => $required_plugin['name'],
+					'slug'      => $required_plugin['slug'],
+					'required'  => true,
+				);
+			}
 			array_push( $plugins, $plugin );
 		}
 	}
 
 	if ( $suggested_plugins ) {
 		foreach ( $suggested_plugins as $suggested_plugin ) {
-			$plugin = array(
-				'name'      => $suggested_plugin['name'],
-				'slug'      => $suggested_plugin['slug'],
-				'required'  => false,
-			);
+			if ( 'external' === $suggested_plugin['location'] ) {
+				$plugin = array(
+					'name'         => $suggested_plugin['name'],
+					'slug'         => $suggested_plugin['slug'],
+					'required'     => false,
+					'external_url' => $suggested_plugin['link']
+				);
+			} else {
+				$plugin = array(
+					'name'      => $suggested_plugin['name'],
+					'slug'      => $suggested_plugin['slug'],
+					'required'  => false,
+				);
+			}
 			array_push( $plugins, $plugin );
 		}
 	}
@@ -229,7 +247,7 @@ function crosswinds_framework_register_required_plugins() {
 	$config = array(
 		'default_path' => '',                      // Default absolute path to pre-packaged plugins.
 		'menu'         => 'tgmpa-install-plugins', // Menu slug.
-		'has_notices'  => true,                    // Show admin notices or not.
+		'has_notices'  => false,                    // Show admin notices or not.
 		'dismissable'  => true,                    // If false, a user cannot dismiss the nag message.
 		'dismiss_msg'  => '',                      // If 'dismissable' is false, this message will be output at top of nag.
 		'is_automatic' => false,                   // Automatically activate plugins after installation or not.
@@ -362,10 +380,11 @@ function crosswinds_framework_if_child_theme_active( $theme = null ) {
 function crosswinds_framework_get_required_plugins() {
 	$plugins = array(
 		array(
-			'name' => 'The Icon Block',
-			'slug' => 'icon-block',
-			'logo' => 'https://ps.w.org/icon-block/assets/icon-256x256.png',
-			'link' => 'https://wordpress.org/plugins/icon-block/'
+			'name'     => 'The Icon Block',
+			'slug'     => 'icon-block',
+			'logo'     => 'https://ps.w.org/icon-block/assets/icon-256x256.png',
+			'link'     => 'https://wordpress.org/plugins/icon-block/',
+			'location' => 'internal'
 		)
 	);
 
@@ -375,10 +394,11 @@ function crosswinds_framework_get_required_plugins() {
 function crosswinds_framework_get_suggested_plugins() {
 	$plugins = array(
 		array(
-			'name' => 'Block Visibility',
-			'slug' => 'block-visibility',
-			'logo' => 'https://ps.w.org/block-visibility/assets/icon-256x256.png',
-			'link' => 'https://wordpress.org/plugins/block-visibility/'
+			'name'     => 'Block Visibility',
+			'slug'     => 'block-visibility',
+			'logo'     => 'https://ps.w.org/block-visibility/assets/icon-256x256.png',
+			'link'     => 'https://wordpress.org/plugins/block-visibility/',
+			'location' => 'external'
 		)
 	);
 
