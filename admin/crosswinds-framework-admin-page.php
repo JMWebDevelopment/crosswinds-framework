@@ -9,81 +9,218 @@
  */
 
 $current_theme = wp_get_theme();
-$theme_name    = $current_theme->get( 'Name' );
+if ( crosswinds_framework_if_child_theme_active() ) {
+	$theme_name              = $current_theme->get( 'Name' );
+	$theme_version           = $current_theme->get( 'Version' );
+	$parent_theme            = $current_theme->parent();
+	$framework_theme_version = $parent_theme->get( 'Version' );
+} else {
+	$framework_theme_version = $current_theme->get( 'Version' );
+}
+
+$required_plugins  = crosswinds_framework_get_required_plugins();
+$suggested_plugins = crosswinds_framework_get_suggested_plugins();
+
 ?>
 
 <div class="options-wrap">
-	<div class="tabs-section">
-		<div class="title-area">
-			<img src="<?php echo esc_url( plugin_dir_url( __FILE__ ) . 'images/portafoglio-logo-no-background.png' ); ?>" alt="Crosswinds Blocks Logo" />
-			<h2><?php esc_html_e( 'Crosswinds Framework', 'crosswinds-framework' ); ?></h2>
+
+	<div class="options-header">
+		<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/portafoglio-logo-no-background.png' ); ?>" alt="Crosswinds Blocks Logo" />
+		<div class="header-section">
+			<h1><?php esc_html_e( 'Crosswinds Framework', 'crosswinds-framework' ); ?></h1>
 		</div>
 
-		<div class="tabs">
-			<div class="tab active-tab">
-				<p class="tab-title"><a href="<?php echo esc_url( get_admin_url( null, '/admin.php?page=crosswinds-framework-block-options' ) ); ?>"><?php esc_html_e( 'Crosswinds Framework', 'crosswinds-framework' ); ?></a></p>
-			</div>
-
-			<div class="tab">
-				<p class="tab-title"><a href="<?php echo esc_url( get_admin_url( null, '/admin.php?page=crosswinds-framework-theme' ) ); ?>"><?php esc_html_e( 'Theme Options', 'crosswinds-framework' ); ?></a></p>
-			</div>
-
-			<?php
-			if ( is_plugin_active( 'crosswinds-blocks/crosswinds-blocks.php' ) ) {
-				?>
-				<div class="tab">
-					<p class="tab-title"><a href="<?php echo esc_url( get_admin_url( null, '/admin.php?page=crosswinds-blocks' ) ); ?>"><?php esc_html_e( 'Plugin Options', 'crosswinds-framework' ); ?></a></p>
-				</div>
-				<?php
-			}
+		<?php
+		if ( crosswinds_framework_if_child_theme_active() ) {
 			?>
+			<div class="header-section">
+				<p><?php echo esc_html( $theme_name ); ?> <?php esc_html_e( 'Version', 'crosswinds-framework' ); ?>: <?php echo esc_html( $theme_version ); ?></p>
+			</div>
+			<?php
+		}
+		?>
+
+		<div class="header-section">
+			<p><?php esc_html_e( 'Framework Version', 'crosswinds-framework' ); ?>: <?php echo esc_html( $framework_theme_version ); ?></p>
 		</div>
+
+		<?php
+		if ( is_plugin_active( 'crosswinds-blocks/crosswinds-blocks.php' ) ) {
+			?>
+			<div class="header-section">
+				<p><?php esc_html_e( 'Blocks Version', 'crosswinds-framework' ); ?>: <?php echo esc_html( get_option( 'crosswinds_blocks_version' ) ); ?></p>
+			</div>
+			<?php
+		}
+		?>
+
 	</div>
 
-	<div class="main-area">
+	<div id="options-top" class="options-section">
 
-		<h1><?php esc_html_e( 'Crosswinds Framework', 'crosswinds-framework' ); ?></h1>
+		<div class="options-top-left">
+			<h2><?php esc_html_e( 'Welcome to the Crosswinds Framework!', 'crosswinds-framework' ); ?></h2>
+			<p><?php esc_html_e( 'Thank you for choosing to use the Crosswinds Blocks plugin to power your website! Below you\'ll find links to documentation to learn how to harness the power of the blocks you\'ve now added to your website, as well as view all of the amazing Crosswinds Framework themes that can help you build the website you\'ve always wanted to build.', 'crosswinds-framework' ); ?></p>
+			<div class="buttons">
+				<a class="button cf-button-primary" href=""><?php esc_html_e( 'Start Editing', 'crosswinds-framework' ); ?></a>
+				<a class="button cf-button-secondary" href=""><?php esc_html_e( 'Check out the Documentation', 'crosswinds-framework' ); ?></a>
+			</div>
+		</div>
 
-		<div class="settings-area">
-			<h2><?php esc_html_e( 'Welcome to Crosswinds Framework', 'crosswinds-framework' ); ?></h2>
+		<div class="options-top-right">
+			<div class="flex-video">
+				<?php echo wp_oembed_get( 'https://www.youtube.com/watch?v=h0uHC9YEAho' ); ?>
+			</div>
+		</div>
 
-			<p><?php esc_html_e( 'Thank you for choosing to use the Crosswinds Framework to power your website! Below you\'ll be able to learn more about how to use the Framework as well as the Crosswinds Blocks plugin and any child themes to really create a powerful website. From viewing the demo sites to documentation that tells you how to do everything, you\'ll be able to build the website you\'ve always dreamed of!', 'crosswinds-framework' ); ?></p>
+	</div>
 
-			<div class="buttons-row">
-				<a href="" target="_blank" class="button dark-blue"><?php esc_html_e( 'View Documentation', 'crosswinds-framework' ); ?></a>
-				<a href="" target="_blank" class="button light-blue"><?php esc_html_e( 'View Demo Sites', 'crosswinds-framework' ); ?></a>
+	<div class="options-body">
+
+		<div class="options-main">
+
+			<div class="options-section">
+				<h2><?php esc_html_e( 'Crosswinds Blocks', 'crosswinds-framework' ); ?></h2>
 				<?php
-				if ( crosswinds_framework_if_child_theme_active( 'Portafoglio' ) ) {
+				if ( is_plugin_active( 'crosswinds-blocks/crosswinds-blocks.php' ) ) {
+					do_action( 'crosswinds_framework_blocks_settings' );
+				} else {
 					?>
-					<a href="" target="_blank" class="button dark-blue"><?php esc_html_e( 'View Your Account', 'crosswinds-framework' ); ?></a>
+					<?php esc_html_e( 'Want to take your website to the next level now that you\'re using the Crosswinds Framework? Check out the Crosswinds Blocks plugin! This plugin will add in an accordion block, tabs block, post navigation block, related posts block, social sharing block and more to your website. It\'s the perfect way to customize your website in a full site editor world!', 'crosswinds-framework' ); ?>
 					<?php
 				}
 				?>
 			</div>
+
+			<?php do_action( 'crosswinds_framework_theme_settings' ); ?>
+
+			<div class="options-section">
+				<h2><?php esc_html_e( 'Check Out Crosswinds Framework Templates', 'crosswinds-framework' ); ?></h2>
+				<p><?php esc_html_e( 'Want to get the most out of Crosswinds Blocks? Checkout the Crosswinds Framework themes! From a portfolio to an online store to a newspaper website and even a blank canvas to create anything you want, the Crosswinds Framework will help you create a great website.', 'crosswinds-framework' ); ?></p>
+			</div>
+
 		</div>
 
-		<div class="settings-area">
-			<h2><?php esc_html_e( 'Crosswinds Framework Themes', 'crosswinds-framework' ); ?></h2>
-			<p><?php esc_html_e( 'Thank you for using a Crosswinds Framework theme! Check out the theme\'s settings page to add in your license key (for premium themes), find links to documentation about your specific theme and other settings the theme might have.', 'crosswinds-framework' ); ?></p>
-			<a href="<?php echo esc_url( get_admin_url( null, '/admin.php?page=crosswinds-framework-theme' ) ); ?>" target="_blank" class="button dark-blue"><?php esc_html_e( 'View', 'crosswinds-framework' ); ?> <?php echo esc_html( $theme_name ); ?> <?php esc_html_e( 'Settings', 'crosswinds-framework' ); ?></a>
-		</div>
+		<div class="options-sidebar">
 
-		<div class="settings-area">
-			<h2><?php esc_html_e( 'Crosswinds Blocks', 'crosswinds-framework' ); ?></h2>
-			<?php
-			if ( is_plugin_active( 'crosswinds-blocks/crosswinds-blocks.php' ) ) {
-				?>
-				<p><?php esc_html_e( 'Thank you for using Crosswinds Blocks! Check out the plugin settings page to enable or disable various blocks, custom post types, custom taxonomies and other settings as well as find links to documentation and ways to get help or ask a question.', 'crosswinds-framework' ); ?></p>
-				<a href="<?php echo esc_url( get_admin_url( null, '/admin.php?page=crosswinds-blocks' ) ); ?>" target="_blank" class="button dark-blue"><?php esc_html_e( 'View Crosswinds Blocks Settings', 'crosswinds-framework' ); ?></a>
+			<div class="options-section">
 				<?php
-			} else {
+				if ( $required_plugins ) {
+					?>
+					<h2><?php esc_html_e( 'Required Plugins', 'crosswinds-framework' ); ?></h2>
+					<div class="plugins-section">
+					<?php
+					foreach ( $required_plugins as $required_plugin ) {
+						if ( ! file_exists( WP_PLUGIN_DIR . '/' . $required_plugin['slug'] . '/' . $required_plugin['slug'] . '.php' ) ) {
+							$nonce_url = wp_nonce_url(
+								add_query_arg(
+									array(
+										'page'          => 'tgmpa-install-plugins',
+										'plugin'        => urlencode( $required_plugin['slug'] ),
+										'tgmpa-install' => 'install-plugin',
+									),
+									get_admin_url( null, '/themes.php' )
+								),
+								'tgmpa-install',
+								'tgmpa-nonce'
+							);
+							$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Install', 'crosswinds-framework' ) . '</a></p>';
+						} elseif ( ! is_plugin_active( $required_plugin['slug'] . '/' . $required_plugin['slug'] . '.php' ) ) {
+							$nonce_url = wp_nonce_url(
+								add_query_arg(
+									array(
+										'page'           => 'tgmpa-install-plugins',
+										'plugin'         => urlencode( $required_plugin['slug'] ),
+										'tgmpa-activate' => 'activate-plugin',
+									),
+									get_admin_url( null, '/themes.php' )
+								),
+								'tgmpa-activate',
+								'tgmpa-nonce'
+							);
+							$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Activate', 'crosswinds-framework' ) . '</a></p>';
+						} else {
+							$link_text = '<p>' . esc_html__( 'Installed', 'crosswinds-framework' ) . '</p>';
+						}
+						?>
+						<div class="plugin-section">
+							<div class="logo">
+								<img src="<?php echo esc_html( $required_plugin['logo'] ); ?>" alt="<?php echo esc_html( $required_plugin['name'] ); ?> logo" />
+							</div>
+
+							<div class="plugin-info">
+								<p class="plugin-title"><strong><?php echo esc_html( $required_plugin['name'] ); ?></strong><br /><a href="<?php echo esc_html( $required_plugin['link'] ); ?>" target="_blank"><?php esc_html_e( 'Learn More', 'crosswinds-framework' ); ?></a></p>
+							</div>
+
+							<div class="plugin-link">
+								<?php echo wp_kses_post( $link_text ); ?>
+							</div>
+						</div>
+						<?php
+					}
+					?>
+					</div>
+					<?php
+				}
 				?>
-				<p><?php esc_html_e( 'Want to take your website to the next level now that you\'re using the Crosswinds Framework? Check out the Crosswinds Blocks plugin! This plugin will add in an accordion block, tabs block, post navigation block, related posts block, social sharing block and more to your website. It\'s the perfect way to customize your website in a full site editor world!', 'crosswinds-framework' ); ?></p>
-				<a href="" target="_blank" class="button dark-blue"><?php esc_html_e( 'Check out the Crosswinds Blocks Plugin', 'crosswinds-framework' ); ?></a>
+
 				<?php
-			}
-			?>
+				if ( $suggested_plugins ) {
+					?>
+					<h2><?php esc_html_e( 'Suggested Plugins', 'crosswinds-framework' ); ?></h2>
+					<div class="plugins-section">
+					<?php
+					foreach ( $suggested_plugins as $suggested_plugin ) {
+						?>
+						<div class="plugin-section">
+							<div class="logo">
+								<img src="<?php echo esc_html( $suggested_plugin['logo'] ); ?>" alt="<?php echo esc_html( $suggested_plugin['name'] ); ?> logo" />
+							</div>
+
+							<div class="plugin-info">
+								<p class="plugin-title"><strong><?php echo esc_html( $suggested_plugin['name'] ); ?></strong><br /><a href="<?php echo esc_html( $suggested_plugin['link'] ); ?>" target="_blank"><?php esc_html_e( 'Learn More', 'crosswinds-framework' ); ?></a></p>
+							</div>
+
+							<div class="plugin-link">
+								<p><a href="<?php echo esc_url( get_admin_url( null, '/plugin-install.php?tab=plugin-information&plugin=' . $suggested_plugin['slug'] . '&TB_iframe=true&width=640&height=500' ) ); ?>"><?php esc_html_e( 'Install', 'crosswinds-framework' ); ?></a></p>
+							</div>
+						</div>
+						<?php
+					}
+					?>
+					</div>
+					<?php
+				}
+				?>
+			</div>
+
+			<div class="options-section">
+				<h2><?php esc_html_e( 'Report an Issue', 'crosswinds-framework' ); ?></h2>
+				<p><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'crosswinds-framework' ); ?></p>
+				<a class="button cf-button-primary" href=""><?php esc_html_e( 'Report an Issue', 'crosswinds-framework' ); ?></a>
+			</div>
+
+			<div class="options-section">
+				<h2><?php esc_html_e( 'Suggest a Feature', 'crosswinds-framework' ); ?></h2>
+				<p><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'crosswinds-framework' ); ?></p>
+				<a class="button cf-button-primary" href=""><?php esc_html_e( 'Suggest a Feature', 'crosswinds-framework' ); ?></a>
+			</div>
+
+			<div class="options-section">
+				<h2><?php esc_html_e( 'Leave a Review', 'crosswinds-framework' ); ?></h2>
+				<p><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'crosswinds-framework' ); ?></p>
+				<a class="button cf-button-primary" href=""><?php esc_html_e( 'Leave a Review', 'crosswinds-framework' ); ?></a>
+			</div>
+
+			<div class="options-section">
+				<h2><?php esc_html_e( 'View Documentation', 'crosswinds-framework' ); ?></h2>
+				<p><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'crosswinds-framework' ); ?></p>
+				<a class="button cf-button-primary" href=""><?php esc_html_e( 'View Documentation', 'crosswinds-framework' ); ?></a>
+			</div>
+
 		</div>
 
 	</div>
+
 </div>
