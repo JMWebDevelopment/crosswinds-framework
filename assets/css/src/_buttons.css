@@ -111,7 +111,8 @@ input[type="submit"]:hover,
 --------------------------------------------- */
 .wp-block-button.is-style-outline {
 
-	& .wp-element-button {
+	& .wp-element-button,
+	& .wp-block-button__link {
 		color: var(--wp--preset--color--contrast) !important;
 		border-color: var(--wp--preset--color--contrast);
 

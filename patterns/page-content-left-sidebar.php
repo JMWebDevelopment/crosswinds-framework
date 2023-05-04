@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Page Content with No Sidebar
+ * Title: Page Content with Left Sidebar
  * Slug: crosswinds-framework/page-content-left-sidebar
  * Categories: crosswinds-framework-page
  * Viewport Width: 1280

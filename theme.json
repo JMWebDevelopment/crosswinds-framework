@@ -713,7 +713,7 @@
 	"customTemplates": [
 		{
 			"name": "page-no-page-header",
-			"title": "Page with RNo Page Header",
+			"title": "Page with No Page Header",
 			"postTypes": [ "page" ]
 		},
 		{

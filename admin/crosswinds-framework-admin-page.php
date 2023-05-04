@@ -20,6 +20,7 @@ if ( crosswinds_framework_if_child_theme_active() ) {
 
 $required_plugins  = crosswinds_framework_get_required_plugins();
 $suggested_plugins = crosswinds_framework_get_suggested_plugins();
+$added_plugins     = array();
 
 ?>
 
@@ -111,57 +112,60 @@ $suggested_plugins = crosswinds_framework_get_suggested_plugins();
 					<h2><?php esc_html_e( 'Required Plugins', 'crosswinds-framework' ); ?></h2>
 					<div class="plugins-section">
 					<?php
-					foreach ( $required_plugins as $required_plugin ) {
-						if ( ! file_exists( WP_PLUGIN_DIR . '/' . $required_plugin['slug'] . '/' . $required_plugin['slug'] . '.php' ) ) {
-							if ( 'external' === $required_plugin['location'] ) {
-								$link_text = '<p><a href="' . esc_url( $required_plugin['link'] ) . '" target="_blank">' . esc_html__( 'Learn More', 'crosswinds-framework' ) . '</a></p>';
-							} else {
+					foreach ( $required_plugins as $key => $value ) {
+						if ( ! in_array( $value['slug'], $added_plugins ) ) {
+							$added_plugins[] = $value['slug']; 
+							if ( ! file_exists( WP_PLUGIN_DIR . '/' . $value['slug'] . '/' . $value['slug'] . '.php' ) ) {
+								if ( 'external' === $value['location'] ) {
+									$link_text = '<p><a href="' . esc_url( $value['link'] ) . '" target="_blank">' . esc_html__( 'Learn More', 'crosswinds-framework' ) . '</a></p>';
+								} else {
+									$nonce_url = wp_nonce_url(
+										add_query_arg(
+											array(
+												'page'          => 'tgmpa-install-plugins',
+												'plugin'        => urlencode( $value['slug'] ),
+												'tgmpa-install' => 'install-plugin',
+											),
+											get_admin_url( null, '/themes.php' )
+										),
+										'tgmpa-install',
+										'tgmpa-nonce'
+									);
+									$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Install', 'crosswinds-framework' ) . '</a></p>';
+								}
+							} elseif ( ! is_plugin_active( $value['slug'] . '/' . $value['slug'] . '.php' ) ) {
 								$nonce_url = wp_nonce_url(
 									add_query_arg(
 										array(
-											'page'          => 'tgmpa-install-plugins',
-											'plugin'        => urlencode( $required_plugin['slug'] ),
-											'tgmpa-install' => 'install-plugin',
+											'page'           => 'tgmpa-install-plugins',
+											'plugin'         => urlencode( $value['slug'] ),
+											'tgmpa-activate' => 'activate-plugin',
 										),
 										get_admin_url( null, '/themes.php' )
 									),
-									'tgmpa-install',
+									'tgmpa-activate',
 									'tgmpa-nonce'
 								);
-								$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Install', 'crosswinds-framework' ) . '</a></p>';
+								$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Activate', 'crosswinds-framework' ) . '</a></p>';
+							} else {
+								$link_text = '<p>' . esc_html__( 'Installed', 'crosswinds-framework' ) . '</p>';
 							}
-						} elseif ( ! is_plugin_active( $required_plugin['slug'] . '/' . $required_plugin['slug'] . '.php' ) ) {
-							$nonce_url = wp_nonce_url(
-								add_query_arg(
-									array(
-										'page'           => 'tgmpa-install-plugins',
-										'plugin'         => urlencode( $required_plugin['slug'] ),
-										'tgmpa-activate' => 'activate-plugin',
-									),
-									get_admin_url( null, '/themes.php' )
-								),
-								'tgmpa-activate',
-								'tgmpa-nonce'
-							);
-							$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Activate', 'crosswinds-framework' ) . '</a></p>';
-						} else {
-							$link_text = '<p>' . esc_html__( 'Installed', 'crosswinds-framework' ) . '</p>';
+							?>
+							<div class="plugin-section">
+								<div class="logo">
+									<img src="<?php echo esc_html( $value['logo'] ); ?>" alt="<?php echo esc_html( $value['name'] ); ?> logo" />
+								</div>
+
+								<div class="plugin-info">
+									<p class="plugin-title"><strong><?php echo esc_html( $value['name'] ); ?></strong><br /><a href="<?php echo esc_html( $value['link'] ); ?>" target="_blank"><?php esc_html_e( 'Learn More', 'crosswinds-framework' ); ?></a></p>
+								</div>
+
+								<div class="plugin-link">
+									<?php echo wp_kses_post( $link_text ); ?>
+								</div>
+							</div>
+							<?php
 						}
-						?>
-						<div class="plugin-section">
-							<div class="logo">
-								<img src="<?php echo esc_html( $required_plugin['logo'] ); ?>" alt="<?php echo esc_html( $required_plugin['name'] ); ?> logo" />
-							</div>
-
-							<div class="plugin-info">
-								<p class="plugin-title"><strong><?php echo esc_html( $required_plugin['name'] ); ?></strong><br /><a href="<?php echo esc_html( $required_plugin['link'] ); ?>" target="_blank"><?php esc_html_e( 'Learn More', 'crosswinds-framework' ); ?></a></p>
-							</div>
-
-							<div class="plugin-link">
-								<?php echo wp_kses_post( $link_text ); ?>
-							</div>
-						</div>
-						<?php
 					}
 					?>
 					</div>
@@ -175,57 +179,60 @@ $suggested_plugins = crosswinds_framework_get_suggested_plugins();
 					<h2><?php esc_html_e( 'Suggested Plugins', 'crosswinds-framework' ); ?></h2>
 					<div class="plugins-section">
 					<?php
-					foreach ( $suggested_plugins as $suggested_plugin ) {
-						if ( ! file_exists( WP_PLUGIN_DIR . '/' . $suggested_plugin['slug'] . '/' . $suggested_plugin['slug'] . '.php' ) ) {
-							if ( 'external' === $suggested_plugin['location'] ) {
-								$link_text = '<p><a href="' . esc_url( $suggested_plugin['link'] ) . '" target="_blank">' . esc_html__( 'Learn More', 'crosswinds-framework' ) . '</a></p>';
-							} else {
+					foreach ( $suggested_plugins as $key => $value ) {
+						if ( ! in_array( $value['slug'], $added_plugins ) ) {
+							$added_plugins[] = $value['slug'];
+							if ( ! file_exists( WP_PLUGIN_DIR . '/' . $value['slug'] . '/' . $value['slug'] . '.php' ) ) {
+								if ( 'external' === $value['location'] ) {
+									$link_text = '<p><a href="' . esc_url( $value['link'] ) . '" target="_blank">' . esc_html__( 'Learn More', 'crosswinds-framework' ) . '</a></p>';
+								} else {
+									$nonce_url = wp_nonce_url(
+										add_query_arg(
+											array(
+												'page'          => 'tgmpa-install-plugins',
+												'plugin'        => urlencode( $value['slug'] ),
+												'tgmpa-install' => 'install-plugin',
+											),
+											get_admin_url( null, '/themes.php' )
+										),
+										'tgmpa-install',
+										'tgmpa-nonce'
+									);
+									$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Install', 'crosswinds-framework' ) . '</a></p>';
+								}
+							} elseif ( ! is_plugin_active( $value['slug'] . '/' . $value['slug'] . '.php' ) ) {
 								$nonce_url = wp_nonce_url(
 									add_query_arg(
 										array(
-											'page'          => 'tgmpa-install-plugins',
-											'plugin'        => urlencode( $suggested_plugin['slug'] ),
-											'tgmpa-install' => 'install-plugin',
+											'page'           => 'tgmpa-install-plugins',
+											'plugin'         => urlencode( $value['slug'] ),
+											'tgmpa-activate' => 'activate-plugin',
 										),
 										get_admin_url( null, '/themes.php' )
 									),
-									'tgmpa-install',
+									'tgmpa-activate',
 									'tgmpa-nonce'
 								);
-								$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Install', 'crosswinds-framework' ) . '</a></p>';
+								$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Activate', 'crosswinds-framework' ) . '</a></p>';
+							} else {
+								$link_text = '<p>' . esc_html__( 'Installed', 'crosswinds-framework' ) . '</p>';
 							}
-						} elseif ( ! is_plugin_active( $suggested_plugin['slug'] . '/' . $suggested_plugin['slug'] . '.php' ) ) {
-							$nonce_url = wp_nonce_url(
-								add_query_arg(
-									array(
-										'page'           => 'tgmpa-install-plugins',
-										'plugin'         => urlencode( $suggested_plugin['slug'] ),
-										'tgmpa-activate' => 'activate-plugin',
-									),
-									get_admin_url( null, '/themes.php' )
-								),
-								'tgmpa-activate',
-								'tgmpa-nonce'
-							);
-							$link_text = '<p><a href="' . esc_url( $nonce_url ) . '">' . esc_html__( 'Activate', 'crosswinds-framework' ) . '</a></p>';
-						} else {
-							$link_text = '<p>' . esc_html__( 'Installed', 'crosswinds-framework' ) . '</p>';
+							?>
+							<div class="plugin-section">
+								<div class="logo">
+									<img src="<?php echo esc_html( $value['logo'] ); ?>" alt="<?php echo esc_html( $value['name'] ); ?> logo" />
+								</div>
+
+								<div class="plugin-info">
+									<p class="plugin-title"><strong><?php echo esc_html( $value['name'] ); ?></strong><br /><a href="<?php echo esc_html( $value['link'] ); ?>" target="_blank"><?php esc_html_e( 'Learn More', 'crosswinds-framework' ); ?></a></p>
+								</div>
+
+								<div class="plugin-link">
+									<?php echo wp_kses_post( $link_text ); ?>
+								</div>
+							</div>
+							<?php
 						}
-						?>
-						<div class="plugin-section">
-							<div class="logo">
-								<img src="<?php echo esc_html( $suggested_plugin['logo'] ); ?>" alt="<?php echo esc_html( $suggested_plugin['name'] ); ?> logo" />
-							</div>
-
-							<div class="plugin-info">
-								<p class="plugin-title"><strong><?php echo esc_html( $suggested_plugin['name'] ); ?></strong><br /><a href="<?php echo esc_html( $suggested_plugin['link'] ); ?>" target="_blank"><?php esc_html_e( 'Learn More', 'crosswinds-framework' ); ?></a></p>
-							</div>
-
-							<div class="plugin-link">
-								<?php echo wp_kses_post( $link_text ); ?>
-							</div>
-						</div>
-						<?php
 					}
 					?>
 					</div>

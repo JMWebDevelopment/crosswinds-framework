@@ -196,44 +196,53 @@ function crosswinds_framework_register_required_plugins() {
 	$plugins           = array();
 	$required_plugins  = crosswinds_framework_get_required_plugins();
 	$suggested_plugins = crosswinds_framework_get_suggested_plugins();
+	$added_plugins     = array();
 
 	if ( $required_plugins ) {
-		foreach ( $required_plugins as $required_plugin ) {
-			if ( 'external' === $required_plugin['location'] ) {
-				$plugin = array(
-					'name'         => $required_plugin['name'],
-					'slug'         => $required_plugin['slug'],
-					'required'     => true,
-					'external_url' => $required_plugin['link']
-				);
-			} else {
-				$plugin = array(
-					'name'      => $required_plugin['name'],
-					'slug'      => $required_plugin['slug'],
-					'required'  => true,
-				);
+		foreach ( $required_plugins as $key => $value ) {
+			if ( ! in_array( $value['slug'], $added_plugins ) ) {
+				$added_plugins[] = $value['slug']; 
+
+				if ( 'external' === $value['location'] ) {
+					$plugin = array(
+						'name'         => $value['name'],
+						'slug'         => $value['slug'],
+						'required'     => true,
+						'external_url' => $value['link']
+					);
+				} else {
+					$plugin = array(
+						'name'      => $required_plugin['name'],
+						'slug'      => $required_plugin['slug'],
+						'required'  => true,
+					);
+				}
+				array_push( $plugins, $plugin );
 			}
-			array_push( $plugins, $plugin );
 		}
 	}
 
 	if ( $suggested_plugins ) {
-		foreach ( $suggested_plugins as $suggested_plugin ) {
-			if ( 'external' === $suggested_plugin['location'] ) {
-				$plugin = array(
-					'name'         => $suggested_plugin['name'],
-					'slug'         => $suggested_plugin['slug'],
-					'required'     => false,
-					'external_url' => $suggested_plugin['link']
-				);
-			} else {
-				$plugin = array(
-					'name'      => $suggested_plugin['name'],
-					'slug'      => $suggested_plugin['slug'],
-					'required'  => false,
-				);
+		foreach ( $suggested_plugins as $key => $value ) {
+			if ( ! in_array( $value['slug'], $added_plugins ) ) {
+				$added_plugins[] = $value['slug'];
+
+				if ( 'external' === $value['location'] ) {
+					$plugin = array(
+						'name'         => $value['name'],
+						'slug'         => $value['slug'],
+						'required'     => false,
+						'external_url' => $value['link']
+					);
+				} else {
+					$plugin = array(
+						'name'      => $value['name'],
+						'slug'      => $value['slug'],
+						'required'  => false,
+					);
+				}
+				array_push( $plugins, $plugin );
 			}
-			array_push( $plugins, $plugin );
 		}
 	}
 
