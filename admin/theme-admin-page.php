@@ -39,7 +39,7 @@
 
 	<div class="main-area">
 
-		<h1><?php esc_html_e( 'Crosswinds Framework Theme Options', 'crosswinds-framework' ); ?></h1>
+		<h2><?php esc_html_e( 'Crosswinds Framework Theme Options', 'crosswinds-framework' ); ?></h2>
 
 		<div class="settings-area">
 			<h2><?php esc_html_e( 'Check out the Crosswinds Framework Themes!', 'crosswinds-framework' ); ?></h2>

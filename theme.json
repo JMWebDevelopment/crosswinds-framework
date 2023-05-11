@@ -86,9 +86,19 @@
 					"slug": "secondary"
 				},
 				{
-					"color": "#eeeeee",
+					"color": "#adb5bd",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				},
+				{
+					"color": "#d6dce2",
+					"name": "Quaternary",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#bdbdbd",
+					"name": "Neutral",
+					"slug": "neutral"
 				}
 			]
 		},
