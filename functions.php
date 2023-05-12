@@ -105,6 +105,10 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Callouts', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-cards'  => array(
+			'label'         => __( 'Cards', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-contact-us'  => array(
 			'label'         => __( 'Contact Us', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
