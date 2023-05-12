@@ -105,6 +105,10 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Callouts', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-contact-us'  => array(
+			'label'         => __( 'Contact Us', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-featured-content'  => array(
 			'label'         => __( 'Featured Content', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
@@ -119,6 +123,10 @@ function crosswinds_framework_register_block_patterns() {
 		),
 		'crosswinds-framework-footer'  => array(
 			'label'         => __( 'Footer', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
+		'crosswinds-framework-faqs'  => array(
+			'label'         => __( 'Frequently Asked Questions', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-header'  => array(
@@ -155,6 +163,14 @@ function crosswinds_framework_register_block_patterns() {
 		),
 		'crosswinds-framework-search'  => array(
 			'label'         => __( 'Search', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
+		'crosswinds-framework-team-members'  => array(
+			'label'         => __( 'Team Members', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
+		'crosswinds-framework-testimonials'  => array(
+			'label'         => __( 'Testimonials', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-widgets'  => array(

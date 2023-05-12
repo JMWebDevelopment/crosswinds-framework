@@ -1,0 +1,27 @@
+.has-base-drop-shadow {
+	box-shadow: 0 5px 20px 0 var(--wp--preset--color--base);
+}
+
+.has-contrast-drop-shadow {
+	box-shadow: 0 5px 20px 0 var(--wp--preset--color--contrast);
+}
+
+.has-primary-drop-shadow {
+	box-shadow: 0 5px 20px 0 var(--wp--preset--color--primary);
+}
+
+.has-secondary-drop-shadow {
+	box-shadow: 0 5px 20px 0 var(--wp--preset--color--secondary);
+}
+
+.has-tertiary-drop-shadow {
+	box-shadow: 0 5px 20px 0 var(--wp--preset--color--tertiary);
+}
+
+.has-quaternary-drop-shadow {
+	box-shadow: 0 5px 20px 0 var(--wp--preset--color--quaternary);
+}
+
+.has-neutral-drop-shadow {
+	box-shadow: 0 5px 20px 0 var(--wp--preset--color--neutral);
+}
