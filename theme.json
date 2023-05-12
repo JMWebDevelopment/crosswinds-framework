@@ -130,6 +130,16 @@
 		"spacing": {
 			"spacingSizes": [
 				{
+					"name": "xxxSmall",
+					"size": "5px",
+					"slug": "xxx-small"
+				},
+				{
+					"name": "xxSmall",
+					"size": "10px",
+					"slug": "xx-small"
+				},
+				{
 					"name": "xSmall",
 					"size": "20px",
 					"slug": "x-small"
