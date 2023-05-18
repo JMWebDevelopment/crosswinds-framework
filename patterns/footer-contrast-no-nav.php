@@ -3,6 +3,7 @@
  * Title: Contrast No Nav Footer
  * Slug: crosswinds-framework/footer-contrast-no-nav
  * Categories: crosswinds-framework-footer
+ * Block Types: core/template-part/footer
  * Viewport Width: 1440
  */
 ?>

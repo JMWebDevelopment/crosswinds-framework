@@ -209,6 +209,10 @@
 							margin-bottom: 0;
 						}
 
+						& .options-area {
+							width: 100%;
+						}
+
 						& h3 {
 							margin-bottom: 0;
 							flex: 1;

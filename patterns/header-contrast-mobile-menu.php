@@ -3,6 +3,7 @@
  * Title: Contrast Header with Mobile Always Menu
  * Slug: crosswinds-framework/header-contrast-mobile-menu
  * Categories: crosswinds-framework-header
+ * Block Types: core/template-part/header
  * Viewport Width: 1440
  */
 ?>

@@ -3,6 +3,7 @@
  * Title: Contrast Small Footer
  * Slug: crosswinds-framework/footer-contrast-small
  * Categories: crosswinds-framework-footer
+ * Block Types: core/template-part/footer
  * Viewport Width: 1440
  */
 ?>

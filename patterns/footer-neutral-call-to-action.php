@@ -3,6 +3,7 @@
  * Title: Neutral Call to Action Footer
  * Slug: crosswinds-framework/footer-neutral-call-to-action
  * Categories: crosswinds-framework-footer
+ * Block Types: core/template-part/footer
  * Viewport Width: 1440
  */
 ?>

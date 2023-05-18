@@ -3,6 +3,7 @@
  * Title: Contrast Header with Menu and Social Icons
  * Slug: crosswinds-framework/header-contrast-social-menu
  * Categories: crosswinds-framework-header
+ * Block Types: core/template-part/header
  * Viewport Width: 1440
  */
 ?>

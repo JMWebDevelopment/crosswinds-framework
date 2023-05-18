@@ -3,6 +3,7 @@
  * Title: Neutral No Nav Footer
  * Slug: crosswinds-framework/footer-neutral-no-nav
  * Categories: crosswinds-framework-footer
+ * Block Types: core/template-part/footer
  * Viewport Width: 1440
  */
 ?>

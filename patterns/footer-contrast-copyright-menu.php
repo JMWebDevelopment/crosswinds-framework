@@ -3,6 +3,7 @@
  * Title: Contrast Copyright Menu Footer
  * Slug: crosswinds-framework/footer-contrast-copyright-menu
  * Categories: crosswinds-framework-footer
+ * Block Types: core/template-part/footer
  * Viewport Width: 1440
  */
 ?>

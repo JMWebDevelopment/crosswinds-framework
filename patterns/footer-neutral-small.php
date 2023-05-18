@@ -3,6 +3,7 @@
  * Title: Neutral Small Footer
  * Slug: crosswinds-framework/footer-neutral-small
  * Categories: crosswinds-framework-footer
+ * Block Types: core/template-part/footer
  * Viewport Width: 1440
  */
 ?>

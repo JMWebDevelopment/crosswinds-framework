@@ -3,6 +3,7 @@
  * Title: Neutral X-Large Footer
  * Slug: crosswinds-framework/footer-neutral-x-large
  * Categories: crosswinds-framework-footer
+ * Block Types: core/template-part/footer
  * Viewport Width: 1440
  */
 ?>

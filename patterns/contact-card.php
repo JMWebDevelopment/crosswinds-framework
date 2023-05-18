@@ -42,7 +42,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php _e( '<?php _e( 'Address:', 'crosswinds-framework' ); ?>', 'crosswinds-framework' ); ?></p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php _e( 'Address:', 'crosswinds-framework' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

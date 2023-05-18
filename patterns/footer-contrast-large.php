@@ -3,6 +3,7 @@
  * Title: Contrast Large Footer
  * Slug: crosswinds-framework/footer-contrast-large
  * Categories: crosswinds-framework-footer
+ * Block Types: core/template-part/footer
  * Viewport Width: 1440
  */
 ?>

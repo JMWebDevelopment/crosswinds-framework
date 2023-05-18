@@ -3,6 +3,7 @@
  * Title: Contrast Header with Regular Menu
  * Slug: crosswinds-framework/header-contrast-regular-menu
  * Categories: crosswinds-framework-header
+ * Block Types: core/template-part/header
  * Viewport Width: 1440
  */
 ?>

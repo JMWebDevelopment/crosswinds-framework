@@ -3,6 +3,7 @@
  * Title: Base Header with Mobile Always Menu
  * Slug: crosswinds-framework/header-base-mobile-menu
  * Categories: crosswinds-framework-header
+ * Block Types: core/template-part/header
  * Viewport Width: 1440
  */
 ?>
