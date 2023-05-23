@@ -115,6 +115,7 @@ input[type="submit"]:hover,
 	& .wp-block-button__link {
 		color: var(--wp--preset--color--contrast) !important;
 		border-color: var(--wp--preset--color--contrast);
+		padding: 10px 25px;
 
 		&:hover,
 		&:focus {

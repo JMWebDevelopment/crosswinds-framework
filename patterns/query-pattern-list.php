@@ -13,7 +13,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:post-featured-image /-->
 
-<!-- wp:post-title /-->
+<!-- wp:post-title {"fontSize":"max-36"} /-->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:post-date /-->
