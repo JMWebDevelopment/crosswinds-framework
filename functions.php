@@ -314,6 +314,11 @@ add_filter( 'crosswinds_blocks_enable_related-posts_block', function(){
 	return true;
 } );
 
+// Customize the read more text for excerpts.
+add_filter( 'excerpt_more', function( $more ) {
+	return '...';
+});
+
 /**
  * Adds in the admin pages for the theme.
  *
