@@ -12,9 +12,7 @@
 <div class="wp-block-group alignfull header-contrast-mobile-menu has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:site-title {"level":0} /-->
 
-<!-- wp:navigation {"overlayMenu":"always","icon":"menu","layout":{"type":"flex","justifyContent":"left"}} -->
-<!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
-<!-- /wp:navigation -->
+<!-- wp:navigation {"ref":2048,"overlayMenu":"always","icon":"menu","layout":{"type":"flex","justifyContent":"left"}} /-->
 </div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

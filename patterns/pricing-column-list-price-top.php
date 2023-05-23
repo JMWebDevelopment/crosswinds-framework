@@ -2,7 +2,7 @@
 /**
  * Title: Pricing Column - List with Price at Top
  * Slug: crosswinds-framework/pricing-column-list-price-Top
- * Categories: crosswinds-framework-pricing-tables
+ * Categories: crosswinds-framework-elements
  * Viewport Width: 370
  */
 ?>

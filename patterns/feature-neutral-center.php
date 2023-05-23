@@ -2,8 +2,8 @@
 /**
  * Title: Feature Item - Neutral Background with Center Alignment
  * Slug: crosswinds-framework/feature-neutral-center
- * Categories: crosswinds-framework-features
- * Viewport Width: 1200
+ * Categories: crosswinds-framework-elements
+ * Viewport Width: 370
  */
 ?>
 

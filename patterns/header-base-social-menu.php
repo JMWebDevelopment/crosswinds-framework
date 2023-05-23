@@ -12,9 +12,7 @@
 <div class="wp-block-group alignfull header-base-social-menu" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:site-title {"level":0} /-->
 
-<!-- wp:navigation {"icon":"menu","layout":{"type":"flex","justifyContent":"center"}} -->
-<!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
-<!-- /wp:navigation -->
+<!-- wp:navigation {"ref":2048,"icon":"menu","layout":{"type":"flex","justifyContent":"center"}} /-->
 
 <!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#000000","className":"is-style-logos-only"} -->
 <ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"facebook"} /-->

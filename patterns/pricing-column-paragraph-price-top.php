@@ -2,7 +2,7 @@
 /**
  * Title: Pricing Column - Paragraphs with Price at Top
  * Slug: crosswinds-framework/pricing-column-paragraph-price-top
- * Categories: crosswinds-framework-pricing-tables
+ * Categories: crosswinds-framework-elements
  * Viewport Width: 370
  */
 ?>

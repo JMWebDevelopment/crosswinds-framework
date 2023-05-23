@@ -2,8 +2,8 @@
 /**
  * Title: Feature Item - Neutral Background with Left Alignment
  * Slug: crosswinds-framework/feature-neutral-left
- * Categories: crosswinds-framework-features
- * Viewport Width: 1200
+ * Categories: crosswinds-framework-elements
+ * Viewport Width: 370
  */
 ?>
 

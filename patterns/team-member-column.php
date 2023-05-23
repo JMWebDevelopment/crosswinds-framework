@@ -2,7 +2,7 @@
 /**
  * Title: Team Member - Column
  * Slug: crosswinds-framework/team-member-column
- * Categories: crosswinds-framework-team-members
+ * Categories: crosswinds-framework-elements
  * Viewport Width: 370
  */
 ?>

@@ -2,13 +2,13 @@
 /**
  * Title: Testimonial - Transparent with Stars
  * Slug: crosswinds-framework/testimonial-transparent-stars
- * Categories: crosswinds-framework-testimonials
+ * Categories: crosswinds-framework-elements
  * Viewport Width: 370
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"className":"testimonial testimonial-transparent-stars","layout":{"type":"constrained"}} -->
-<div class="wp-block-group testimonial testimonial-transparent-stars"><!-- wp:paragraph {"fontSize":"x-large"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small","padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}},"className":"testimonial testimonial-transparent-stars","layout":{"type":"constrained"}} -->
+<div class="wp-block-group testimonial testimonial-transparent-stars" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:paragraph {"fontSize":"x-large"} -->
 <p class="has-x-large-font-size">★★★★★</p>
 <!-- /wp:paragraph -->
 
@@ -19,7 +19,7 @@
 <!-- wp:columns {"verticalAlignment":null} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:image {"id":1957,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://wordpress-dev.local/crosswinds-framework/wp-content/uploads/sites/4/2023/05/person-placeholder-702x1024.png" alt="" class="wp-image-1957"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/person-placeholder.png" alt="" class="wp-image-1957"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

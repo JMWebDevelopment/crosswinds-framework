@@ -2,7 +2,7 @@
 /**
  * Title: Team Member - Row
  * Slug: crosswinds-framework/team-member-row
- * Categories: crosswinds-framework-team-members
+ * Categories: crosswinds-framework-elements
  * Viewport Width: 800
  */
 ?>

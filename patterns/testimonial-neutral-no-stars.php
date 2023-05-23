@@ -2,7 +2,7 @@
 /**
  * Title: Testimonial - Neutral with No Stars
  * Slug: crosswinds-framework/testimonial-neutral-no-stars
- * Categories: crosswinds-framework-testimonials
+ * Categories: crosswinds-framework-elements
  * Viewport Width: 370
  */
 ?>
@@ -15,7 +15,7 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:image {"id":1957,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://wordpress-dev.local/crosswinds-framework/wp-content/uploads/sites/4/2023/05/person-placeholder-702x1024.png" alt="" class="wp-image-1957"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/person-placeholder.png" alt="" class="wp-image-1957"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

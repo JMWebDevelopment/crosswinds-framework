@@ -113,6 +113,10 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Contact Us', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-elements'  => array(
+			'label'         => __( 'Elements', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-featured-content'  => array(
 			'label'         => __( 'Featured Content', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
