@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/error-header-base-centered
  * Categories: crosswinds-framework-404
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/card-product
  * Categories: crosswinds-framework-cards
  * Viewport Width: 370
+ * Inserter: true
  */
 ?>
 

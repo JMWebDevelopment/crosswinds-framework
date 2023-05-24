@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/pricing-table-three-columns
  * Categories: crosswinds-framework-pricing-tables
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

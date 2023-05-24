@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/callout-contrast-two-columns
  * Categories: crosswinds-framework-callouts
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

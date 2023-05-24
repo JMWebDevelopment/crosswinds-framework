@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/services-section-2-box-grid-base
  * Categories: crosswinds-framework-services
  * Viewport Width: 1200
+ * Inserter: true
  */
 ?>
 

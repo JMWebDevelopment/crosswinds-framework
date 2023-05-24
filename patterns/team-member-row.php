@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/team-member-row
  * Categories: crosswinds-framework-elements
  * Viewport Width: 800
+ * Inserter: true
  */
 ?>
 

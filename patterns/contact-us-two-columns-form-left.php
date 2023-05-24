@@ -1,9 +1,12 @@
 <?php
 /**
- * Title: <?php _e( 'Contact Us', 'crosswinds-framework' ); ?> - Two Columns with Contact Form Left
+ * Title: Contact Us - Two Columns with Contact Form Left
  * Slug: crosswinds-framework/contact-us-two-columns-form-left
  * Categories: crosswinds-framework-contact-us
  * Viewport Width: 800
+ * Inserter: true
+ * Block Types: core/post-content
+ * Post Types: page
  */
 ?>
 

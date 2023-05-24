@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/error-content-left-sidebar
  * Categories: crosswinds-framework-404
  * Viewport Width: 800
+ * Inserter: true
  */
 ?>
 

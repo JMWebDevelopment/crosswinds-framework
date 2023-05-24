@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/archive-content-left-sidebar
  * Categories: crosswinds-framework-archive
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

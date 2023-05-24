@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/post-content-right-sidebar
  * Categories: crosswinds-framework-post-content
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

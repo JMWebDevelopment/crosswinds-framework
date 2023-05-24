@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/pricing-column-list-price-bottom
  * Categories: crosswinds-framework-elements
  * Viewport Width: 370
+ * Inserter: true
  */
 ?>
 

@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/testimonials-section-3-box-grid-base
  * Categories: crosswinds-framework-testimonials
  * Viewport Width: 1200
+ * Inserter: true
  */
 ?>
 

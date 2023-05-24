@@ -5,6 +5,7 @@
  * Categories: crosswinds-framework-footer
  * Block Types: core/template-part/footer
  * Viewport Width: 1440
+ * Inserter: true
  */
 ?>
 

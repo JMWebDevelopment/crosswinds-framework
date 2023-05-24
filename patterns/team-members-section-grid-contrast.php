@@ -4,6 +4,9 @@
  * Slug: crosswinds-framework/team-members-section-grid-contrast
  * Categories: crosswinds-framework-team-members
  * Viewport Width: 1200
+ * Inserter: true
+ * Block Types: core/post-content
+ * Post Types: page
  */
 ?>
 

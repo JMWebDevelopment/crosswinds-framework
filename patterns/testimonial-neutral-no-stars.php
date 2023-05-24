@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/testimonial-neutral-no-stars
  * Categories: crosswinds-framework-elements
  * Viewport Width: 370
+ * Inserter: true
  */
 ?>
 

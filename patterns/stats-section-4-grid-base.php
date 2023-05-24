@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/stats-section-4-grid-base
  * Categories: crosswinds-framework-stats
  * Viewport Width: 1200
+ * Inserter: true
  */
 ?>
 

@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/featured-content-contrast-photo-left
  * Categories: crosswinds-framework-featured-content
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

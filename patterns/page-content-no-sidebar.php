@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/page-content-no-sidebar
  * Categories: crosswinds-framework-page
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

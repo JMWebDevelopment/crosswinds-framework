@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/feature-icon-transparent-left
  * Categories: crosswinds-framework-elements
  * Viewport Width: 370
+ * Inserter: true
  */
 ?>
 

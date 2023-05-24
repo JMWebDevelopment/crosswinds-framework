@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/faqs-section-one-column
  * Categories: crosswinds-framework-faqs
  * Viewport Width: 800
+ * Inserter: true
  */
 ?>
 

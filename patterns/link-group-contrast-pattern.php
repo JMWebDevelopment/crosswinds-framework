@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/link-group-contrast-pattern
  * Categories: crosswinds-framework-links
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

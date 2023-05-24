@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/stats-section-2-grid-contrast
  * Categories: crosswinds-framework-stats
  * Viewport Width: 1200
+ * Inserter: true
  */
 ?>
 

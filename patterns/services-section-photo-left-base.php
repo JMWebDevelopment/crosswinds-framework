@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/services-section-photo-left-base
  * Categories: crosswinds-framework-services
  * Viewport Width: 1200
+ * Inserter: true
  */
 ?>
 

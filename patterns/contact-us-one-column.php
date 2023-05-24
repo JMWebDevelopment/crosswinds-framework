@@ -4,6 +4,9 @@
  * Slug: crosswinds-framework/contact-us-one-column
  * Categories: crosswinds-framework-contact-us
  * Viewport Width: 800
+ * Inserter: true
+ * Block Types: core/post-content
+ * Post Types: page
  */
 ?>
 

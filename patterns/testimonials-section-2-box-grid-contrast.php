@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/testimonials-section-2-box-grid-contrast
  * Categories: crosswinds-framework-testimonials
  * Viewport Width: 1200
+ * Inserter: true
  */
 ?>
 

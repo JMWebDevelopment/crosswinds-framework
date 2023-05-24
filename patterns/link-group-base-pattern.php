@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/link-group-base-pattern
  * Categories: crosswinds-framework-links
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

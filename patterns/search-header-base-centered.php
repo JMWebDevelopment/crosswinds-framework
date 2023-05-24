@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/search-header-base-centered
  * Categories: crosswinds-framework-search
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

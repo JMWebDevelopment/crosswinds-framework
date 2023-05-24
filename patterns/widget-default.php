@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/widget-default
  * Categories: crosswinds-framework-widgets
  * Viewport Width: 370
+ * Inserter: true
  */
 ?>
 

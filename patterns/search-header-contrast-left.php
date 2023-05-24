@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/search-header-contrast-left
  * Categories: crosswinds-framework-search
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

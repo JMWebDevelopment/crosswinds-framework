@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/services-section-3-box-grid-contrast
  * Categories: crosswinds-framework-services
  * Viewport Width: 1200
+ * Inserter: true
  */
 ?>
 

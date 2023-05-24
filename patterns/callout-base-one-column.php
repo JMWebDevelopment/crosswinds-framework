@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/callout-base-one-column
  * Categories: crosswinds-framework-callouts
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

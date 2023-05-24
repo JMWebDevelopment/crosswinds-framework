@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/features-section-3-box-grid-contrast
  * Categories: crosswinds-framework-features
  * Viewport Width: 1200
+ * Inserter: true
  */
 ?>
 

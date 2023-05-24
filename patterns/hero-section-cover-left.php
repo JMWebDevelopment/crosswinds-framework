@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/hero-section-cover-left
  * Categories: crosswinds-framework-hero-sections
  * Viewport Width: 1440
+ * Inserter: true
  */
 ?>
 

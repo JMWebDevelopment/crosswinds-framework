@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/hero-section-contrast-center
  * Categories: crosswinds-framework-hero-sections
  * Viewport Width: 1200
+ * Inserter: true
  */
 ?>
 

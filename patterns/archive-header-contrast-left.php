@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/archive-header-contrast-left
  * Categories: crosswinds-framework-archive
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

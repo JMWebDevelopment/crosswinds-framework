@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/page-header-contrast-centered
  * Categories: crosswinds-framework-page
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

@@ -145,16 +145,16 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Hero Sections', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-homepage'  => array(
+			'label'         => __( 'Homepage', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-links'  => array(
 			'label'         => __( 'Links', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-page'  => array(
 			'label'         => __( 'Page', 'crosswinds-framework' ),
-			'categoryTypes' => array( 'crosswinds-framework' ),
-		),
-		'crosswinds-framework-page-patterns'  => array(
-			'label'         => __( 'Page Patterns', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-photo-grids'  => array(
@@ -322,6 +322,9 @@ add_filter( 'crosswinds_blocks_enable_copyright_block', function(){
 	return true;
 } );
 add_filter( 'crosswinds_blocks_enable_social-share-content_block', function(){
+	return true;
+} );
+add_filter( 'crosswinds_blocks_enable_single-content_block', function(){
 	return true;
 } );
 add_filter( 'crosswinds_blocks_enable_next-post_block', function(){

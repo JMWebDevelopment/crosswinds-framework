@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/stat-vertical
  * Categories: crosswinds-framework-elements
  * Viewport Width: 370
+ * Inserter: true
  */
 ?>
 

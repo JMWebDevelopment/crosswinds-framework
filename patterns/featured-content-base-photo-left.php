@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/featured-content-base-photo-left
  * Categories: crosswinds-framework-featured-content
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

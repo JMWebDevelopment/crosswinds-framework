@@ -5,6 +5,7 @@
  * Categories: crosswinds-framework-queries
  * Block Types: core/query
  * Viewport Width: 1200
+ * Inserter: true
  */
 ?>
 

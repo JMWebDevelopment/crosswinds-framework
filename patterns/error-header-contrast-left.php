@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/error-header-contrast-left
  * Categories: crosswinds-framework-404
  * Viewport Width: 1280
+ * Inserter: true
  */
 ?>
 

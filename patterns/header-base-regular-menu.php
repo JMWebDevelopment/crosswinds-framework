@@ -5,6 +5,7 @@
  * Categories: crosswinds-framework-header
  * Block Types: core/template-part/header
  * Viewport Width: 1440
+ * Inserter: true
  */
 ?>
 

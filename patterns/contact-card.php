@@ -4,6 +4,7 @@
  * Slug: crosswinds-framework/contact-card
  * Categories: crosswinds-framework-cards
  * Viewport Width: 370
+ * Inserter: true
  */
 ?>
 
