@@ -113,6 +113,10 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Contact Us', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-ecommerce'  => array(
+			'label'         => __( 'Ecommerce', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-elements'  => array(
 			'label'         => __( 'Elements', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
@@ -151,6 +155,14 @@ function crosswinds_framework_register_block_patterns() {
 		),
 		'crosswinds-framework-page-patterns'  => array(
 			'label'         => __( 'Page Patterns', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
+		'crosswinds-framework-photo-grids'  => array(
+			'label'         => __( 'Photo Grids', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
+		'crosswinds-framework-portfolio'  => array(
+			'label'         => __( 'Portfolio', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-post-content'  => array(
