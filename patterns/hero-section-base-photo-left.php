@@ -12,7 +12,7 @@
 <div class="wp-block-group alignfull hero-section hero-section-base-photo-left is-style-full-height" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/welcome-to-mansfield.jpg" alt="<?php _e( 'A photo of the welcome to Historic Downtown Mansfield sign', 'crosswinds-framework' ); ?>"/></figure>
+<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/photo-placeholder.png" alt="<?php _e( 'A photo of the welcome to Historic Downtown Mansfield sign', 'crosswinds-framework' ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

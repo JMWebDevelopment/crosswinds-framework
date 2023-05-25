@@ -24,6 +24,6 @@
 <!-- /wp:buttons -->
 
 <!-- wp:image {"id":768,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/welcome-to-mansfield.jpg" alt="Huatulco Coastline" class="wp-image-768"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/photo-placeholder.png" alt="Huatulco Coastline" class="wp-image-768"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->

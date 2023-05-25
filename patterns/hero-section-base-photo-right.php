@@ -28,7 +28,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mansfield-flying-squirrel.jpg" alt="<?php _e( 'A photo of The Flying Squirrel in downtown Mansfield', 'crosswinds-framework' ); ?>"/></figure>
+<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/photo-placeholder.png" alt="<?php _e( 'A photo of The Flying Squirrel in downtown Mansfield', 'crosswinds-framework' ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

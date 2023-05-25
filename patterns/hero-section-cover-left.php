@@ -9,8 +9,8 @@
 ?>
 
 <!-- wp:group {"align":"full","className":"hero-section hero-section-cover-left","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull hero-section hero-section-cover-left"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/welcome-to-mansfield.jpg","id":1891,"dimRatio":50,"minHeight":100,"minHeightUnit":"vh","align":"full"} -->
-<div class="wp-block-cover alignfull" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1891" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/welcome-to-mansfield.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained","wideSize":"1440px"}} -->
+<div class="wp-block-group alignfull hero-section hero-section-cover-left"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/photo-placeholder.png","id":1891,"dimRatio":50,"minHeight":100,"minHeightUnit":"vh","align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1891" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/photo-placeholder.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained","wideSize":"1440px"}} -->
 <div class="wp-block-group"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center","fontSize":"max-90"} -->
