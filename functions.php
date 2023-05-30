@@ -73,6 +73,9 @@ register_block_style(
 	array(
 		'name'  => 'full-height',
 		'label' => __( 'Full-height', 'crosswinds-framework' ),
+		'inline_style' => '.is-style-full-height {
+			min-height: 100vh;
+		}',
 	)
 );
 
