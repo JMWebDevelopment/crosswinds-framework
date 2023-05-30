@@ -101,8 +101,16 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Archive', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-banners'  => array(
+			'label'         => __( 'Banners', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-callouts'  => array(
 			'label'         => __( 'Callouts', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
+		'crosswinds-framework-ctas'  => array(
+			'label'         => __( 'Call to Action Sections', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-cards'  => array(
