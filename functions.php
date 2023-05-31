@@ -160,6 +160,10 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Homepage', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-how-we-do-it'  => array(
+			'label'         => __( 'How We Do It Sections', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-links'  => array(
 			'label'         => __( 'Links', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
@@ -206,6 +210,10 @@ function crosswinds_framework_register_block_patterns() {
 		),
 		'crosswinds-framework-testimonials'  => array(
 			'label'         => __( 'Testimonials', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
+		'crosswinds-framework-text-media'  => array(
+			'label'         => __( 'Text and Media', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-widgets'  => array(
