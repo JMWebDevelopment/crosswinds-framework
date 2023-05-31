@@ -108,6 +108,10 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Banners', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-blog-posts'  => array(
+			'label'         => __( 'Blog Posts Sections', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-callouts'  => array(
 			'label'         => __( 'Callouts', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
@@ -178,6 +182,10 @@ function crosswinds_framework_register_block_patterns() {
 		),
 		'crosswinds-framework-portfolio'  => array(
 			'label'         => __( 'Portfolio', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
+		'crosswinds-framework-posts'  => array(
+			'label'         => __( 'Posts', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-post-content'  => array(
