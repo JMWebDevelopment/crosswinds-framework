@@ -27,9 +27,9 @@ $added_plugins     = array();
 <div class="options-wrap">
 
 	<div class="options-header">
-		<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/portafoglio-logo-no-background.png' ); ?>" alt="Crosswinds Blocks Logo" />
+		<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/cf-wordmark-2x.png' ); ?>" alt="Crosswinds Blocks Logo" />
 		<div class="header-section">
-			<h1><?php esc_html_e( 'Crosswinds Framework', 'crosswinds-framework' ); ?></h1>
+			<h1 class="screen-reader-text"><?php esc_html_e( 'Crosswinds Framework', 'crosswinds-framework' ); ?></h1>
 		</div>
 
 		<?php
