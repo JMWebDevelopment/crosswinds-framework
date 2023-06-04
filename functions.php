@@ -33,7 +33,7 @@ if ( ! function_exists( 'crosswinds_framework_setup' ) ) {
 		// Enqueue editor styles and fonts.
 		add_editor_style(
 			array(
-				'./assets/css/editor/editor-style.min.css',
+				get_parent_theme_file_uri( 'assets/css/editor/editor-style.min.css' ),
 			)
 		);
 
