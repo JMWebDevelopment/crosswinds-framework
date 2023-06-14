@@ -65,3 +65,7 @@
 		grid-column-end: span 8;
 	}
 }
+
+.site-comments .wp-block-columns {
+	display: flex;
+}
