@@ -1,5 +1,4 @@
-.wp-block-columns,
-.wp-block-columns.is-layout-flex {
+.wp-block-columns {
 	display: grid;
 	grid-gap: 30px;
 }
@@ -22,6 +21,14 @@
 
 	.wp-block-column:only-child {
 		grid-column-end: span 12;
+	}
+
+	.wp-block-columns.is-layout-flex .wp-block-column {
+		flex-basis: 50%;
+	}
+
+	.wp-block-columns.is-layout-flex .wp-block-column:only-child {
+		flex-basis: 100%;
 	}
 }
 

@@ -25,8 +25,8 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:crosswinds-blocks/basic-grid {"numDesktopColumns":2,"align":"wide"} -->
-<div class="wp-block-crosswinds-blocks-basic-grid alignwide basic-grid-has-2-desktop-columns basic-grid-has-2-tablet-columns basic-grid-has-1-mobile-columns" style="grid-column-gap:30px;grid-row-gap:30px"><!-- wp:crosswinds-blocks/basic-grid-item -->
+<!-- wp:crosswinds-blocks/basic-grid {"numDesktopColumns":2} -->
+<div class="wp-block-crosswinds-blocks-basic-grid basic-grid-has-2-desktop-columns basic-grid-has-2-tablet-columns basic-grid-has-1-mobile-columns" style="grid-column-gap:30px;grid-row-gap:30px"><!-- wp:crosswinds-blocks/basic-grid-item -->
 <div class="wp-block-crosswinds-blocks-basic-grid-item item-span-1-desktop-columns item-span-1-desktop-row item-span-1-tablet-columns item-span-1-tablet-row item-span-1-mobile-columns item-span-1-mobile-row normal-layout"><!-- wp:group {"layout":{"type":"constrained"},"cbUseFlex":true,"cbInnerLayout":"normal","cbFillHeight":true} -->
 <div class="wp-block-group normal-layout cb-fill-height-parent"><!-- wp:group {"style":{"spacing":{"blockGap":"10px","padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}},"className":"feature-item feature-icon-transparent-left","layout":{"type":"constrained"}} -->
 <div class="wp-block-group feature-item feature-icon-transparent-left" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:outermost/icon-block {"iconName":"wordpress-wordpress","iconColor":"base","iconColorValue":"#ffffff"} -->
