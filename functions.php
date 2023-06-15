@@ -212,6 +212,10 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Services', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-site-titles'  => array(
+			'label'         => __( 'Site Titles', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-stats'  => array(
 			'label'         => __( 'Stats', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
