@@ -387,9 +387,9 @@ function crosswinds_framework_add_admin_pages() {
 		esc_html__( 'Crosswinds Framework & Block Settings', 'crosswinds-framework' ),
 		esc_html__( 'Crosswinds', 'crosswinds-framework' ),
 		'manage_options',
-		'crosswinds-framework-block-options',
+		'crosswinds-framework-options',
 		'crosswinds_framework_create_main_admin_page',
-		'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIGlkPSJMYXllcl8yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNTg1IDE1ODUiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojMDA3MWJjO3N0cm9rZS13aWR0aDoyMHB4O30uY2xzLTEsLmNscy0ye3N0cm9rZTojMmUzMTkyO3N0cm9rZS1taXRlcmxpbWl0OjEwO30uY2xzLTJ7ZmlsbDpub25lO3N0cm9rZS13aWR0aDo1MHB4O308L3N0eWxlPjwvZGVmcz48ZyBpZD0iTGF5ZXJfMS0yIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Im00OTUuMDQsMzI3LjQ0di02Ni40NGgtMTEyLjQ5djEwNjNoMTEyLjQ5di0zOTguNjJoMTEyLjQ5djk5LjY2bDE0MC42MS0zNC42N1YzOTUuMzNsLTE0MC42MS0zNC42N3Y5OS42NmgtMTEyLjQ5di0xMzIuODdabTExMi40OSwyMzIuNTN2MjY1Ljc1aC0xMTIuNDl2LTI2NS43NWgxMTIuNDlabTI1My4xLTEzNy4wM3Y1MzkuOGwxNjguNzMtNDEuNTJ2LTQ1Ni43NmwtMTY4LjczLTQxLjUyWm00MjEuODMsNDM2di0zMzIuMTlsLTE0MC42MS0zNC42N3Y0MDEuNTNsMTQwLjYxLTM0LjY3WiIvPjxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iNzkyLjUiIGN5PSI3OTIuNSIgcj0iNzY3LjUiLz48L2c+PC9zdmc+',
+		'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIGlkPSJMYXllcl8yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxheWVyXzEtMiI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJtNDgsMHY5Nmg4MHYtNDhsNDgsMTAsMzM2LDcwdjE2MGwtMzM2LDcwLTQ4LDEwdi00OEg0OHYxOTJIMFYwaDQ4Wm0wLDE0NHYxMjhoODB2LTEyOEg0OFptMTI4LTM3djIwMmw2NC0xMy4zVjEyMC40bC02NC0xMy40Wm0xMTIsMjMuM3YxNTUuM2w4MC0xNi42di0xMjJsLTgwLTE2LjdabTEyOCwyNi43djEwMmw0OC0xMHYtODJsLTQ4LTEwWiIvPjwvZz48L3N2Zz4=',
 		60
 	);
 }
@@ -432,7 +432,7 @@ function crosswinds_framework_is_admin_page( $page = null ) {
 		return false;
 	}
 
-	if ( null === $page && ( ( 'admin.php' === $pagenow ) && ( 'crosswinds-framework-theme' === $_GET['page'] || 'crosswinds-framework-block-options' === $_GET['page'] ) ) ) {
+	if ( null === $page && ( ( 'admin.php' === $pagenow ) && ( 'crosswinds-framework-theme' === $_GET['page'] || 'crosswinds-framework-options' === $_GET['page'] ) ) ) {
 		return true;
 	}
 

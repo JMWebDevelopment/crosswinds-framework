@@ -1,6 +1,7 @@
 @import "_custom-properties";
 
 .crosswinds_page_crosswinds-blocks,
+.toplevel_page_crosswinds-framework-options,
 .toplevel_page_crosswinds-framework-block-options,
 .crosswinds_page_crosswinds-framework-theme {
 	background-color: #f8fafc;
@@ -455,6 +456,7 @@
 
 	.crosswinds_page_crosswinds-blocks,
 	.toplevel_page_crosswinds-framework-block-options,
+	.toplevel_page_crosswinds-framework-options,
 	.crosswinds_page_crosswinds-framework-theme {
 
 		& .options-wrap {
@@ -479,6 +481,7 @@
 
 	.crosswinds_page_crosswinds-blocks,
 	.toplevel_page_crosswinds-framework-block-options,
+	.toplevel_page_crosswinds-framework-options,
 	.crosswinds_page_crosswinds-framework-theme {
 
 		& .options-wrap {
