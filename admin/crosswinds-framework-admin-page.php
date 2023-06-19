@@ -48,9 +48,10 @@ $added_plugins     = array();
 
 		<?php
 		if ( is_plugin_active( 'crosswinds-blocks/crosswinds-blocks.php' ) ) {
+			$plugin_info = get_plugin_data( WP_PLUGIN_DIR . '/crosswinds-blocks/crosswinds-blocks.php' );
 			?>
 			<div class="header-section">
-				<p><?php esc_html_e( 'Blocks Version', 'crosswinds-framework' ); ?>: <?php echo esc_html( get_option( 'crosswinds_blocks_version' ) ); ?></p>
+				<p><?php esc_html_e( 'Blocks Version', 'crosswinds-framework' ); ?>: <?php echo esc_html( $plugin_info['Version'] ); ?></p>
 			</div>
 			<?php
 		}
