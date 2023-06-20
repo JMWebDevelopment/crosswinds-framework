@@ -7,6 +7,7 @@ Stable tag: 1.0-beta
 Requires PHP: 7.0  
 License: GNU General Public License v3.0 (or later)  
 License URI: https://www.gnu.org/licenses/gpl-3.0.html  
+Website: https://crosswindsframework.com/  
 
 The Crosswinds Framework gives you a blank canvas that you can create anything from. Whether you are looking to create an online store, a lead generation website or just want a plain blog, whether you want something that looks fancy, formal, casual or anything in between, you’ll be able to create it with The Crosswinds Framework.
 
