@@ -116,6 +116,10 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Blog Posts Sections', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-business-cards'  => array(
+			'label'         => __( 'Business Cards', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-callouts'  => array(
 			'label'         => __( 'Callouts', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
@@ -126,6 +130,10 @@ function crosswinds_framework_register_block_patterns() {
 		),
 		'crosswinds-framework-cards'  => array(
 			'label'         => __( 'Cards', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
+		'crosswinds-framework-columns'  => array(
+			'label'         => __( 'Columns', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-contact-us'  => array(
@@ -204,6 +212,10 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Queries', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-resume'  => array(
+			'label'         => __( 'Resume Sections', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-search'  => array(
 			'label'         => __( 'Search', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
@@ -216,8 +228,16 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Site Titles', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-skills-slider'  => array(
+			'label'         => __( 'Skilss Sliders', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-stats'  => array(
 			'label'         => __( 'Stats', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
+		'crosswinds-framework-talk'  => array(
+			'label'         => __( 'Talk Sections', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-team-members'  => array(

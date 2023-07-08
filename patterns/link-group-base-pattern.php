@@ -12,7 +12,7 @@
 <div class="wp-block-group alignfull link-group-base-pattern" style="padding-top:50px;padding-right:15px;padding-bottom:50px;padding-left:15px"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"align":"center","id":968,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"100px"}},"className":"is-style-default"} -->
-<figure class="wp-block-image aligncenter size-full has-custom-border is-style-default"><img src="http://wordpress-dev.local/crosswinds-framework/wp-content/uploads/sites/4/2013/03/image-alignment-150x150-1.jpg" alt="Image Alignment 150x150" class="wp-image-968" style="border-radius:100px"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/photo-placeholder-square.png" alt="Image Alignment 150x150" class="wp-image-968" style="border-radius:100px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
