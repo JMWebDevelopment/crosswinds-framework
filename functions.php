@@ -229,7 +229,7 @@ function crosswinds_framework_register_block_patterns() {
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-skills-slider'  => array(
-			'label'         => __( 'Skilss Sliders', 'crosswinds-framework' ),
+			'label'         => __( 'Skills Sliders', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
 		'crosswinds-framework-stats'  => array(
