@@ -9,7 +9,7 @@
  */
 ?>
 
-<!-- wp:query {"align":"wide","queryId":2,"query":{"perPage":"12","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":3},"className":"query-pattern query-pattern-grid"} -->
+<!-- wp:query {"align":"wide","queryId":2,"query":{"perPage":"12","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"className":"query-pattern query-pattern-grid"} -->
 <div class="wp-block-query alignwide query-pattern query-pattern-grid"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3},"cbUseFlex":true,"numTabletColumns":2,"numMobileColumns":1} -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"className":"last-bottom-layout cb-fill-height-parent","layout":{"type":"constrained"},"cbInnerLayout":"last-bottom"} -->
 <div class="wp-block-group last-bottom-layout cb-fill-height-parent"><!-- wp:post-featured-image /-->
