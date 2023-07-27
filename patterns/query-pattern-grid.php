@@ -19,9 +19,9 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:post-date /-->
 
-<!-- wp:html -->
-&bull;
-<!-- /wp:html -->
+<!-- wp:paragraph -->
+<p>•</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:post-terms {"term":"category"} /--></div>
 <!-- /wp:group -->
