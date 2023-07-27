@@ -190,3 +190,18 @@ input[type="reset"].has-tertiary-background-color {
 		}
 	}
 }
+
+@media (--small-only) {
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	.wp-element-button,
+	.wp-block-post-comments input[type=submit],
+	.wp-block-button,
+	.wp-block-button__link,
+	.wp-block-search__button,
+	.wp-block-read-more {
+		width: 100% !important;
+	}
+}
