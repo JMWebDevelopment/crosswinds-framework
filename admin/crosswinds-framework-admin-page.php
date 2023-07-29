@@ -63,16 +63,16 @@ $added_plugins     = array();
 
 		<div class="options-top-left">
 			<h2><?php esc_html_e( 'Welcome to the Crosswinds Framework!', 'crosswinds-framework' ); ?></h2>
-			<p><?php // esc_html_e( 'Thank you for choosing to use the Crosswinds Blocks plugin to power your website! Below you\'ll find links to documentation to learn how to harness the power of the blocks you\'ve now added to your website, as well as view all of the amazing Crosswinds Framework themes that can help you build the website you\'ve always wanted to build.', 'crosswinds-framework' ); ?></p>
+			<p><?php do_action( 'crosswinds_framework_admin_intro' ); ?></p>
 			<div class="buttons">
-				<?php /*<a class="button cf-button-primary" href=""><?php esc_html_e( 'Start Editing', 'crosswinds-framework' ); ?></a> */ ?>
+				<a class="button cf-button-primary" href="<?php echo get_admin_url(); ?>/site-editor.php"><?php esc_html_e( 'Start Editing', 'crosswinds-framework' ); ?></a>
 				<a class="button cf-button-secondary" href="https://github.com/JMWebDevelopment/crosswinds-framework/wiki"><?php esc_html_e( 'Check out the Documentation', 'crosswinds-framework' ); ?></a>
 			</div>
 		</div>
 
 		<div class="options-top-right">
 			<div class="flex-video">
-				<?php // echo wp_oembed_get( 'https://www.youtube.com/watch?v=h0uHC9YEAho' ); ?>
+				<?php // echo wp_oembed_get( apply_filters( 'crosswinds_framework_intro_video', 'https://www.youtube.com/watch?v=h0uHC9YEAho' ) ); ?>
 			</div>
 		</div>
 
@@ -243,29 +243,13 @@ $added_plugins     = array();
 				?>
 			</div>
 
-			<div class="options-section">
-				<h2><?php esc_html_e( 'Report an Issue', 'crosswinds-framework' ); ?></h2>
-				<p><?php esc_html_e( 'If you come across an issue with the Crosswinds Framework, please report the issue in the GitHub repository using the link below.', 'crosswinds-framework' ); ?></p>
-				<a class="button cf-button-primary" href="https://github.com/JMWebDevelopment/crosswinds-framework/issues/new"><?php esc_html_e( 'Report an Issue', 'crosswinds-framework' ); ?></a>
-			</div>
+			<?php do_action( 'crosswinds_framework_admin_report_issue_section' ); ?>
 
-			<div class="options-section">
-				<h2><?php esc_html_e( 'Suggest a Feature', 'crosswinds-framework' ); ?></h2>
-				<p><?php esc_html_e( 'Want to see a new feature included in a release of the Crosswinds Framework? Be sure to drop your feature idea off in the GitHub repository using the link below.', 'crosswinds-framework' ); ?></p>
-				<a class="button cf-button-primary" href="https://github.com/JMWebDevelopment/crosswinds-framework/issues/new"><?php esc_html_e( 'Suggest a Feature', 'crosswinds-framework' ); ?></a>
-			</div>
+			<?php do_action( 'crosswinds_framework_admin_feature_request_section' ); ?>
 
-			<?php /*<div class="options-section">
-				<h2><?php esc_html_e( 'Leave a Review', 'crosswinds-framework' ); ?></h2>
-				<p><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'crosswinds-framework' ); ?></p>
-				<a class="button cf-button-primary" href=""><?php esc_html_e( 'Leave a Review', 'crosswinds-framework' ); ?></a>
-			</div> */ ?>
+			<?php do_action( 'crosswinds_framework_admin_review_section' ); ?>
 
-			<div class="options-section">
-				<h2><?php esc_html_e( 'View Documentation', 'crosswinds-framework' ); ?></h2>
-				<p><?php esc_html_e( 'Learn how you can get started using the Crosswinds Framework for your website by visiting the documentation at the link below.', 'crosswinds-framework' ); ?></p>
-				<a class="button cf-button-primary" href="https://github.com/JMWebDevelopment/crosswinds-framework/wiki"><?php esc_html_e( 'View Documentation', 'crosswinds-framework' ); ?></a>
-			</div>
+			<?php do_action( 'crosswinds_framework_admin_documentation_section' ); ?>
 
 		</div>
 

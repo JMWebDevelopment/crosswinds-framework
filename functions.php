@@ -311,8 +311,8 @@ function crosswinds_framework_register_required_plugins() {
 					);
 				} else {
 					$plugin = array(
-						'name'      => $required_plugin['name'],
-						'slug'      => $required_plugin['slug'],
+						'name'      => $value['name'],
+						'slug'      => $value['slug'],
 						'required'  => true,
 					);
 				}
@@ -520,3 +520,62 @@ function crosswinds_framework_get_suggested_plugins() {
 
 	return array_merge( apply_filters( 'crosswinds_framework_suggested_plugins', $plugins ) );
 }
+
+// Set the intro video
+
+// Create the theme intro section.
+function crosswinds_framework_admin_intro() {
+	?>
+	<p><?php esc_html_e( 'Want to get the most out of Crosswinds Blocks? Checkout the Crosswinds Framework themes! From a portfolio to an online store to a newspaper website and even a blank canvas to create anything you want, the Crosswinds Framework will help you create a great website.', 'crosswinds-framework' ); ?></p>
+	<?php
+}
+add_action( 'crosswinds_framework_admin_intro', 'crosswinds_framework_admin_intro' );
+
+// Create the "Report an Issue" section text.
+function crosswinds_framework_report_an_issue() {
+	?>
+	<div class="options-section">
+		<h2><?php esc_html_e( 'Report an Issue', 'crosswinds-framework' ); ?></h2>
+		<p><?php esc_html_e( 'If you come across an issue with the Crosswinds Framework, please report the issue in the GitHub repository using the link below.', 'crosswinds-framework' ); ?></p>
+		<a class="button cf-button-primary" href="<?php echo esc_url( apply_filters( 'crosswinds_framework_issue_link', 'https://github.com/JMWebDevelopment/crosswinds-framework/issues/new' ) ); ?>"><?php esc_html_e( 'Report an Issue', 'crosswinds-framework' ); ?></a>
+	</div>
+	<?php
+}
+add_action( 'crosswinds_framework_admin_report_issue_section', 'crosswinds_framework_report_an_issue' );
+
+// Create the "Suggest a Feature" section text.
+function crosswinds_framework_feature_request() {
+	?>
+	<div class="options-section">
+		<h2><?php esc_html_e( 'Suggest a Feature', 'crosswinds-framework' ); ?></h2>
+		<p><?php esc_html_e( 'Want to see a new feature included in a release of the Crosswinds Framework? Be sure to drop your feature idea off in the GitHub repository using the link below.', 'crosswinds-framework' ); ?></p>
+		<a class="button cf-button-primary" href="<?php echo esc_url( apply_filters( 'crosswinds_framework_feature_link', 'https://github.com/JMWebDevelopment/crosswinds-framework/issues/new' ) ); ?>"><?php esc_html_e( 'Suggest a Feature', 'crosswinds-framework' ); ?></a>
+	</div>
+	<?php
+}
+add_action( 'crosswinds_framework_admin_feature_request_section', 'crosswinds_framework_feature_request' );
+
+// Create the "Leave a Review" section text.
+function crosswinds_framework_leave_a_review() {
+	?>
+	<div class="options-section">
+		<h2><?php esc_html_e( 'Leave a Review', 'crosswinds-framework' ); ?></h2>
+		<p><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'crosswinds-framework' ); ?></p>
+		<a class="button cf-button-primary" href="<?php echo esc_url( apply_filters( 'crosswinds_framework_review_link', '' ) ); ?>"><?php esc_html_e( 'Leave a Review', 'crosswinds-framework' ); ?></a>
+	</div>
+	<?php
+}
+//add_action( 'crosswinds_framework_admin_review_section', 'crosswinds_framework_leave_a_review' );
+
+// Create the "View Documentation" section text.
+function crosswinds_framework_view_documentation() {
+	?>
+	<div class="options-section">
+		<h2><?php esc_html_e( 'View Documentation', 'crosswinds-framework' ); ?></h2>
+		<p><?php esc_html_e( 'Learn how you can get started using the Crosswinds Framework for your website by visiting the documentation at the link below.', 'crosswinds-framework' ); ?></p>
+		<a class="button cf-button-primary" href="<?php echo esc_url( apply_filters( 'crosswinds_framework_documentation_link', 'https://github.com/JMWebDevelopment/crosswinds-framework/wiki' ) ); ?>"><?php esc_html_e( 'View Documentation', 'crosswinds-framework' ); ?></a>
+	</div>
+	<?php
+}
+add_action( 'crosswinds_framework_admin_documentation_section', 'crosswinds_framework_view_documentation' );
+
