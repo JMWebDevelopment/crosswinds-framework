@@ -467,11 +467,6 @@
 					"fontWeight":"var(--wp--custom--font-weight--medium)"
 				}
 			},
-			"core/paragraph": {
-				"spacing": {
-					"margin": "0"
-				}
-			},
 			"core/post-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--max-48)",
