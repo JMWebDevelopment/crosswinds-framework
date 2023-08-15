@@ -118,7 +118,6 @@ textarea:focus,
 
 .is-style-full-height {
 	min-height: 100vh;
-	display: flex;
 }
 
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
@@ -128,5 +127,18 @@ textarea:focus,
 	& .wp-block-navigation__container,
 	& .wp-block-page-list {
 		align-items: start;
+	}
+}
+
+@media (--medium-up) {
+
+	.wp-block-search {
+
+		& .wp-block-search__inside-wrapper {
+
+			& .wp-block-search__input {
+				margin-bottom: 0;
+			}
+		}
 	}
 }
