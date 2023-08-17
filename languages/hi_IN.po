@@ -1,0 +1,1925 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crosswinds Framework\n"
+"POT-Creation-Date: 2023-08-17 15:53-0500\n"
+"PO-Revision-Date: 2023-08-17 15:54-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#. Theme Name of the plugin/theme
+#: admin/crosswinds-framework-admin-page.php:32
+#, fuzzy
+msgid "Crosswinds Framework"
+msgstr "क्रॉसविंड्स फ्रेमवर्क"
+
+#: admin/crosswinds-framework-admin-page.php:39
+#: inc/tgmpa/class-tgm-plugin-activation.php:2646
+#, fuzzy
+msgid "Version"
+msgstr "संस्करण"
+
+#: admin/crosswinds-framework-admin-page.php:46
+#, fuzzy
+msgid "Framework Version"
+msgstr "फ़्रेमवर्क संस्करण"
+
+#: admin/crosswinds-framework-admin-page.php:54
+#, fuzzy
+msgid "Blocks Version"
+msgstr "ब्लॉक संस्करण"
+
+#: admin/crosswinds-framework-admin-page.php:65
+#, fuzzy
+msgid "Welcome to the Crosswinds Framework!"
+msgstr "क्रॉसविंड्स फ्रेमवर्क में आपका स्वागत है!"
+
+#: admin/crosswinds-framework-admin-page.php:68
+#, fuzzy
+msgid "Start Editing"
+msgstr "संपादन प्रारंभ करें"
+
+#: admin/crosswinds-framework-admin-page.php:69
+#, fuzzy
+msgid "Check out the Documentation"
+msgstr "दस्तावेज़ीकरण की जाँच करें"
+
+#: admin/crosswinds-framework-admin-page.php:86
+#, fuzzy
+msgid "Crosswinds Blocks"
+msgstr "क्रॉसविंड्स ब्लॉक"
+
+#: admin/crosswinds-framework-admin-page.php:92
+#, fuzzy
+msgid ""
+"Want to take your website to the next level now that you're using the "
+"Crosswinds Framework? Check out the Crosswinds Blocks plugin! This plugin "
+"will add in an accordion block, tabs block, post navigation block, related "
+"posts block, social sharing block and more to your website. It's the perfect "
+"way to customize your website in a full site editor world!"
+msgstr ""
+"अब जब आप क्रॉसविंड्स फ्रेमवर्क का उपयोग कर रहे हैं तो क्या आप अपनी वेबसाइट को अगले स्तर "
+"पर ले जाना चाहते हैं? क्रॉसविंड्स ब्लॉक प्लगइन देखें! यह प्लगइन आपकी वेबसाइट पर एक "
+"अकॉर्डियन ब्लॉक, टैब ब्लॉक, पोस्ट नेविगेशन ब्लॉक, संबंधित पोस्ट ब्लॉक, सोशल शेयरिंग ब्लॉक "
+"और बहुत कुछ जोड़ देगा। यह आपकी वेबसाइट को संपूर्ण साइट संपादक जगत में अनुकूलित करने का "
+"उत्तम तरीका है!"
+
+#: admin/crosswinds-framework-admin-page.php:93
+#, fuzzy
+msgid "Download Crosswinds Blocks"
+msgstr "क्रॉसविंड्स ब्लॉक डाउनलोड करें"
+
+#: admin/crosswinds-framework-admin-page.php:114
+#, fuzzy
+msgid "Required Plugins"
+msgstr "आवश्यक प्लगइन्स"
+
+#: admin/crosswinds-framework-admin-page.php:122
+#: admin/crosswinds-framework-admin-page.php:162
+#: admin/crosswinds-framework-admin-page.php:189
+#: admin/crosswinds-framework-admin-page.php:229 patterns/card-product.php:34
+#: patterns/homepage-local-services-business.php:32
+#: patterns/homepage-online-store.php:30 patterns/homepage-online-store.php:140
+#: patterns/homepage-online-store.php:172
+#: patterns/homepage-online-store.php:204
+#: patterns/homepage-online-store.php:236 patterns/homepage-product.php:28
+msgid "Learn More"
+msgstr "और अधिक जानें"
+
+#: admin/crosswinds-framework-admin-page.php:136
+#: admin/crosswinds-framework-admin-page.php:203
+#: inc/tgmpa/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "इन्स्टाल करें "
+
+#: admin/crosswinds-framework-admin-page.php:151
+#: admin/crosswinds-framework-admin-page.php:218
+#: inc/tgmpa/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "एक्टिवेट "
+
+#: admin/crosswinds-framework-admin-page.php:153
+#: admin/crosswinds-framework-admin-page.php:220
+#, fuzzy
+msgid "Installed"
+msgstr "स्थापित"
+
+#: admin/crosswinds-framework-admin-page.php:181
+#, fuzzy
+msgid "Suggested Plugins"
+msgstr "सुझाए गए प्लगइन्स"
+
+#. translators: %s: Search term.
+#: functions.php:66
+#, fuzzy, php-format
+msgid "Search results for \"%s\""
+msgstr "\"%s\" के लिए खोज परिणाम"
+
+#: functions.php:66
+#, fuzzy
+msgid "Search results"
+msgstr "खोज के परिणाम"
+
+#: functions.php:75
+#, fuzzy
+msgid "Full-height"
+msgstr "पूर्ण उँचाई"
+
+#: functions.php:93
+#, fuzzy
+msgid "JM Web Dev FSE Starter Theme"
+msgstr "जेएम वेब देव एफएसई स्टार्टर थीम"
+
+#: functions.php:100
+msgid "404"
+msgstr "४०४"
+
+#: functions.php:104
+#, fuzzy
+msgid "Archive"
+msgstr "पुरालेख"
+
+#: functions.php:108
+#, fuzzy
+msgid "Banners"
+msgstr "बैनर"
+
+#: functions.php:112
+#, fuzzy
+msgid "Blog Page Sections"
+msgstr "ब्लॉग पृष्ठ अनुभाग"
+
+#: functions.php:116
+#, fuzzy
+msgid "Blog Posts Sections"
+msgstr "ब्लॉग पोस्ट अनुभाग"
+
+#: functions.php:120
+#, fuzzy
+msgid "Business Cards"
+msgstr "बिजनेस कार्ड"
+
+#: functions.php:124
+#, fuzzy
+msgid "Callouts"
+msgstr "कॉल आउट"
+
+#: functions.php:128
+#, fuzzy
+msgid "Call to Action Sections"
+msgstr "कॉल टू एक्शन अनुभाग"
+
+#: functions.php:132
+#, fuzzy
+msgid "Cards"
+msgstr "पत्ते"
+
+#: functions.php:136
+msgid "Columns"
+msgstr "स्तंभे"
+
+#: functions.php:140 patterns/contact-card.php:13
+#: patterns/contact-us-one-column.php:15
+#: patterns/contact-us-two-columns-form-left.php:15
+#: patterns/contact-us-two-columns-form-right.php:15
+#: patterns/footer-contrast-large.php:48 patterns/footer-neutral-large.php:48
+msgid "Contact Us"
+msgstr "हमसे संपर्क करें"
+
+#: functions.php:144
+#, fuzzy
+msgid "Ecommerce"
+msgstr "ई-कॉमर्स"
+
+#: functions.php:148
+#, fuzzy
+msgid "Elements"
+msgstr "तत्वों"
+
+#: functions.php:152
+#, fuzzy
+msgid "Featured Content"
+msgstr "प्रदर्शित सामग्री"
+
+#: functions.php:156
+#, fuzzy
+msgid "Features"
+msgstr "विशेषताएँ"
+
+#: functions.php:160
+msgid "Footer"
+msgstr "पादिका"
+
+#: functions.php:164 patterns/faqs-section-one-column.php:13
+#: patterns/faqs-section-two-columns.php:13
+#, fuzzy
+msgid "Frequently Asked Questions"
+msgstr "अक्सर पूछे जाने वाले प्रश्नों"
+
+#: functions.php:168
+#, fuzzy
+msgid "Header"
+msgstr "हैडर"
+
+#: functions.php:172
+#, fuzzy
+msgid "Hero Sections"
+msgstr "हीरो सेक्शन"
+
+#: functions.php:176
+#, fuzzy
+msgid "Homepage"
+msgstr "मुखपृष्ठ"
+
+#: functions.php:180
+#, fuzzy
+msgid "How We Do It Sections"
+msgstr "हम इसे कैसे करते हैं अनुभाग"
+
+#: functions.php:184
+#, fuzzy
+msgid "Links"
+msgstr "लिंक"
+
+#: functions.php:188
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: functions.php:192
+#, fuzzy
+msgid "Photo Grids"
+msgstr "फोटो ग्रिड"
+
+#: functions.php:196
+#, fuzzy
+msgid "Posts"
+msgstr "पदों"
+
+#: functions.php:200
+msgid "Post Content"
+msgstr "पोस्ट सामग्री"
+
+#: functions.php:204
+#, fuzzy
+msgid "Pricing Tables"
+msgstr "मूल्य निर्धारण तालिकाएँ"
+
+#: functions.php:208
+#, fuzzy
+msgid "Projects"
+msgstr "परियोजनाओं"
+
+#: functions.php:212
+#, fuzzy
+msgid "Queries"
+msgstr "प्रश्नों"
+
+#: functions.php:216
+#, fuzzy
+msgid "Resume Sections"
+msgstr "अनुभाग फिर से शुरू करें"
+
+#: functions.php:220 patterns/error-content-left-sidebar.php:23
+#: patterns/error-content-right-sidebar.php:19 patterns/error-content.php:15
+#, fuzzy
+msgid "Search"
+msgstr "खोज"
+
+#: functions.php:224
+#, fuzzy
+msgid "Services"
+msgstr "सेवाएं"
+
+#: functions.php:228
+#, fuzzy
+msgid "Site Titles"
+msgstr "साइट शीर्षक"
+
+#: functions.php:232
+#, fuzzy
+msgid "Skills Sliders"
+msgstr "कौशल स्लाइडर"
+
+#: functions.php:236
+#, fuzzy
+msgid "Stats"
+msgstr "आँकड़े"
+
+#: functions.php:240
+#, fuzzy
+msgid "Talk Sections"
+msgstr "वार्ता अनुभाग"
+
+#: functions.php:244
+#, fuzzy
+msgid "Team Members"
+msgstr "टीम के सदस्य"
+
+#: functions.php:248
+#, fuzzy
+msgid "Testimonials"
+msgstr "प्रशंसापत्र"
+
+#: functions.php:252
+#, fuzzy
+msgid "Text and Media"
+msgstr "पाठ और मीडिया"
+
+#: functions.php:256
+#, fuzzy
+msgid "Widgets"
+msgstr "विजेट"
+
+#: functions.php:407
+#, fuzzy
+msgid "Crosswinds Framework & Block Settings"
+msgstr "क्रॉसविंड्स फ्रेमवर्क और ब्लॉक सेटिंग्स"
+
+#: functions.php:408
+#, fuzzy
+msgid "Crosswinds"
+msgstr "क्रॉसविंड्स"
+
+#: functions.php:529
+#, fuzzy
+msgid ""
+"Want to get the most out of Crosswinds Blocks? Checkout the Crosswinds "
+"Framework themes! From a portfolio to an online store to a newspaper website "
+"and even a blank canvas to create anything you want, the Crosswinds "
+"Framework will help you create a great website."
+msgstr ""
+"क्या आप क्रॉसविंड ब्लॉक्स से अधिकतम लाभ प्राप्त करना चाहते हैं? क्रॉसविंड्स फ्रेमवर्क थीम "
+"चेकआउट करें! एक पोर्टफ़ोलियो से लेकर एक ऑनलाइन स्टोर से लेकर एक अखबार की वेबसाइट और यहां "
+"तक कि जो कुछ भी आप चाहते हैं उसे बनाने के लिए एक खाली कैनवास तक, क्रॉसविंड्स फ्रेमवर्क "
+"आपको एक बेहतरीन वेबसाइट बनाने में मदद करेगा।"
+
+#: functions.php:538 functions.php:540
+#, fuzzy
+msgid "Report an Issue"
+msgstr "मामले की रिपोर्ट करें"
+
+#: functions.php:539
+#, fuzzy
+msgid ""
+"If you come across an issue with the Crosswinds Framework, please report the "
+"issue in the GitHub repository using the link below."
+msgstr ""
+"यदि आपको क्रॉसविंड्स फ्रेमवर्क के साथ कोई समस्या आती है, तो कृपया नीचे दिए गए लिंक का "
+"उपयोग करके GitHub रिपॉजिटरी में समस्या की रिपोर्ट करें।"
+
+#: functions.php:550 functions.php:552
+#, fuzzy
+msgid "Suggest a Feature"
+msgstr "एक विशेषता सुझाएँ"
+
+#: functions.php:551
+#, fuzzy
+msgid ""
+"Want to see a new feature included in a release of the Crosswinds Framework? "
+"Be sure to drop your feature idea off in the GitHub repository using the "
+"link below."
+msgstr ""
+"क्या आप क्रॉसविंड्स फ़्रेमवर्क की रिलीज़ में शामिल एक नई सुविधा देखना चाहते हैं? नीचे दिए गए "
+"लिंक का उपयोग करके अपने फीचर विचार को GitHub रिपॉजिटरी में डालना सुनिश्चित करें।"
+
+#: functions.php:562 functions.php:564
+#, fuzzy
+msgid "Leave a Review"
+msgstr "समीक्षा लिखें"
+
+#: functions.php:563
+#, fuzzy
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo "
+"consequat."
+msgstr ""
+"लोरेम इप्सम डोलोर सिट अमेट, कंसेक्टेचर एडिपिसिंग एलीट, सेड डू ईयसमॉड टेम्पोर इंसिडिडंट यूट "
+"लेबोर एट डोलोर मैग्ना अलिका। यूटी एनिम एड मिनिम वेनियम, क्विस नोस्ट्रूड एक्सर्सिटेशन "
+"उल्लामको लेबोरिस निसी यूटी एलिक्विप एक्स ईए कमोडो कॉन्सक्वेट।"
+
+#: functions.php:574 functions.php:576
+msgid "View Documentation"
+msgstr "दस्तावेज़ीकरण देखें"
+
+#: functions.php:575
+#, fuzzy
+msgid ""
+"Learn how you can get started using the Crosswinds Framework for your "
+"website by visiting the documentation at the link below."
+msgstr ""
+"नीचे दिए गए लिंक पर दस्तावेज़ पर जाकर जानें कि आप अपनी वेबसाइट के लिए क्रॉसविंड फ्रेमवर्क "
+"का उपयोग कैसे शुरू कर सकते हैं।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:334
+#, fuzzy
+msgid "Install Required Plugins"
+msgstr "आवश्यक प्लगिन स्थापित करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:335
+#, fuzzy
+msgid "Install Plugins"
+msgstr "प्लगइन्स इंस्टॉल करें"
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "प्लगइन स्थापित करना:  %s"
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "प्लगइन अपडेट करना: %s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:340
+#, fuzzy
+msgid "Something went wrong with the plugin API."
+msgstr "प्लगइन एपीआई में कुछ गड़बड़ हो गई।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:343
+#, fuzzy, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "इस थीम के लिए निम्नलिखित प्लगइन की आवश्यकता है: %1$s."
+msgstr[1] "इस थीम के लिए निम्नलिखित प्लगइन्स की आवश्यकता है: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:349
+#, fuzzy, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "यह थीम निम्नलिखित प्लगइन की अनुशंसा करती है: %1$s."
+msgstr[1] "यह थीम निम्नलिखित प्लगइन्स की अनुशंसा करती है: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:355
+#, fuzzy, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"इस थीम के साथ अधिकतम अनुकूलता सुनिश्चित करने के लिए निम्नलिखित प्लगइन को इसके नवीनतम "
+"संस्करण में अद्यतन करने की आवश्यकता है: %1$s।"
+msgstr[1] ""
+"इस थीम के साथ अधिकतम अनुकूलता सुनिश्चित करने के लिए निम्नलिखित प्लगइन्स को उनके नवीनतम "
+"संस्करण में अद्यतन करने की आवश्यकता है: %1$s।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:361
+#, fuzzy, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "इसके लिए एक अपडेट उपलब्ध है: %1$s."
+msgstr[1] "निम्नलिखित प्लगइन्स के लिए अपडेट उपलब्ध हैं: %1$s।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:367
+#, fuzzy, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "निम्नलिखित आवश्यक प्लगइन वर्तमान में निष्क्रिय है: %1$s।"
+msgstr[1] "निम्नलिखित आवश्यक प्लगइन्स वर्तमान में निष्क्रिय हैं: %1$s।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:373
+#, fuzzy, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "निम्नलिखित अनुशंसित प्लगइन वर्तमान में निष्क्रिय है: %1$s।"
+msgstr[1] "निम्नलिखित अनुशंसित प्लगइन्स वर्तमान में निष्क्रिय हैं: %1$s।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:378
+#, fuzzy
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "प्लगइन इंस्टॉल करना शुरू करें"
+msgstr[1] "प्लगइन्स इंस्टॉल करना शुरू करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:383
+#, fuzzy
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "प्लगइन अपडेट करना प्रारंभ करें"
+msgstr[1] "प्लगइन्स अपडेट करना शुरू करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:388
+#, fuzzy
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "प्लगइन सक्रिय करना प्रारंभ करें"
+msgstr[1] "प्लगइन्स सक्रिय करना प्रारंभ करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:392
+#, fuzzy
+msgid "Return to Required Plugins Installer"
+msgstr "आवश्यक प्लगइन इंस्टॉलर पर वापस आएं"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:393
+#: inc/tgmpa/class-tgm-plugin-activation.php:920
+#: inc/tgmpa/class-tgm-plugin-activation.php:2626
+#: inc/tgmpa/class-tgm-plugin-activation.php:3673
+#, fuzzy
+msgid "Return to the Dashboard"
+msgstr "डाइश्बोर्ड पर वापस आएं"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:394
+#: inc/tgmpa/class-tgm-plugin-activation.php:3252
+#, fuzzy
+msgid "Plugin activated successfully."
+msgstr "प्लगइन सफलतापूर्वक सक्रिय हो गया."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:395
+#: inc/tgmpa/class-tgm-plugin-activation.php:3045
+#, fuzzy
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "निम्नलिखित प्लगइन सफलतापूर्वक सक्रिय किया गया था:"
+msgstr[1] "निम्नलिखित प्लगइन्स सफलतापूर्वक सक्रिय किए गए:"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "कोई कार्रवाई नहीं। प्लगइन %1$s पहले से ही सक्रिय था।"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:399
+#, fuzzy, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"प्लगइन सक्रिय नहीं है. इस थीम के लिए %s के उच्चतर संस्करण की आवश्यकता है. कृपया प्लगइन "
+"अपडेट करें."
+
+#. translators: 1: dashboard link.
+#: inc/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "सभी प्लगइनस इंस्टाल और सफलतापूर्वक एक्टिवेट कर दी गयी है । %1$s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:402
+#, fuzzy
+msgid "Dismiss this notice"
+msgstr "इस नोटिस को खारिज करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:403
+#, fuzzy
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "इंस्टॉल, अपडेट या सक्रिय करने के लिए एक या अधिक आवश्यक या अनुशंसित प्लगइन्स हैं।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:404
+#, fuzzy
+msgid "Please contact the administrator of this site for help."
+msgstr "कृपया सहायता के लिए इस साइट के व्यवस्थापक से संपर्क करें।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:607
+#, fuzzy
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "इस प्लगइन को आपकी थीम के अनुकूल होने के लिए अद्यतन करने की आवश्यकता है।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:608
+#, fuzzy
+msgid "Update Required"
+msgstr "अद्यतन आवश्यक है"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:725
+#, fuzzy
+msgid "Set the parent_slug config variable instead."
+msgstr "इसके बजाय पेरेंट_स्लग कॉन्फिग वैरिएबल सेट करें।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1027
+#, fuzzy
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"रिमोट प्लगइन पैकेज में वांछित स्लग वाला कोई फ़ोल्डर नहीं है और नाम बदलने से काम नहीं हुआ।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1027
+#: inc/tgmpa/class-tgm-plugin-activation.php:1030
+#, fuzzy
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"कृपया प्लगइन प्रदाता से संपर्क करें और उन्हें वर्डप्रेस दिशानिर्देशों के अनुसार अपने प्लगइन को "
+"पैकेज करने के लिए कहें।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1030
+#, fuzzy
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"रिमोट प्लगइन पैकेज में एक से अधिक फ़ाइलें होती हैं, लेकिन फ़ाइलें किसी फ़ोल्डर में पैक नहीं की "
+"जाती हैं।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1214
+#: inc/tgmpa/class-tgm-plugin-activation.php:3041
+#, fuzzy
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "और"
+
+#. translators: %s: version number
+#: inc/tgmpa/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "टीजीएमपीए v%s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2366
+#, fuzzy
+msgid "Required"
+msgstr "आवश्यक"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2369
+#, fuzzy
+msgid "Recommended"
+msgstr "अनुशंसित"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2385
+#, fuzzy
+msgid "WordPress Repository"
+msgstr "वर्डप्रेस रिपॉजिटरी"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2388
+#, fuzzy
+msgid "External Source"
+msgstr "वाह्य स्रोत"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2391
+#, fuzzy
+msgid "Pre-Packaged"
+msgstr "पहले से पैक किया"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2408
+#, fuzzy
+msgid "Not Installed"
+msgstr "स्थापित नहीं हे"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "इंस्टाल है, लेकिन एक्टिवेट नहीं है "
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "सक्रिय"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2420
+#, fuzzy
+msgid "Required Update not Available"
+msgstr "आवश्यक अद्यतन उपलब्ध नहीं है"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2423
+#, fuzzy
+msgid "Requires Update"
+msgstr "अद्यतन की आवश्यकता है"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2426
+#, fuzzy
+msgid "Update recommended"
+msgstr "अपडेट की सलाह दी गई"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgmpa/class-tgm-plugin-activation.php:2435
+#, fuzzy, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2481
+#, fuzzy, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "सभी <span class=\"count\">(%s)</span>"
+msgstr[1] "सभी <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2485
+#, fuzzy, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "स्थापित करने के लिए <span class=\"count\">(%s)</span>"
+msgstr[1] "स्थापित करने के लिए <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2489
+#, fuzzy, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "अद्यतन उपलब्ध है <span class=\"count\">(%s)</span>"
+msgstr[1] "अद्यतन उपलब्ध है <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2493
+#, fuzzy, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "सक्रिय करने के लिए <span class=\"count\">(%s)</span>"
+msgstr[1] "सक्रिय करने के लिए <span class=\"count\">(%s)</span>"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2583
+#, fuzzy
+msgid "Installed version:"
+msgstr "स्थापित संस्करण:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2591
+#, fuzzy
+msgid "Minimum required version:"
+msgstr "न्यूनतम आवश्यक संस्करण:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2603
+#, fuzzy
+msgid "Available version:"
+msgstr "उपलब्ध संस्करण:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2626
+#, fuzzy
+msgid "No plugins to install, update or activate."
+msgstr "इंस्टॉल, अपडेट या सक्रिय करने के लिए कोई प्लगइन नहीं।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2640
+#, fuzzy
+msgid "Plugin"
+msgstr "लगाना"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2641
+#, fuzzy
+msgid "Source"
+msgstr "स्रोत"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "टाइप"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "ऑर्डर स्थिति"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "स्थापित करें %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "अद्यतन %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "सक्रिय करता है %2$s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2777
+#, fuzzy
+msgid "Upgrade message from the plugin author:"
+msgstr "प्लगइन लेखक से अपग्रेड संदेश:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "अपडेट करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2850
+#, fuzzy
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "इंस्टॉल करने के लिए कोई प्लगइन नहीं चुना गया था. कोई कार्रवाई नहीं की।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2852
+#, fuzzy
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "अद्यतन करने के लिए कोई प्लगइन्स नहीं चुना गया था। कोई कार्रवाई नहीं की।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2893
+#, fuzzy
+msgid "No plugins are available to be installed at this time."
+msgstr "इस समय इंस्टॉल करने के लिए कोई प्लगइन उपलब्ध नहीं है।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2895
+#, fuzzy
+msgid "No plugins are available to be updated at this time."
+msgstr "इस समय अपडेट करने के लिए कोई प्लगइन उपलब्ध नहीं है।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3001
+#, fuzzy
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "सक्रिय करने के लिए कोई प्लगइन नहीं चुना गया था। कोई कार्रवाई नहीं की।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3027
+#, fuzzy
+msgid "No plugins are available to be activated at this time."
+msgstr "इस समय सक्रिय करने के लिए कोई प्लगइन उपलब्ध नहीं है।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3251
+#, fuzzy
+msgid "Plugin activation failed."
+msgstr "प्लगइन सक्रियण विफल रहा."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "अद्यतन कर रहा है प्लगइन %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "<strong>%2$s: </strong> %1$s स्थापित करते समय एक त्रुटि हुई।"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s की इंस्टालेशन विफल रही ।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"इंस्टालेशन और एक्टिवेशन की प्रक्रिया शुरू हो रही है। इस प्रक्रिया में कुछ होस्ट्स पर कुछ समय "
+"लग सकता है, तो कृपया धैर्य रखें।"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s सफलतापूर्वक इन्स्टाल और एक्टिवेट कर दिया गया ।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3602
+#: inc/tgmpa/class-tgm-plugin-activation.php:3610
+#, fuzzy
+msgid "Show Details"
+msgstr "प्रदर्शन का विवरण"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3602
+#: inc/tgmpa/class-tgm-plugin-activation.php:3610
+#, fuzzy
+msgid "Hide Details"
+msgstr "विवरण छुपाओ"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "सभी इंस्टालेशन और एक्टिवेशन पूरी हो चुकी है।"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s (%2$d/%3$d) प्लगइन इन्स्टाल और एक्टिवेट हो रहा है "
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3608
+#, fuzzy
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"स्थापना प्रक्रिया प्रारंभ हो रही है. कुछ होस्टों पर इस प्रक्रिया में कुछ समय लग सकता है, "
+"इसलिए कृपया धैर्य रखें।"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s सफलतापूर्वक स्थापित किया गया है।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3611
+#, fuzzy
+msgid "All installations have been completed."
+msgstr "सभी इंस्टॉलेशन पूरे हो चुके हैं."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s (%2$d/%3$d) प्लगइन इन्स्टाल हो रही है"
+
+#: index.php:12
+#, fuzzy
+msgid ""
+"This theme was built for the WordPress full-site-editing feature. You need "
+"to be using WordPress 5.9 or higher to make it work."
+msgstr ""
+"यह थीम वर्डप्रेस पूर्ण-साइट-संपादन सुविधा के लिए बनाई गई थी। इसे काम करने के लिए आपको "
+"वर्डप्रेस 5.9 या उच्चतर का उपयोग करना होगा।"
+
+#: patterns/callout-base-one-column.php:13
+#: patterns/callout-base-two-columns.php:15
+#: patterns/callout-contrast-one-column.php:13
+#: patterns/callout-contrast-two-columns.php:15
+#, fuzzy
+msgid "Callout Title"
+msgstr "कॉलआउट शीर्षक"
+
+#: patterns/callout-base-one-column.php:22
+#: patterns/callout-base-two-columns.php:26
+#: patterns/callout-contrast-one-column.php:22
+#: patterns/callout-contrast-two-columns.php:26
+#: patterns/footer-contrast-call-to-action.php:25
+#: patterns/footer-neutral-call-to-action.php:25
+#, fuzzy
+msgid "Call to Action Button"
+msgstr "कॉल टू एक्शन बटन"
+
+#: patterns/card-page.php:20 patterns/card-post.php:30
+#, fuzzy
+msgid "Continue Reading"
+msgstr "जारी रखें पढ़ रहे हैं"
+
+#: patterns/category-card.php:18
+#, fuzzy
+msgid "Category Title"
+msgstr "श्रेणी शीर्षक"
+
+#: patterns/category-card.php:27
+#, fuzzy
+msgid "View Category"
+msgstr "श्रेणी देखें"
+
+#: patterns/contact-card.php:18
+#, fuzzy
+msgid "Email:"
+msgstr "ईमेल:"
+
+#: patterns/contact-card.php:32
+#, fuzzy
+msgid "Phone:"
+msgstr "फ़ोन:"
+
+#: patterns/contact-card.php:46
+#, fuzzy
+msgid "Address:"
+msgstr "पता:"
+
+#: patterns/contact-card.php:86
+#, fuzzy
+msgid "Send Us a Message"
+msgstr "हमें एक संदेश भेजें"
+
+#: patterns/contact-us-one-column.php:24
+#: patterns/contact-us-two-columns-form-left.php:32
+#: patterns/contact-us-two-columns-form-right.php:26
+#: patterns/footer-contrast-large.php:52 patterns/footer-neutral-large.php:52
+#, fuzzy
+msgid "Email: me@example.com"
+msgstr "ईमेल: me@example.com"
+
+#: patterns/contact-us-one-column.php:28
+#: patterns/contact-us-two-columns-form-left.php:36
+#: patterns/contact-us-two-columns-form-right.php:30
+#: patterns/footer-contrast-large.php:56 patterns/footer-neutral-large.php:56
+#, fuzzy
+msgid "Phone: 123-456-7890"
+msgstr "फ़ोन: 123-456-7890"
+
+#: patterns/contact-us-one-column.php:34
+#: patterns/contact-us-two-columns-form-left.php:42
+#: patterns/contact-us-two-columns-form-right.php:36
+#, fuzzy
+msgid "Find Us On:"
+msgstr "हमें यहाँ तलाशें:"
+
+#: patterns/contact-us-one-column.php:59
+#: patterns/contact-us-two-columns-form-left.php:25
+#: patterns/contact-us-two-columns-form-right.php:63
+#, fuzzy
+msgid "Put Your Contact Form Here"
+msgstr "अपना संपर्क फ़ॉर्म यहां रखें"
+
+#: patterns/error-content-left-sidebar.php:20
+#: patterns/error-content-right-sidebar.php:16 patterns/error-content.php:12
+#, fuzzy
+msgid ""
+"Oops. It looks like the page you're looking for isn't here. You can use the "
+"search form below or look through the links to find the post or page you're "
+"looking for."
+msgstr ""
+"उफ़. ऐसा लगता है कि आप जिस पृष्ठ की तलाश कर रहे हैं वह यहां नहीं है। आप जिस पोस्ट या पेज "
+"को खोज रहे हैं उसे ढूंढने के लिए आप नीचे दिए गए खोज फ़ॉर्म का उपयोग कर सकते हैं या लिंक देख "
+"सकते हैं।"
+
+#: patterns/error-content-left-sidebar.php:26
+#: patterns/error-content-right-sidebar.php:22 patterns/error-content.php:18
+msgid "Pages"
+msgstr "पेज"
+
+#: patterns/error-content-left-sidebar.php:32
+#: patterns/error-content-right-sidebar.php:28 patterns/error-content.php:24
+msgid "Categories"
+msgstr "श्रेणियाँ"
+
+#: patterns/faqs-section-one-column.php:24
+#: patterns/faqs-section-one-column.php:38
+#: patterns/faqs-section-one-column.php:52
+#: patterns/faqs-section-two-columns.php:26
+#: patterns/faqs-section-two-columns.php:40
+#: patterns/faqs-section-two-columns.php:54
+#: patterns/faqs-section-two-columns.php:72
+#: patterns/faqs-section-two-columns.php:86
+#: patterns/faqs-section-two-columns.php:100
+#, fuzzy
+msgid "This is a heading"
+msgstr "यह एक शीर्षक है"
+
+#: patterns/feature-icon-neutral-center.php:17
+#: patterns/feature-icon-neutral-left.php:17
+#: patterns/feature-icon-transparent-center.php:17
+#: patterns/feature-icon-transparent-left.php:17
+#: patterns/feature-neutral-center.php:13 patterns/feature-neutral-left.php:13
+#: patterns/feature-transparent-center.php:13
+#: patterns/feature-transparent-left.php:13
+#: patterns/features-section-2-box-grid-base.php:29
+#: patterns/features-section-2-box-grid-base.php:47
+#: patterns/features-section-2-box-grid-base.php:65
+#: patterns/features-section-2-box-grid-base.php:83
+#: patterns/features-section-2-box-grid-contrast.php:29
+#: patterns/features-section-2-box-grid-contrast.php:47
+#: patterns/features-section-2-box-grid-contrast.php:65
+#: patterns/features-section-2-box-grid-contrast.php:83
+#: patterns/features-section-3-box-grid-base.php:29
+#: patterns/features-section-3-box-grid-base.php:47
+#: patterns/features-section-3-box-grid-base.php:65
+#: patterns/features-section-3-box-grid-base.php:83
+#: patterns/features-section-3-box-grid-base.php:101
+#: patterns/features-section-3-box-grid-base.php:119
+#: patterns/features-section-3-box-grid-contrast.php:29
+#: patterns/features-section-3-box-grid-contrast.php:47
+#: patterns/features-section-3-box-grid-contrast.php:65
+#: patterns/features-section-3-box-grid-contrast.php:83
+#: patterns/features-section-3-box-grid-contrast.php:101
+#: patterns/features-section-3-box-grid-contrast.php:119
+#: patterns/features-section-photo-left-base.php:37
+#: patterns/features-section-photo-left-base.php:55
+#: patterns/features-section-photo-left-base.php:73
+#: patterns/features-section-photo-left-base.php:91
+#: patterns/features-section-photo-left-contrast.php:37
+#: patterns/features-section-photo-left-contrast.php:55
+#: patterns/features-section-photo-left-contrast.php:73
+#: patterns/features-section-photo-left-contrast.php:91
+#, fuzzy
+msgid "Feature Heading"
+msgstr "फ़ीचर शीर्षक"
+
+#: patterns/featured-content-base-photo-left.php:15
+#: patterns/featured-content-contrast-photo-left.php:15
+#: patterns/hero-section-base-photo-right.php:31
+#: patterns/hero-section-contrast-photo-right.php:31
+#, fuzzy
+msgid "A photo of The Flying Squirrel in downtown Mansfield"
+msgstr "डाउनटाउन मैन्सफ़ील्ड में उड़ने वाली गिलहरी की एक तस्वीर"
+
+#: patterns/featured-content-base-photo-left.php:21
+#: patterns/featured-content-base-photo-right.php:15
+#: patterns/featured-content-contrast-photo-left.php:21
+#: patterns/featured-content-contrast-photo-right.php:15
+#: patterns/hero-section-base-center.php:13
+#: patterns/hero-section-base-photo-left.php:21
+#: patterns/hero-section-base-photo-right.php:15
+#: patterns/hero-section-contrast-center.php:13
+#: patterns/hero-section-contrast-photo-left.php:21
+#: patterns/hero-section-contrast-photo-right.php:15
+#: patterns/hero-section-cover-center.php:15
+#: patterns/hero-section-cover-left.php:17
+#: patterns/hero-section-cover-right.php:21
+#, fuzzy
+msgid "This is a Heading"
+msgstr "यह एक शीर्षक है"
+
+#: patterns/featured-content-base-photo-left.php:30
+#: patterns/featured-content-base-photo-right.php:24
+#: patterns/featured-content-contrast-photo-left.php:30
+#: patterns/featured-content-contrast-photo-right.php:24
+#: patterns/hero-section-base-center.php:22
+#: patterns/hero-section-base-photo-left.php:30
+#: patterns/hero-section-base-photo-right.php:24
+#: patterns/hero-section-contrast-center.php:22
+#: patterns/hero-section-contrast-photo-left.php:30
+#: patterns/hero-section-contrast-photo-right.php:24
+#: patterns/hero-section-cover-center.php:24
+#: patterns/hero-section-cover-left.php:26
+#: patterns/hero-section-cover-right.php:30
+#, fuzzy
+msgid "Add a Button Here"
+msgstr "यहां एक बटन जोड़ें"
+
+#: patterns/featured-content-base-photo-right.php:31
+#: patterns/featured-content-contrast-photo-right.php:31
+#: patterns/hero-section-base-photo-left.php:15
+#: patterns/hero-section-contrast-photo-left.php:15
+#, fuzzy
+msgid "A photo of the welcome to Historic Downtown Mansfield sign"
+msgstr "ऐतिहासिक डाउनटाउन मैन्सफील्ड साइन में स्वागत की एक तस्वीर"
+
+#: patterns/features-section-2-box-grid-base.php:13
+#: patterns/features-section-2-box-grid-contrast.php:13
+#: patterns/features-section-3-box-grid-base.php:13
+#: patterns/features-section-3-box-grid-contrast.php:13
+#: patterns/features-section-photo-left-base.php:21
+#: patterns/features-section-photo-left-contrast.php:21
+#: patterns/homepage-product.php:39
+#, fuzzy
+msgid "Our Product's Features"
+msgstr "हमारे उत्पाद की विशेषताएं"
+
+#: patterns/footer-contrast-call-to-action.php:16
+#: patterns/footer-neutral-call-to-action.php:16
+#, fuzzy
+msgid "Call to Action Here"
+msgstr "यहां कार्रवाई के लिए कॉल करें"
+
+#: patterns/footer-contrast-call-to-action.php:34
+#: patterns/footer-contrast-call-to-action.php:42
+#: patterns/footer-contrast-large.php:24 patterns/footer-contrast-large.php:32
+#: patterns/footer-contrast-large.php:40
+#: patterns/footer-contrast-x-large.php:16
+#: patterns/footer-contrast-x-large.php:24
+#: patterns/footer-contrast-x-large.php:32
+#: patterns/footer-contrast-x-large.php:40
+#: patterns/footer-contrast-x-large.php:48
+#: patterns/footer-contrast-x-large.php:56
+#: patterns/footer-neutral-call-to-action.php:34
+#: patterns/footer-neutral-call-to-action.php:42
+#: patterns/footer-neutral-large.php:24 patterns/footer-neutral-large.php:32
+#: patterns/footer-neutral-large.php:40 patterns/footer-neutral-x-large.php:16
+#: patterns/footer-neutral-x-large.php:24
+#: patterns/footer-neutral-x-large.php:32
+#: patterns/footer-neutral-x-large.php:40
+#: patterns/footer-neutral-x-large.php:48
+#: patterns/footer-neutral-x-large.php:56
+#, fuzzy
+msgid "Menu Title"
+msgstr "मेनू शीर्षक"
+
+#: patterns/homepage-local-services-business.php:19
+#, fuzzy
+msgid "Welcome to My Business!"
+msgstr "मेरे व्यवसाय में आपका स्वागत है!"
+
+#: patterns/homepage-local-services-business.php:28
+#: patterns/homepage-local-services-business.php:568
+#, fuzzy
+msgid "Request a Quote"
+msgstr "एक उद्धरण का अनुरोध करें"
+
+#: patterns/homepage-local-services-business.php:83
+#, fuzzy
+msgid "Great Work"
+msgstr "महान काम"
+
+#: patterns/homepage-local-services-business.php:101
+#, fuzzy
+msgid "Rapid Response"
+msgstr "त्वरित प्रतिक्रिया"
+
+#: patterns/homepage-local-services-business.php:119
+#, fuzzy
+msgid "Perfect Customer Service"
+msgstr "उत्तम ग्राहक सेवा"
+
+#: patterns/homepage-local-services-business.php:137
+#, fuzzy
+msgid "Great Reviews"
+msgstr "बढ़िया समीक्षाएँ"
+
+#: patterns/homepage-local-services-business.php:155
+#, fuzzy
+msgid "Lifetime Warranty"
+msgstr "जीवनकाल वारंटी"
+
+#: patterns/homepage-local-services-business.php:173
+#, fuzzy
+msgid "Flexible Financing"
+msgstr "लचीला वित्तपोषण"
+
+#: patterns/homepage-local-services-business.php:187
+#: patterns/homepage-portfolio.php:185 patterns/homepage-product.php:199
+#: patterns/testimonials-section-2-box-grid-base.php:13
+#: patterns/testimonials-section-2-box-grid-contrast.php:13
+#: patterns/testimonials-section-3-box-grid-base.php:13
+#: patterns/testimonials-section-3-box-grid-contrast.php:13
+#, fuzzy
+msgid "What Others Have Said"
+msgstr "दूसरों ने क्या कहा है"
+
+#: patterns/homepage-local-services-business.php:215
+#: patterns/homepage-local-services-business.php:247
+#: patterns/homepage-local-services-business.php:279
+#: patterns/homepage-local-services-business.php:311
+#: patterns/homepage-online-store.php:359
+#: patterns/homepage-online-store.php:391
+#: patterns/homepage-online-store.php:423
+#: patterns/homepage-online-store.php:455 patterns/homepage-portfolio.php:213
+#: patterns/homepage-portfolio.php:245 patterns/homepage-portfolio.php:277
+#: patterns/homepage-portfolio.php:309 patterns/homepage-portfolio.php:341
+#: patterns/homepage-portfolio.php:373 patterns/homepage-product.php:227
+#: patterns/homepage-product.php:259 patterns/homepage-product.php:291
+#: patterns/homepage-product.php:323 patterns/team-member-column.php:18
+#: patterns/team-member-row.php:21
+#: patterns/team-members-section-grid-base.php:32
+#: patterns/team-members-section-grid-base.php:82
+#: patterns/team-members-section-grid-base.php:132
+#: patterns/team-members-section-grid-base.php:182
+#: patterns/team-members-section-grid-contrast.php:32
+#: patterns/team-members-section-grid-contrast.php:82
+#: patterns/team-members-section-grid-contrast.php:132
+#: patterns/team-members-section-grid-contrast.php:182
+#: patterns/team-members-section-rows-base.php:32
+#: patterns/team-members-section-rows-base.php:82
+#: patterns/team-members-section-rows-base.php:132
+#: patterns/team-members-section-rows-base.php:182
+#: patterns/team-members-section-rows-contrast.php:32
+#: patterns/team-members-section-rows-contrast.php:82
+#: patterns/team-members-section-rows-contrast.php:132
+#: patterns/team-members-section-rows-contrast.php:182
+#: patterns/testimonial-neutral-no-stars.php:25
+#: patterns/testimonial-neutral-stars.php:29
+#: patterns/testimonial-transparent-no-stars.php:25
+#: patterns/testimonial-transparent-stars.php:29
+#: patterns/testimonials-section-2-box-grid-base.php:41
+#: patterns/testimonials-section-2-box-grid-base.php:73
+#: patterns/testimonials-section-2-box-grid-base.php:105
+#: patterns/testimonials-section-2-box-grid-base.php:137
+#: patterns/testimonials-section-2-box-grid-contrast.php:41
+#: patterns/testimonials-section-2-box-grid-contrast.php:73
+#: patterns/testimonials-section-2-box-grid-contrast.php:105
+#: patterns/testimonials-section-2-box-grid-contrast.php:137
+#: patterns/testimonials-section-3-box-grid-base.php:41
+#: patterns/testimonials-section-3-box-grid-base.php:73
+#: patterns/testimonials-section-3-box-grid-base.php:105
+#: patterns/testimonials-section-3-box-grid-base.php:137
+#: patterns/testimonials-section-3-box-grid-base.php:169
+#: patterns/testimonials-section-3-box-grid-base.php:201
+#: patterns/testimonials-section-3-box-grid-contrast.php:41
+#: patterns/testimonials-section-3-box-grid-contrast.php:73
+#: patterns/testimonials-section-3-box-grid-contrast.php:105
+#: patterns/testimonials-section-3-box-grid-contrast.php:137
+#: patterns/testimonials-section-3-box-grid-contrast.php:169
+#: patterns/testimonials-section-3-box-grid-contrast.php:201
+#, fuzzy
+msgid "Person Name"
+msgstr "व्यक्ति का नाम"
+
+#: patterns/homepage-local-services-business.php:219
+#: patterns/homepage-local-services-business.php:251
+#: patterns/homepage-local-services-business.php:283
+#: patterns/homepage-local-services-business.php:315
+#: patterns/homepage-online-store.php:363
+#: patterns/homepage-online-store.php:395
+#: patterns/homepage-online-store.php:427
+#: patterns/homepage-online-store.php:459 patterns/homepage-portfolio.php:217
+#: patterns/homepage-portfolio.php:249 patterns/homepage-portfolio.php:281
+#: patterns/homepage-portfolio.php:313 patterns/homepage-portfolio.php:345
+#: patterns/homepage-portfolio.php:377 patterns/homepage-product.php:231
+#: patterns/homepage-product.php:263 patterns/homepage-product.php:295
+#: patterns/homepage-product.php:327
+#: patterns/testimonial-neutral-no-stars.php:29
+#: patterns/testimonial-neutral-stars.php:33
+#: patterns/testimonial-transparent-no-stars.php:29
+#: patterns/testimonial-transparent-stars.php:33
+#: patterns/testimonials-section-2-box-grid-base.php:45
+#: patterns/testimonials-section-2-box-grid-base.php:77
+#: patterns/testimonials-section-2-box-grid-base.php:109
+#: patterns/testimonials-section-2-box-grid-base.php:141
+#: patterns/testimonials-section-2-box-grid-contrast.php:45
+#: patterns/testimonials-section-2-box-grid-contrast.php:77
+#: patterns/testimonials-section-2-box-grid-contrast.php:109
+#: patterns/testimonials-section-2-box-grid-contrast.php:141
+#: patterns/testimonials-section-3-box-grid-base.php:45
+#: patterns/testimonials-section-3-box-grid-base.php:77
+#: patterns/testimonials-section-3-box-grid-base.php:109
+#: patterns/testimonials-section-3-box-grid-base.php:141
+#: patterns/testimonials-section-3-box-grid-base.php:173
+#: patterns/testimonials-section-3-box-grid-base.php:205
+#: patterns/testimonials-section-3-box-grid-contrast.php:45
+#: patterns/testimonials-section-3-box-grid-contrast.php:77
+#: patterns/testimonials-section-3-box-grid-contrast.php:109
+#: patterns/testimonials-section-3-box-grid-contrast.php:141
+#: patterns/testimonials-section-3-box-grid-contrast.php:173
+#: patterns/testimonials-section-3-box-grid-contrast.php:205
+#, fuzzy
+msgid "Position or Title"
+msgstr "पद या पदवी"
+
+#: patterns/homepage-local-services-business.php:327
+#, fuzzy
+msgid "Our Amazing Plans"
+msgstr "हमारी अद्भुत योजनाएँ"
+
+#: patterns/homepage-local-services-business.php:338
+#: patterns/homepage-local-services-business.php:394
+#: patterns/homepage-local-services-business.php:450
+#: patterns/homepage-product.php:350 patterns/homepage-product.php:406
+#: patterns/homepage-product.php:462
+#: patterns/pricing-column-list-price-bottom.php:13
+#: patterns/pricing-column-list-price-top.php:13
+#: patterns/pricing-column-paragraph-price-bottom.php:13
+#: patterns/pricing-column-paragraph-price-top.php:13
+#: patterns/pricing-table-four-columns.php:24
+#: patterns/pricing-table-four-columns.php:80
+#: patterns/pricing-table-four-columns.php:136
+#: patterns/pricing-table-four-columns.php:192
+#: patterns/pricing-table-three-columns.php:24
+#: patterns/pricing-table-three-columns.php:80
+#: patterns/pricing-table-three-columns.php:136
+#: patterns/pricing-table-two-columns.php:24
+#: patterns/pricing-table-two-columns.php:64
+#, fuzzy
+msgid "Plan Title"
+msgstr "योजना का शीर्षक"
+
+#: patterns/homepage-local-services-business.php:347
+#: patterns/homepage-local-services-business.php:355
+#: patterns/homepage-local-services-business.php:363
+#: patterns/homepage-local-services-business.php:371
+#: patterns/homepage-local-services-business.php:379
+#: patterns/homepage-local-services-business.php:403
+#: patterns/homepage-local-services-business.php:411
+#: patterns/homepage-local-services-business.php:419
+#: patterns/homepage-local-services-business.php:427
+#: patterns/homepage-local-services-business.php:435
+#: patterns/homepage-local-services-business.php:459
+#: patterns/homepage-local-services-business.php:467
+#: patterns/homepage-local-services-business.php:475
+#: patterns/homepage-local-services-business.php:483
+#: patterns/homepage-local-services-business.php:491
+#: patterns/homepage-product.php:359 patterns/homepage-product.php:367
+#: patterns/homepage-product.php:375 patterns/homepage-product.php:383
+#: patterns/homepage-product.php:391 patterns/homepage-product.php:415
+#: patterns/homepage-product.php:423 patterns/homepage-product.php:431
+#: patterns/homepage-product.php:439 patterns/homepage-product.php:447
+#: patterns/homepage-product.php:471 patterns/homepage-product.php:479
+#: patterns/homepage-product.php:487 patterns/homepage-product.php:495
+#: patterns/homepage-product.php:503
+#: patterns/pricing-column-list-price-bottom.php:22
+#: patterns/pricing-column-list-price-bottom.php:26
+#: patterns/pricing-column-list-price-bottom.php:30
+#: patterns/pricing-column-list-price-bottom.php:34
+#: patterns/pricing-column-list-price-bottom.php:38
+#: patterns/pricing-column-list-price-top.php:28
+#: patterns/pricing-column-list-price-top.php:32
+#: patterns/pricing-column-list-price-top.php:36
+#: patterns/pricing-column-list-price-top.php:40
+#: patterns/pricing-column-list-price-top.php:44
+#: patterns/pricing-column-paragraph-price-bottom.php:22
+#: patterns/pricing-column-paragraph-price-bottom.php:30
+#: patterns/pricing-column-paragraph-price-bottom.php:38
+#: patterns/pricing-column-paragraph-price-bottom.php:46
+#: patterns/pricing-column-paragraph-price-bottom.php:54
+#: patterns/pricing-column-paragraph-price-top.php:28
+#: patterns/pricing-column-paragraph-price-top.php:36
+#: patterns/pricing-column-paragraph-price-top.php:44
+#: patterns/pricing-column-paragraph-price-top.php:52
+#: patterns/pricing-column-paragraph-price-top.php:60
+#: patterns/pricing-table-four-columns.php:39
+#: patterns/pricing-table-four-columns.php:47
+#: patterns/pricing-table-four-columns.php:55
+#: patterns/pricing-table-four-columns.php:63
+#: patterns/pricing-table-four-columns.php:71
+#: patterns/pricing-table-four-columns.php:95
+#: patterns/pricing-table-four-columns.php:103
+#: patterns/pricing-table-four-columns.php:111
+#: patterns/pricing-table-four-columns.php:119
+#: patterns/pricing-table-four-columns.php:127
+#: patterns/pricing-table-four-columns.php:151
+#: patterns/pricing-table-four-columns.php:159
+#: patterns/pricing-table-four-columns.php:167
+#: patterns/pricing-table-four-columns.php:175
+#: patterns/pricing-table-four-columns.php:183
+#: patterns/pricing-table-four-columns.php:207
+#: patterns/pricing-table-four-columns.php:215
+#: patterns/pricing-table-four-columns.php:223
+#: patterns/pricing-table-four-columns.php:231
+#: patterns/pricing-table-four-columns.php:239
+#: patterns/pricing-table-three-columns.php:33
+#: patterns/pricing-table-three-columns.php:41
+#: patterns/pricing-table-three-columns.php:49
+#: patterns/pricing-table-three-columns.php:57
+#: patterns/pricing-table-three-columns.php:65
+#: patterns/pricing-table-three-columns.php:89
+#: patterns/pricing-table-three-columns.php:97
+#: patterns/pricing-table-three-columns.php:105
+#: patterns/pricing-table-three-columns.php:113
+#: patterns/pricing-table-three-columns.php:121
+#: patterns/pricing-table-three-columns.php:145
+#: patterns/pricing-table-three-columns.php:153
+#: patterns/pricing-table-three-columns.php:161
+#: patterns/pricing-table-three-columns.php:169
+#: patterns/pricing-table-three-columns.php:177
+#: patterns/pricing-table-two-columns.php:33
+#: patterns/pricing-table-two-columns.php:37
+#: patterns/pricing-table-two-columns.php:41
+#: patterns/pricing-table-two-columns.php:45
+#: patterns/pricing-table-two-columns.php:49
+#: patterns/pricing-table-two-columns.php:73
+#: patterns/pricing-table-two-columns.php:77
+#: patterns/pricing-table-two-columns.php:81
+#: patterns/pricing-table-two-columns.php:85
+#: patterns/pricing-table-two-columns.php:89
+#, fuzzy
+msgid "Plan Feature"
+msgstr "योजना सुविधा"
+
+#: patterns/homepage-local-services-business.php:385
+#: patterns/homepage-local-services-business.php:441
+#: patterns/homepage-local-services-business.php:497
+#: patterns/homepage-product.php:397 patterns/homepage-product.php:453
+#: patterns/homepage-product.php:509
+msgid "Sign Up"
+msgstr "साइन अप"
+
+#: patterns/homepage-local-services-business.php:509
+#: patterns/homepage-portfolio.php:417
+#, fuzzy
+msgid "Recent Blog Posts"
+msgstr "हालिया ब्लॉग पोस्ट"
+
+#: patterns/homepage-local-services-business.php:520
+#, fuzzy
+msgid "View Our Full Blog"
+msgstr "हमारा पूरा ब्लॉग देखें"
+
+#: patterns/homepage-local-services-business.php:557
+#, fuzzy
+msgid "Get Started Today!"
+msgstr "आज से शुरुआत करें!"
+
+#: patterns/homepage-online-store.php:17 patterns/homepage-online-store.php:471
+#, fuzzy
+msgid "Shop Our Store"
+msgstr "हमारे स्टोर से खरीदारी करें"
+
+#: patterns/homepage-online-store.php:26
+#, fuzzy
+msgid "View Store"
+msgstr "दुकान देखे"
+
+#: patterns/homepage-online-store.php:48
+#, fuzzy
+msgid "Books"
+msgstr "पुस्तकें"
+
+#: patterns/homepage-online-store.php:64
+#, fuzzy
+msgid "Clothing"
+msgstr "कपड़े"
+
+#: patterns/homepage-online-store.php:80
+#, fuzzy
+msgid "Technology"
+msgstr "तकनीकी"
+
+#: patterns/homepage-online-store.php:96
+#, fuzzy
+msgid "Sports"
+msgstr "खेल"
+
+#: patterns/homepage-online-store.php:107
+#, fuzzy
+msgid "Our Best Products"
+msgstr "हमारे सर्वोत्तम उत्पाद"
+
+#: patterns/homepage-online-store.php:263
+#, fuzzy
+msgid "We Can Ship It Anywhere"
+msgstr "हम इसे कहीं भी भेज सकते हैं"
+
+#: patterns/homepage-online-store.php:281
+#, fuzzy
+msgid "30-Day Refunds"
+msgstr "30-दिन का रिफंड"
+
+#: patterns/homepage-online-store.php:299
+#, fuzzy
+msgid "Best Quality"
+msgstr "अच्छी गुणवत्ता"
+
+#: patterns/homepage-online-store.php:317
+#, fuzzy
+msgid "Secure Online Payments"
+msgstr "सुरक्षित ऑनलाइन भुगतान"
+
+#: patterns/homepage-online-store.php:331
+#, fuzzy
+msgid "What Others Are Saying"
+msgstr "दूसरे क्या कह रहे हैं"
+
+#: patterns/homepage-online-store.php:480
+#, fuzzy
+msgid "Shop Now"
+msgstr "अभी खरीदें"
+
+#: patterns/homepage-portfolio.php:15
+#, fuzzy
+msgid "Welcome to My Portfolio"
+msgstr "मेरे पोर्टफोलियो में आपका स्वागत है"
+
+#: patterns/homepage-portfolio.php:28 patterns/homepage-portfolio.php:406
+#, fuzzy
+msgid "Learn More About Me"
+msgstr "मेरे बारे में और जानें"
+
+#: patterns/homepage-portfolio.php:47
+#, fuzzy
+msgid "My Services"
+msgstr "मेरी सेवाएँ"
+
+#: patterns/homepage-portfolio.php:63
+#, fuzzy
+msgid "Studio Photography"
+msgstr "स्टूडियो फोटोग्राफी"
+
+#: patterns/homepage-portfolio.php:81
+#, fuzzy
+msgid "Photo Editing"
+msgstr "फोटो एडिटींग"
+
+#: patterns/homepage-portfolio.php:99
+#, fuzzy
+msgid "Storytelling"
+msgstr "कहानी"
+
+#: patterns/homepage-portfolio.php:117
+#, fuzzy
+msgid "Product Photgraphy"
+msgstr "उत्पाद फोटोग्राफी"
+
+#: patterns/homepage-portfolio.php:135 patterns/homepage-portfolio.php:167
+#, fuzzy
+msgid "Project Title"
+msgstr "परियोजना का शीर्षक"
+
+#: patterns/homepage-portfolio.php:144 patterns/homepage-portfolio.php:176
+#, fuzzy
+msgid "View Project"
+msgstr "प्रोजेक्ट देखें"
+
+#: patterns/homepage-portfolio.php:397
+#, fuzzy
+msgid "Who I Am"
+msgstr "मैं कौन हूं"
+
+#: patterns/homepage-portfolio.php:428
+#, fuzzy
+msgid "See More of My Writing"
+msgstr "मेरे लेखन को और देखें"
+
+#: patterns/homepage-portfolio.php:465
+#, fuzzy
+msgid "Work With Me"
+msgstr "मेरे साथ काम करो"
+
+#: patterns/homepage-portfolio.php:476 patterns/team-member-column.php:51
+#: patterns/team-member-row.php:54
+#: patterns/team-members-section-grid-base.php:65
+#: patterns/team-members-section-grid-base.php:115
+#: patterns/team-members-section-grid-base.php:165
+#: patterns/team-members-section-grid-base.php:215
+#: patterns/team-members-section-grid-contrast.php:65
+#: patterns/team-members-section-grid-contrast.php:115
+#: patterns/team-members-section-grid-contrast.php:165
+#: patterns/team-members-section-grid-contrast.php:215
+#: patterns/team-members-section-rows-base.php:65
+#: patterns/team-members-section-rows-base.php:115
+#: patterns/team-members-section-rows-base.php:165
+#: patterns/team-members-section-rows-base.php:215
+#: patterns/team-members-section-rows-contrast.php:65
+#: patterns/team-members-section-rows-contrast.php:115
+#: patterns/team-members-section-rows-contrast.php:165
+#: patterns/team-members-section-rows-contrast.php:215
+#, fuzzy
+msgid "Contact Me"
+msgstr "मुझसे संपर्क करें"
+
+#: patterns/homepage-product.php:15
+#, fuzzy
+msgid "Our Amazing App"
+msgstr "हमारा अद्भुत ऐप"
+
+#: patterns/homepage-product.php:24
+#, fuzzy
+msgid "Download Now"
+msgstr "अब डाउनलोड करो"
+
+#: patterns/homepage-product.php:55
+#, fuzzy
+msgid "Easy to Use"
+msgstr "प्रयोग करने में आसान"
+
+#: patterns/homepage-product.php:73
+#, fuzzy
+msgid "Accessibility"
+msgstr "सरल उपयोग"
+
+#: patterns/homepage-product.php:91
+#, fuzzy
+msgid "Performance"
+msgstr "प्रदर्शन"
+
+#: patterns/homepage-product.php:109
+#, fuzzy
+msgid "Customizations"
+msgstr "अनुकूलन"
+
+#: patterns/homepage-product.php:127
+#, fuzzy
+msgid "Top Customer Service"
+msgstr "शीर्ष ग्राहक सेवा"
+
+#: patterns/homepage-product.php:145
+#, fuzzy
+msgid "Highly Rated"
+msgstr "उच्च श्रेणी निर्धारण"
+
+#: patterns/homepage-product.php:167
+#, fuzzy
+msgid "Top Feature 1"
+msgstr "शीर्ष विशेषता 1"
+
+#: patterns/homepage-product.php:181
+#, fuzzy
+msgid "Top Feature 2"
+msgstr "शीर्ष विशेषता 2"
+
+#: patterns/homepage-product.php:339
+#, fuzzy
+msgid "Our Great Plans"
+msgstr "हमारी महान योजनाएँ"
+
+#: patterns/link-group-base-pattern.php:21
+#: patterns/link-group-contrast-pattern.php:21
+#, fuzzy
+msgid "Your Name or Heading Here"
+msgstr "आपका नाम या शीर्षक यहाँ"
+
+#: patterns/link-group-base-pattern.php:25
+#: patterns/link-group-contrast-pattern.php:25
+#, fuzzy
+msgid "WordPress Web Developer"
+msgstr "वर्डप्रेस वेब डेवलपर"
+
+#: patterns/link-group-base-pattern.php:32
+#: patterns/link-group-contrast-pattern.php:32
+#, fuzzy
+msgid "Link 1"
+msgstr "लिंक 1"
+
+#: patterns/link-group-base-pattern.php:36
+#: patterns/link-group-contrast-pattern.php:36
+#, fuzzy
+msgid "Link 2"
+msgstr "लिंक 2"
+
+#: patterns/link-group-base-pattern.php:40
+#: patterns/link-group-contrast-pattern.php:40
+#, fuzzy
+msgid "Link 3"
+msgstr "लिंक 3"
+
+#: patterns/link-group-base-pattern.php:44
+#: patterns/link-group-contrast-pattern.php:44
+#, fuzzy
+msgid "Link 4"
+msgstr "लिंक 4"
+
+#: patterns/link-group-base-pattern.php:48
+#: patterns/link-group-contrast-pattern.php:48
+#, fuzzy
+msgid "Link 5"
+msgstr "लिंक 5"
+
+#: patterns/link-group-base-pattern.php:52
+#: patterns/link-group-contrast-pattern.php:52
+#, fuzzy
+msgid "Link 6"
+msgstr "लिंक 6"
+
+#: patterns/link-group-base-pattern.php:56
+#: patterns/link-group-contrast-pattern.php:56
+#, fuzzy
+msgid "Link 7"
+msgstr "लिंक 7"
+
+#: patterns/link-group-base-pattern.php:60
+#: patterns/link-group-contrast-pattern.php:60
+#, fuzzy
+msgid "Link 8"
+msgstr "लिंक 8"
+
+#: patterns/post-content-left-sidebar.php:40
+#: patterns/post-content-no-sidebar.php:34
+#: patterns/post-content-right-sidebar.php:36
+#, fuzzy
+msgid "Tags:"
+msgstr "टैग:"
+
+#: patterns/pricing-column-list-price-bottom.php:44
+#: patterns/pricing-column-list-price-top.php:22
+#: patterns/pricing-column-paragraph-price-bottom.php:60
+#: patterns/pricing-column-paragraph-price-top.php:22
+#: patterns/pricing-table-four-columns.php:33
+#: patterns/pricing-table-four-columns.php:89
+#: patterns/pricing-table-four-columns.php:145
+#: patterns/pricing-table-four-columns.php:201
+#: patterns/pricing-table-three-columns.php:71
+#: patterns/pricing-table-three-columns.php:127
+#: patterns/pricing-table-three-columns.php:183
+#: patterns/pricing-table-two-columns.php:55
+#: patterns/pricing-table-two-columns.php:95
+#, fuzzy
+msgid "Sign U"
+msgstr "आपसे अनुबंध करते हैं"
+
+#: patterns/pricing-table-four-columns.php:13
+#: patterns/pricing-table-three-columns.php:13
+#: patterns/pricing-table-two-columns.php:13
+#, fuzzy
+msgid "Pricing Table"
+msgstr "मूल्य निर्धारण तालिका"
+
+#: patterns/query-pattern-grid.php:31
+#: patterns/query-pattern-list-columns.php:31
+#: patterns/query-pattern-list.php:31
+#, fuzzy
+msgid "Read This Post"
+msgstr "इस पोस्ट को पढ़ें"
+
+#: patterns/services-section-2-box-grid-base.php:13
+#: patterns/services-section-2-box-grid-contrast.php:13
+#: patterns/services-section-3-box-grid-base.php:13
+#: patterns/services-section-3-box-grid-contrast.php:13
+#: patterns/services-section-photo-left-base.php:21
+#: patterns/services-section-photo-left-contrast.php:21
+#, fuzzy
+msgid "Our Services"
+msgstr "हमारी सेवाएँ"
+
+#: patterns/services-section-2-box-grid-base.php:29
+#: patterns/services-section-2-box-grid-base.php:47
+#: patterns/services-section-2-box-grid-base.php:65
+#: patterns/services-section-2-box-grid-base.php:83
+#: patterns/services-section-2-box-grid-contrast.php:29
+#: patterns/services-section-2-box-grid-contrast.php:47
+#: patterns/services-section-2-box-grid-contrast.php:65
+#: patterns/services-section-2-box-grid-contrast.php:83
+#: patterns/services-section-3-box-grid-base.php:29
+#: patterns/services-section-3-box-grid-base.php:47
+#: patterns/services-section-3-box-grid-base.php:65
+#: patterns/services-section-3-box-grid-base.php:83
+#: patterns/services-section-3-box-grid-base.php:101
+#: patterns/services-section-3-box-grid-base.php:119
+#: patterns/services-section-3-box-grid-contrast.php:29
+#: patterns/services-section-3-box-grid-contrast.php:47
+#: patterns/services-section-3-box-grid-contrast.php:65
+#: patterns/services-section-3-box-grid-contrast.php:83
+#: patterns/services-section-3-box-grid-contrast.php:101
+#: patterns/services-section-3-box-grid-contrast.php:119
+#: patterns/services-section-photo-left-base.php:37
+#: patterns/services-section-photo-left-base.php:55
+#: patterns/services-section-photo-left-base.php:73
+#: patterns/services-section-photo-left-base.php:91
+#: patterns/services-section-photo-left-contrast.php:37
+#: patterns/services-section-photo-left-contrast.php:55
+#: patterns/services-section-photo-left-contrast.php:73
+#: patterns/services-section-photo-left-contrast.php:91
+#, fuzzy
+msgid "Service Heading"
+msgstr "सेवा शीर्षक"
+
+#: patterns/stats-section-2-grid-base.php:13
+#: patterns/stats-section-2-grid-contrast.php:13
+#: patterns/stats-section-4-grid-base.php:13
+#: patterns/stats-section-4-grid-contrast.php:13
+#, fuzzy
+msgid "What the Stats Say"
+msgstr "आँकड़े क्या कहते हैं"
+
+#: patterns/stats-section-2-grid-base.php:29
+#: patterns/stats-section-2-grid-base.php:49
+#: patterns/stats-section-2-grid-base.php:69
+#: patterns/stats-section-2-grid-base.php:89
+#: patterns/stats-section-2-grid-contrast.php:29
+#: patterns/stats-section-2-grid-contrast.php:49
+#: patterns/stats-section-2-grid-contrast.php:69
+#: patterns/stats-section-2-grid-contrast.php:89
+#: patterns/stats-section-4-grid-base.php:25
+#: patterns/stats-section-4-grid-base.php:39
+#: patterns/stats-section-4-grid-base.php:53
+#: patterns/stats-section-4-grid-base.php:67
+#: patterns/stats-section-4-grid-contrast.php:25
+#: patterns/stats-section-4-grid-contrast.php:39
+#: patterns/stats-section-4-grid-contrast.php:53
+#: patterns/stats-section-4-grid-contrast.php:67
+#, fuzzy
+msgid "Stat Title Here"
+msgstr "स्टेट शीर्षक यहाँ"
+
+#: patterns/team-member-column.php:22 patterns/team-member-row.php:25
+#: patterns/team-members-section-grid-base.php:36
+#: patterns/team-members-section-grid-base.php:86
+#: patterns/team-members-section-grid-base.php:136
+#: patterns/team-members-section-grid-base.php:186
+#: patterns/team-members-section-grid-contrast.php:36
+#: patterns/team-members-section-grid-contrast.php:86
+#: patterns/team-members-section-grid-contrast.php:136
+#: patterns/team-members-section-grid-contrast.php:186
+#: patterns/team-members-section-rows-base.php:36
+#: patterns/team-members-section-rows-base.php:86
+#: patterns/team-members-section-rows-base.php:136
+#: patterns/team-members-section-rows-base.php:186
+#: patterns/team-members-section-rows-contrast.php:36
+#: patterns/team-members-section-rows-contrast.php:86
+#: patterns/team-members-section-rows-contrast.php:136
+#: patterns/team-members-section-rows-contrast.php:186
+#, fuzzy
+msgid "Position"
+msgstr "पद"
+
+#: patterns/team-members-section-grid-base.php:15
+#: patterns/team-members-section-grid-contrast.php:15
+#: patterns/team-members-section-rows-base.php:15
+#: patterns/team-members-section-rows-contrast.php:15
+#, fuzzy
+msgid "Our Great Team"
+msgstr "हमारी महान टीम"
+
+#: patterns/widget-default.php:14
+#, fuzzy
+msgid "Widget Title"
+msgstr "विजेट शीर्षक"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid "https://crosswindsframework.com/"
+msgstr "https://crosswindsframework.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"The Crosswinds Framework gives you a blank canvas that you can create "
+"anything from. Whether you are looking to create an online store, a lead "
+"generation website or just want a plain blog, whether you want something "
+"that looks fancy, formal, casual or anything in between, you’ll be able to "
+"create it with The Crosswinds Framework. If you want to get started with a "
+"design created for you, you can check out one of the many Crosswinds "
+"Framework child themes (both free and paid). And if you really want to "
+"customize your website with the Crosswinds Framework, you can even create "
+"your own child theme to create the website of your dreams. With the "
+"Crosswinds Framework, the possibilities are endless with what you can do "
+"with your website."
+msgstr ""
+"क्रॉसविंड्स फ्रेमवर्क आपको एक खाली कैनवास देता है जिससे आप कुछ भी बना सकते हैं। चाहे आप एक "
+"ऑनलाइन स्टोर, एक लीड जनरेशन वेबसाइट बनाना चाह रहे हों या सिर्फ एक सादा ब्लॉग चाहते "
+"हों, चाहे आप कुछ ऐसा चाहते हों जो फैंसी, औपचारिक, कैज़ुअल या इनके बीच कुछ भी दिखे, आप इसे "
+"क्रॉसविंड्स फ्रेमवर्क के साथ बनाने में सक्षम होंगे। यदि आप अपने लिए बनाए गए डिज़ाइन के साथ "
+"शुरुआत करना चाहते हैं, तो आप कई क्रॉसविंड फ्रेमवर्क चाइल्ड थीम (मुफ़्त और भुगतान दोनों) में से "
+"एक को देख सकते हैं। और यदि आप वास्तव में अपनी वेबसाइट को क्रॉसविंड्स फ्रेमवर्क के साथ "
+"अनुकूलित करना चाहते हैं, तो आप अपने सपनों की वेबसाइट बनाने के लिए अपनी खुद की चाइल्ड थीम "
+"भी बना सकते हैं। क्रॉसविंड्स फ्रेमवर्क के साथ, आप अपनी वेबसाइट के साथ क्या कर सकते हैं इसकी "
+"संभावनाएं अनंत हैं।"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Jacob Martella Web Development"
+msgstr "जैकब मार्टेला वेब डेवलपमेंट"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://jacobmartella.com/"
+msgstr "https://jacobmartella.com/"
