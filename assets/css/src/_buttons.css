@@ -118,6 +118,22 @@ input[type="reset"].has-tertiary-background-color {
 	}
 }
 
+/* Button - Quaternary
+--------------------------------------------- */
+.wp-block-button .wp-element-button.has-quaternary-background-color,
+input[type="submit"].has-quaternary-background-color,
+input[type="reset"].has-quaternary-background-color {
+	background-color: var(--wp--preset--color--quaternary);
+	border: 1px solid var(--wp--preset--color--quaternary);
+	color: var(--wp--preset--color--contrast);
+
+	&:hover,
+	&:focus {
+		background-color: var(--wp--preset--color--contrast) !important;
+		color: var(--wp--preset--color--quaternary) !important;
+	}
+}
+
 /* Button - Outline Styles
 --------------------------------------------- */
 .wp-block-button.is-style-outline {
@@ -185,6 +201,17 @@ input[type="reset"].has-tertiary-background-color {
 			&:hover,
 			&:focus {
 				background-color: var(--wp--preset--color--tertiary);
+				color: var(--wp--preset--color--contrast) !important;
+			}
+		}
+
+		&.has-quaternary-color {
+			color: var(--wp--preset--color--quaternary) !important;
+			border-color: var(--wp--preset--color--quaternary);
+
+			&:hover,
+			&:focus {
+				background-color: var(--wp--preset--color--quaternary);
 				color: var(--wp--preset--color--contrast) !important;
 			}
 		}
