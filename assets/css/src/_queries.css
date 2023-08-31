@@ -26,6 +26,12 @@
 	}
 }
 
+.wp-block-read-more.has-background {
+	width: 100%;
+	text-align: center;
+	font-weight: var(--wp--custom--font-weight--semi-bold);
+}
+
 .wp-block-read-more,
 .wp-block-read-more.has-base,
 .wp-block-read-more.has-base-background-color {
