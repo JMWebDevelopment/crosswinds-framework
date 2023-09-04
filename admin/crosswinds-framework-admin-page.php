@@ -5,7 +5,7 @@
  * @package Crosswinds Framework
  * @author  Jacob Martella Web Development
  * @license GNU General Public License v2 or later
- * @link    https://jacobmartella.com/
+ * @link    https://crosswindsframework.com/downloads/crosswinds-framework
  */
 
 $current_theme = wp_get_theme();
