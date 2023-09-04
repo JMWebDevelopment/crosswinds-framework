@@ -514,7 +514,14 @@ function crosswinds_framework_get_suggested_plugins() {
 			'slug'     => 'block-visibility',
 			'logo'     => 'https://ps.w.org/block-visibility/assets/icon-256x256.png',
 			'link'     => 'https://wordpress.org/plugins/block-visibility/',
-			'location' => 'external'
+			'location' => 'internal'
+		),
+		array(
+			'name'     => 'Equalize Digital Accessibility Checker',
+			'slug'     => 'accessibility-checker',
+			'logo'     => 'https://ps.w.org/accessibility-checker/assets/icon-256x256.png',
+			'link'     => 'https://wordpress.org/plugins/accessibility-checker/',
+			'location' => 'internal'
 		)
 	);
 
