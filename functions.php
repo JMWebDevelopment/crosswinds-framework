@@ -5,7 +5,7 @@
  * @package Crosswinds Framework
  * @author  Jacob Martella Web Development
  * @license GNU General Public License v2 or later
- * @link    https://jacobmartella.com/
+ * @link    https://crosswindsframework.com/downloads/crosswinds-framework
  */
 
 if ( ! function_exists( 'crosswinds_framework_setup' ) ) {
@@ -16,9 +16,7 @@ if ( ! function_exists( 'crosswinds_framework_setup' ) ) {
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 *
-	 * @since 0.8.0
-	 *
-	 * @return void
+	 * @since 1.0
 	 */
 	function crosswinds_framework_setup() {
 		// Make theme available for translation.
@@ -46,26 +44,17 @@ if ( ! function_exists( 'crosswinds_framework_setup' ) ) {
 }
 add_action( 'after_setup_theme', 'crosswinds_framework_setup' );
 
-// Enqueue style sheet.
+
+/**
+ * Enqueues the main stylesheet for the theme.
+ *
+ * @since 1.0
+ * 
+ */
 function crosswinds_framework_enqueue_style_sheet() {
 	wp_enqueue_style( 'crosswinds-framework', get_template_directory_uri() . '/assets/css/global.min.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 add_action( 'wp_enqueue_scripts', 'crosswinds_framework_enqueue_style_sheet' );
-
-/**
- * Creates a title that can be shown on the search page template.
- * 
- * @since 1.0
- *
- * @return string|void      The search title, if it's set, or nothing.
- */
-function crosswinds_framework_search_title() {
-	if ( isset( $_GET['s'] ) ) {
-		$search_term = sanitize_text_field( wp_unslash( $_GET['s'] ) );
-		/* translators: %s: Search term. */
-		return isset( $search_term ) ? sprintf( esc_html__( 'Search results for "%s"', 'crosswinds-framework' ), esc_html( $search_term ) ) : __( 'Search results', 'crosswinds-framework' );
-	}
-}
 
 // Include block styles.
 register_block_style(
@@ -82,19 +71,21 @@ register_block_style(
 /**
  * Registers block patterns, categories, and type.
  *
- * @since 1.0.0
+ * @since 1.0
  */
 function crosswinds_framework_register_block_patterns() {
 
+	// Add the block pattern category type for the theme.
 	if ( function_exists( 'register_block_pattern_category_type' ) ) {
 		register_block_pattern_category_type(
 			'crosswinds-framework',
 			array(
-				'label' => __( 'JM Web Dev FSE Starter Theme', 'crosswinds-framework' ),
+				'label' => __( 'Crosswinds Framework', 'crosswinds-framework' ),
 			)
 		);
 	}
 
+	// Load the categories into an array.
 	$block_pattern_categories = array(
 		'crosswinds-framework-404'  => array(
 			'label'         => __( '404', 'crosswinds-framework' ),
@@ -261,7 +252,7 @@ function crosswinds_framework_register_block_patterns() {
 	/**
 	 * Filters the theme block pattern categories.
 	 *
-	 * @since 0.8.0
+	 * @since 1.0
 	 *
 	 * @param array[] $block_pattern_categories {
 	 *     An associative array of block pattern categories, keyed by category name.
@@ -275,6 +266,7 @@ function crosswinds_framework_register_block_patterns() {
 	 */
 	$block_pattern_categories = apply_filters( 'crosswinds_framework_block_pattern_categories', $block_pattern_categories );
 
+	// Loop through the array and register each block pattern category.
 	foreach ( $block_pattern_categories as $name => $properties ) {
 		register_block_pattern_category( $name, $properties );
 	}
@@ -288,8 +280,6 @@ include get_template_directory() . '/inc/tgmpa/class-tgm-plugin-activation.php';
  * Sets up the TGMPA integration to require and suggest certain plugins.
  * 
  * @since 1.0
- *
- * @return void
  */
 function crosswinds_framework_register_required_plugins() {
 	$plugins           = array();
@@ -493,6 +483,11 @@ function crosswinds_framework_if_child_theme_active( $theme = null ) {
 	return false;
 }
 
+/**
+ * List the required plugins for the theme.
+ *
+ * @since 1.0
+ */
 function crosswinds_framework_get_required_plugins() {
 	$plugins = array(
 		array(
@@ -507,6 +502,11 @@ function crosswinds_framework_get_required_plugins() {
 	return array_merge( apply_filters( 'crosswinds_framework_required_plugins', $plugins ) );
 }
 
+/**
+ * List the suggested plugins for the theme.
+ *
+ * @since 1.0
+ */
 function crosswinds_framework_get_suggested_plugins() {
 	$plugins = array(
 		array(
@@ -530,7 +530,12 @@ function crosswinds_framework_get_suggested_plugins() {
 
 // Set the intro video
 
-// Create the theme intro section.
+/**
+ * Creates the intro section for the admin page.
+ *
+ * @since 1.0
+ * 
+ */
 function crosswinds_framework_admin_intro() {
 	?>
 	<p><?php esc_html_e( 'Want to get the most out of Crosswinds Blocks? Checkout the Crosswinds Framework themes! From a portfolio to an online store to a newspaper website and even a blank canvas to create anything you want, the Crosswinds Framework will help you create a great website.', 'crosswinds-framework' ); ?></p>
@@ -538,7 +543,12 @@ function crosswinds_framework_admin_intro() {
 }
 add_action( 'crosswinds_framework_admin_intro', 'crosswinds_framework_admin_intro' );
 
-// Create the "Report an Issue" section text.
+/**
+ * Creates the "Report an Issue" section text for the admin page.
+ *
+ * @since 1.0
+ * 
+ */
 function crosswinds_framework_report_an_issue() {
 	?>
 	<div class="options-section">
@@ -550,7 +560,12 @@ function crosswinds_framework_report_an_issue() {
 }
 add_action( 'crosswinds_framework_admin_report_issue_section', 'crosswinds_framework_report_an_issue' );
 
-// Create the "Suggest a Feature" section text.
+/**
+ * Creates the "Suggest a Feature" section text for the admin page.
+ *
+ * @since 1.0
+ * 
+ */
 function crosswinds_framework_feature_request() {
 	?>
 	<div class="options-section">
@@ -562,7 +577,12 @@ function crosswinds_framework_feature_request() {
 }
 add_action( 'crosswinds_framework_admin_feature_request_section', 'crosswinds_framework_feature_request' );
 
-// Create the "Leave a Review" section text.
+/**
+ * Creates the "Leave a Review" section text for the admin page.
+ *
+ * @since 1.0
+ * 
+ */
 function crosswinds_framework_leave_a_review() {
 	?>
 	<div class="options-section">
@@ -574,7 +594,12 @@ function crosswinds_framework_leave_a_review() {
 }
 //add_action( 'crosswinds_framework_admin_review_section', 'crosswinds_framework_leave_a_review' );
 
-// Create the "View Documentation" section text.
+/**
+ * Creates the "View Documentation" section text for the admin page.
+ *
+ * @since 1.0
+ * 
+ */
 function crosswinds_framework_view_documentation() {
 	?>
 	<div class="options-section">
