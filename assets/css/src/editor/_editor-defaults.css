@@ -31,9 +31,10 @@ img {
 	display: flex;
 }
 
-.photo-grid{
+.photo-grid {
 
-	& .wp-block-image {
+	& .wp-block-image,
+	& .wp-block-post-featured-image {
 		width: 100%;
 		height: 100%;
 		overflow: hidden;
@@ -48,6 +49,9 @@ img {
 		& .components-resizable-box__container {
 			min-height: 0 !important;
 			min-width: 0 !important;
+			max-width: none !important;
+			max-height: none !important;
+			height: 100% !important;
 		}
 
 		& img {
