@@ -59,6 +59,13 @@ textarea:focus,
 	transition: all 0.2s ease-in-out;
 }
 
+.alignfull {
+	margin-left: calc(50% - 50vw) !important;
+	margin-right: calc(50% - 50vw) !important;
+	max-width: 100vw;
+	width: 100vw;
+}
+
 @media (--large-up) {
 
 	.site-content *:not(.alignfull) > .alignwide {
@@ -103,10 +110,6 @@ textarea:focus,
 	}
 }
 
-.entry-content {
-	padding: 0 30px;
-}
-
 .wp-block-separator {
 	background-color: var(--wp--preset--color--primary);
 	border-color: var(--wp--preset--color--primary);
@@ -141,4 +144,13 @@ textarea:focus,
 			}
 		}
 	}
+}
+
+.has-global-padding > .alignfull {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.page-template-default .entry-content {
+	padding: 0 var(--wp--preset--spacing--x-small);
 }
