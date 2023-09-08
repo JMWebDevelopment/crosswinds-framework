@@ -127,6 +127,10 @@ function crosswinds_framework_register_block_patterns() {
 			'label'         => __( 'Columns', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),
 		),
+		'crosswinds-framework-covers'  => array(
+			'label'         => __( 'Covers', 'crosswinds-framework' ),
+			'categoryTypes' => array( 'crosswinds-framework' ),
+		),
 		'crosswinds-framework-contact-us'  => array(
 			'label'         => __( 'Contact Us', 'crosswinds-framework' ),
 			'categoryTypes' => array( 'crosswinds-framework' ),

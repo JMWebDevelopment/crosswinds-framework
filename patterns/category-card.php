@@ -10,7 +10,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"className":"category-card","layout":{"type":"constrained"}} -->
 <div class="wp-block-group category-card" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":1891,"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-large is-style-default"><img src="http://wordpress-dev.local/crosswinds-framework/wp-content/uploads/sites/4/2023/04/IMG_9583-1024x683.jpg" alt="" class="wp-image-1891"/></figure>
+<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/photo-placeholder.png" alt="" class="wp-image-1891"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-small","right":"var:preset|spacing|xx-small","bottom":"var:preset|spacing|xx-small","left":"var:preset|spacing|xx-small"},"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained"}} -->
