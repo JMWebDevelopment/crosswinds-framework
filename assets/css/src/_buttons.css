@@ -42,7 +42,8 @@ input[type="submit"]:hover,
 --------------------------------------------- */
 .wp-block-button .wp-element-button.has-base-background-color,
 input[type="submit"].has-base-background-color,
-input[type="reset"].has-base-background-color {
+input[type="reset"].has-base-background-color,
+.wp-block-button__link.has-base-background-color {
 	background-color: var(--wp--preset--color--base);
 	border: 1px solid var(--wp--preset--color--base);
 	color: var(--wp--preset--color--contrast);
@@ -58,7 +59,8 @@ input[type="reset"].has-base-background-color {
 --------------------------------------------- */
 .wp-block-button .wp-element-button.has-contrast-background-color,
 input[type="submit"].has-contrast-background-color,
-input[type="reset"].has-contrast-background-color {
+input[type="reset"].has-contrast-background-color,
+.wp-block-button__link.has-contrast-background-color {
 	background-color: var(--wp--preset--color--contrast);
 	border: 1px solid var(--wp--preset--color--contrast);
 	color: var(--wp--preset--color--base);
@@ -74,7 +76,8 @@ input[type="reset"].has-contrast-background-color {
 --------------------------------------------- */
 .wp-block-button .wp-element-button.has-primary-background-color,
 input[type="submit"].has-primary-background-color,
-input[type="reset"].has-primary-background-color {
+input[type="reset"].has-primary-background-color,
+.wp-block-button__link.has-primary-background-color {
 	background-color: var(--wp--preset--color--primary);
 	border: 1px solid var(--wp--preset--color--primary);
 	color: var(--wp--preset--color--base);
@@ -90,7 +93,8 @@ input[type="reset"].has-primary-background-color {
 --------------------------------------------- */
 .wp-block-button .wp-element-button.has-secondary-background-color,
 input[type="submit"].has-secondary-background-color,
-input[type="reset"].has-secondary-background-color {
+input[type="reset"].has-secondary-background-color,
+.wp-block-button__link.has-secondary-background-color {
 	background-color: var(--wp--preset--color--secondary);
 	border: 1px solid var(--wp--preset--color--secondary);
 	color: var(--wp--preset--color--base);
@@ -106,7 +110,8 @@ input[type="reset"].has-secondary-background-color {
 --------------------------------------------- */
 .wp-block-button .wp-element-button.has-tertiary-background-color,
 input[type="submit"].has-tertiary-background-color,
-input[type="reset"].has-tertiary-background-color {
+input[type="reset"].has-tertiary-background-color,
+.wp-block-button__link.has-tertiary-background-color {
 	background-color: var(--wp--preset--color--tertiary);
 	border: 1px solid var(--wp--preset--color--tertiary);
 	color: var(--wp--preset--color--contrast);
@@ -122,7 +127,8 @@ input[type="reset"].has-tertiary-background-color {
 --------------------------------------------- */
 .wp-block-button .wp-element-button.has-quaternary-background-color,
 input[type="submit"].has-quaternary-background-color,
-input[type="reset"].has-quaternary-background-color {
+input[type="reset"].has-quaternary-background-color,
+.wp-block-button__link.has-quaternary-background-color {
 	background-color: var(--wp--preset--color--quaternary);
 	border: 1px solid var(--wp--preset--color--quaternary);
 	color: var(--wp--preset--color--contrast);
